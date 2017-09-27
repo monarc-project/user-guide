@@ -1,0 +1,11 @@
+The interview table allows during a risk analysis to list in the final report, the various interviews that were necessary to collect the information. Information such as dates, interviewees can be entered for a comprehensive report.
+ The menu is always accessible from the main view of MONARC:
+
+1.	Calling the menu
+2.	Calling the Management view of evaluation scales
+
+
+1.	Click to encode a new interview
+
+
+1.	Information to be entered: date, names of persons and possibly subjects covered.

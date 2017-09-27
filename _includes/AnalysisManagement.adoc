@@ -1,0 +1,25 @@
+The main view of risk analysis consists of 4 distinct parts.
+
+image:MainView.png[Main View]
+
+1.	Access to the steps of the method: Click on the numbers from `1` to `4` to access the menus which follow the step-by-step method (see <<Method steps calls>>).
+2.	Asset library area: Asset storage. The _drag-and-drop_ function must be used to place these assets in the analysis (see <<Library>>).
+3.	Risk Analysis area: allows you to structure the assets of the analysis hierarchically by using the _Drag and Drop_ function
+(hold down the left mouse button to move an asset). (See <<Information Risks>> and <<Operational Risks>>)
+4.	Contextual area of work in the analysis: Depending on the assets and active parts of the analysis, this area contains contextual elements of the work.
+
+=== Method steps calls
+
+include::./MethodSteps.adoc[]
+
+=== Library
+
+include::./Library.adoc[]
+
+===	Information Risks
+
+include::./InformationRisks.adoc[]
+
+=== Operational Risks
+
+include::./OperationalRisks.adoc[]

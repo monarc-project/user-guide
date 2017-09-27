@@ -1,0 +1,55 @@
+The menu is always accessible from the main view of MONARC:
+
+1.	Calling the menu
+2.	Calling the Management view of evaluation scales
+
+All parameters are managed with the same view:
+
+1.	Selecting the desired parameter tab
+2.	Added a parameter according to the active tab.
+3.	Finding a parameter.
+4.	Select a parameter (for deletion).
+5.	Editing / deleting active parameters.
+
+Generally, all parameters have a code, label, and description
+
+*	The code is used to categorize the parameter.
+*	The label is displayed in all MONARC views.
+*	The description is the label that typically appears in the tooltip.
+
+==== Type of assets
+
+There are two types of assets:
+
+*	Primary or business assets: They generally represent, but are not limited to, internal or external services, processes or information. They are the ones that are at the root of the analysis and that will decline their impact on other assets. The containers used to organize the analysis visually are declared as a primary asset (eg Back Office).
+*	Secondary or supporting assets: These are the assets on which risks are associated, they are used to describe the risk profile of the primary assets.
+
+==== Threats
+
+The essential parameters of threat threats are the association with the CIA criteria. It is important when creating a new threat to properly specify these criteria, because they will condition the risk tables.
+Example: Passive listening (listening, watching without touching anything) is a threat, for example, that affects only the criterion of confidentiality).
+Threats have categories to generate statistics.
+
+====	Vulnérabilities
+
+Vulnerabilities must describe the risk context in a negative way. The greater the vulnerability, the less existing or effective measures are. Vulnerability is inverse to maturity.
+Example: "Absence of identification of sensitive goods": Low vulnerability if the sensitive goods are identified and vice versa the vulnerability is great if they are not.
+The description of the vulnerability is very important because it appears in the risk table as an additional description that helps the security specialist to refine his questionnaire or the precise points that are sought in relation to a risk.
+
+====	ISO 27002 controls
+
+It is the repository that is used by default to help the implementation of controls with regard to a specific risk.
+
+==== Risks
+
+This table is the core of MONARC's knowledge base. It is here that associations are made between "Asset Type", "Threat" and "Vulnerability". It is the combination of the risks inherent in each asset that will be proposed by default when the risk model is created.
+For each association that can be assimilated as a risk scenario, it is possible to associate 1 to 3 security measures from ISO27002 (Guide to good practices in information security).
+Only supporting assets are available for a Threat / Vulnerability association.
+
+==== Tags (operational risks)
+
+Tags represent a categorization of operational risks. It is a logical grouping of risks that can then be associated with primary assets.
+
+==== Operational risks
+
+It is a list of risks created by default or added specifically. Each risk can be associated with one or more tags, which allows, when depositing an asset in the analysis to propose default risks, as for the risks of the information.

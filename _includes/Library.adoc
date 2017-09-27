@@ -1,0 +1,171 @@
+==== Organization of assets
+
+Click on the `+` and the `-` to unfold and fold the categories of the library.
+
+image:Library.png[Library]
+
+1.	Search area in order to quickly find an asset.
+2.	Button for creating / importing assets (see <<Create an Asset>>).
+3.	Categories level of the library. There are usually two:
+
+  a.  `Fundamentals`: Contains all default assets offered by CASES.
+  b.  `EBIOS`: Contains assets inspired by EBIOS. These are assets containing non-optimized risk models.
+
+4.	Sub-categories level.
+5.	Asset level: These are the assets that must be dragging and dropping in the risk analysis area.
+
+====	Asset Management
+
+The information on each asset is different depending on its type: `Primary` or `Secondary`.
+This concept is explained in detail in <<Type of assets>>.
+
+=====	Primary asset
+
+Click on a primary asset of the library, usually categorized in `Fundamentals` -> `Primary Assets`.
+
+image:PrimaryAsset.png[Primary Asset]
+
+1.	Asset management context menu (details in <<Context menu>>).
+2.	Add an existing asset in the structure, creating a composed asset. There is no limit in the asset tree.
+3.	Indication if this asset is currently used in the analysis. In this case, it is found at the root of the analysis.
+4.	Ability to detach asset from analysis.
+5.	Table of operational risks possibly associated with the asset.
+
+WARNING: Detach an asset from the analysis will remove all its evaluation.
+
+NOTE: A primary asset cannot possess information security risks.
+The modification of the operational risk table is based on the knowledge base.
+
+===== Secondary assets
+
+Click on a secondary asset of the library, for example on `Building` classified in `Fundamentals` -> `Buildings & Premises`.
+
+image:SecondaryAsset.png[Secondary Asset]
+
+1.	Asset management context menu (details in <<Context menu>>).
+2.	Add an existing asset in the structure, creating a compound asset. There is no limit in the asset tree.
+3.	Indication if the asset is already part of the composition of another asset. In case, it is already a sub-element of the assets `Back Office`.
+4.	Indication if this asset is currently used in the analysis. In this case, it is found at the 3rd level of the root of the risk analysis.
+5.	Ability to detach asset from analysis.
+6.	Risk information table associated with the asset.
+
+WARNING: Detach an asset from the analysis will remove all its evaluation.
+
+NOTE: Conversely, in the case of primary assets, media assets can only have information risks.
+The risk table is modified from the knowledge base.
+
+===== Context menu of library
+
+By clicking on the image:Menu.png[context menu] icon, the following context menu appears. Whatever the asset type of the library, the menu is the same.
+
+image:ContextMenu.png[Context Menu]
+
+1.	Starts the pop-up that allows you to modify most of the parameters of an asset (see <<Edit an asset>>).
+2.	Create a copy of the asset named `Name (copy # 1)`, which is then renamed with the `Edit Asset` option.
+3.	Launches asset export pop-up (see <<Exporting an asset>>).
+4.	Delete an asset.
++
+WARNING: Delete action is definitive, even if the asset is used in the analysis.
+
+
+
+==== Create an Asset
+
+In the library, after clicking on image:CreateButton.png[Add Asset], the following pop-up appears:
+
+image:AddAsset.png[Add Asset]
+
+1.	To create an asset, it is also possible to import it (see <<Importing an asset>>).
+2.	`Language`: This option cannot be used, the default language of the analysis is imposed.
+3.	`Name`: This name must be unique for the analysis.
+4.	`Label`: This is an additional description, it is displayed in the tooltip when the mouse is positioned without moving on the asset.
+5.	`Scope`: Two possible choices:
+
+  a.	`Local`: Identified asset risks are to be assessed whenever the asset is present in the analysis. A primary asset is generally local in scope.
+  b.	`Global` image:Global.png[] : The risks of the asset are only to be assessed once for the whole analysis.
++
+
+[NOTE]
+========
+This option is to be used mainly for the support assets, as soon as they are included in several primary assets.
+
+*Example*: For IT room or main building, once the risks assessed, only the impact from the primary asset can change the level of risk.
+========
+
++
+
+6.	`Asset type`: It determines the nature of the asset and therefore the risk model associated with it.
+8.	`Category`: It is the location in the library where the asset will be stored, or create a new category.
+9.	`Operational risk Tag`: , that allows the asset to be associated with operational risks by default.
++
+
+[NOTE]
+========
+This option is enable only when asset type is a primary (*i.e*. Information, process, container or service)
+========
+
++
+
+10.	`Location`: Allows you to order assets in the selected category.
+
+==== Edit an asset
+
+The call is made from the <<Context menu, context menu>> when an asset is selected in the library.
+
+For an explanation of all fields that can be changed, see <<Create an Asset>>. For technical reasons, the modification does not make it possible to modify:
+
+* `Language`
+* `Scope`
+* `Asset type`
+
+==== Importing an asset
+
+This pop-up is accessible from the pop-up <<Create an Asset, Add a new asset>> image:CreateButton.png[]
+
+image:Import.png[Import]
+
+1.	The import principle requires that the imported asset remain in the category in which it is located. Two import methods are possible:
+
+  a.	`By duplicating`: When importing, if an asset of the same name exists, then it will be duplicated and the name will suffix `- Imp #n`.
+  b.	`By merging`: When importing, if an asset of the same name exists, then it will be replaced. In this case, only the associated risk model will be modified.
++
+
+[NOTE]
+========
+Only global assets can be imported by merge.
+========
+
++
+
+2.	`Import from file`: allows to exchange assets from one environment to another (see <<Importing an asset from a file>>).
+3.	`Import from MONARC library`: This option is not available in the case of a _Stand alone_ version of MONARC (see <<Import from the MONARC library>>).
+
+WARNING: The import of an uncontrolled asset can be destructive for the current analysis. It is strongly advised to create a <<Snapshots, Snapshot>> before importing, or to use an empty <<Creating a Risk Analysis, Sandbox>> analysis.
+
+=====	Importing an asset from a file
+
+The pop-up appears after clicking on the `Import from file` option in the `Asset Import center`.
+
+image:ImportFile.png[Import File]
+
+1.	`Choose File`: Access the directories of the computer to point to a file.
+2.	`Asset password`: When exporting the selected file, a password has been used to encrypt the file, it must be entered here.
+3.	`Import file`: Starts importing file
+
+===== Import from the MONARC library
+
+The pop-up appears after clicking on the `Import from MONARC library` option in the `Asset Import center`.
+
+image:ImportMonarcLibrary.png[Import Monarc Library]
+
+1.	Table of available assets in the MONARC common library.
+2.	`Action`: Initiate the import procedure for the corresponding asset.
+
+==== Exporting an asset
+
+image:Export.png[Export Asset]
+
+1. `Custom password`: Possibility to encrypt the generated file with a symmetric password that will be necessary during the import.
+2. `Without password`: Default password sets by tool.
++
+NOTE: This option ensures only the file integrity.

@@ -1,0 +1,49 @@
+==== Risks table
+
+image:OperRiskTable.png[Operational Risk Table]
+
+1.	Select the primary asset. In this case, `Department`.
+2.	Click on tab `Operational risks`.
+3.	Total of operational risks associated to primary asset.
+4.	Ability to select only certain risks, according to the risk acceptance threshold.
+5.	Ability to sort on most columns of the table.
+6.	Selection of the page in the list of results.
+
+NOTE: The operational risk table may or may not display the inherent risks. They are the operational risks that would impact the organization without any controls in place.
+To show this option see <<Creating a Risk Analysis>>.
+
+image:FieldsOperRiskTable.png [Fields Operational Risk Table]
+
+1.	`Asset`: Assets involved in the evaluation
+2.	`Risk description`: Description of risk
+3.	`Inherent risk`: Operational risk is calculated from the two factors, the probability (`Prob.`) of the risk scenario and the `Impact` based on the ROLFPfootnoteref:[rolfp] without controls in place. The current risk represents the maximum value of the probability on the ROLFP impact values.
+4.	`Net risk`: Net risk represents the risk with the measures currently in place. The calculation is the same as for the inherent risks.
+5.	`Existing controls`: Describe here, in a factual manner, the control in place.
+6.	`Treatment`: Indication if the risk is treated and risk profile (see <<Operational risk sheet>>).
+7.	`Residual risk` : Value of the residual risk. In the case of the figure above, the residual risk is equal to the max risk because it has been not yet treated.
+
+====	Operational risk sheet
+
+The risk card is displayed when you click on the "Processing" link in the information risk table.
+
+1.	Return to risk table.
+2.	Current Risk Values for ROLFP Criteria.
+3.	Residual risk values for the ROLFP criteria (not yet treated). These values should be adjusted according to the recommendation and the measures that will be put in place.
+4.	Reminder of the parameters of the risk table.
+5.	Creation / Assignment button for adding one or more control(s).
+6.	Selection of the type of risk treatment, the 4 values have their sources of ISO / IEC 27005 :
+
+  a.	Modification / Reduce
+  b.	Refused
+  c.	Accepted
+  d.	Shared
+
+7.	Saving the form in order to calculate the residual risk
+
+Once the validation has been done, the risk is treated:
+
+==== Adding additional risk
+
+When an asset is selected in the analysis:
+
+1.	Click to create a specific risk: A pop-up appears and allows a new risk to be associated with the current asset. If the risk does not exist, it can be created directly.

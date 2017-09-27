@@ -1,0 +1,49 @@
+There are two profiles:
+
+* Administrator: Rights to create, modify, and delete users. An administrator does not have the access rights on the risk analysis (but he can give them).
+*	Users: Access right on risk analysis.
+
+By risk analysis, there are 3 types of rights:
+
+*	No access.
+*	Read only.
+*	Read and write.
+
+image:AdminBar.png[Admin Bar]
+
+1.	Administration (Enable only for administrator user)
+2.	User account
+3.	Logout
+
+=== Administration of users
+
+==== List of users
+
+image:UserList.png[User List]
+
+1. Create a user or administrator.
+2. Status: Activating or deactivating accounts.
+3. 	Information about the person.
+4.	Editing a person's information.
+5.	Deleting a person.
+
+==== User rights and information
+
+After clicking the image:Edit.png[Edit] icon, the following screen appears:
+
+image:UserRights.png[User Rights]
+
+1.	General information.
+2.	Selection of profiles `Administrator` or/and `User`.
+3.	Management of user rights by analysis.
+
+=== User account
+
+This view allows you to:
+
+image:Account.png[User Account]
+
+1.  Manage general user information.
+2.	Change the password. Password complexity is required.
+3.	Change the language of the consultation. This action only changes the language of the interfaces, the information specific to the data of the analysis remains in the same)
+4.	Manage general information about the entity (MONARC account).

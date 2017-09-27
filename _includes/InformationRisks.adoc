@@ -1,0 +1,120 @@
+By selecting the top of the analysis or an asset in the tree, the risk table appears. There are two separate risk tables:
+
+image:RiskTable.png[Risk Tables]
+
+1.	The information risk table based on CIAfootnoteref:[CIA,Confidentiality, Integrity and Availability.] criteria.
+2.	The operational risk table based on ROLFPfootnoteref:[rolfp,Reputation, Operational, Legal, Financial and Personal] (see <<Operational Risks>>)
+
+Depending selection, the display risk table may change:
+
+[options="header"]
+|=======================
+|Selection|Information Risks|Operational Risks
+|Root of analysis | All risks of analysis | All risks of analysis
+|Primary Asset | Risks associated to his supporting assets | Risks associated to himself
+|Supporting Asset| Risks associated to himself| No risks
+|=======================
+
+==== Risks table
+
+image:InfoRiskTable.png[Information Risk Table]
+
+1.	The primary asset `Department` is selected in the analysis.
+2.	Display the CIA impacts of the `Department`.
+3.	Information Risk tab selected.
+4.	`Department` asset consists of supporting assets that provide total infomation risks.
+5.	Possibility to select only certain risks according to the risk acceptance threshold.
+6.	Ability to sort on most columns of the table.
+7.	Selection of the page in the list of results.
+
+image:FieldsInfoRiskTable.png[Fields of Information Risk Table]
+
+1.	`Asset`: Assets involved in the evaluation.
+2.	`CIA Impact`: The CIA criteria that have been assigned to the `Department` are inherited by default from the supporting assets.
+3.	`Prob`: Likelihood of threat (see <<Scales of threats>>).
+4.	`Existing controls`: Describe, in a factual manner, the security control in place concerning the vulnerability or, more broadly, the risk.
+5.	`Qualif`: Evaluation of the control in place in order to determine the level of vulnerability (see <<Scales of vulnerabilities>>).
+6.	`Current risk`: Risk value calculated according to the risk calculation formula. The colors depend on the risk acceptance grid (see <<Risk acceptance thresholds>>).
+7.	`Treatment`: Indication if the risk is treated, and link to the risk profile (see <<Risk information sheet>>).
+8.	`Residual risk`: Value of residual risk. In the case of the figure above, the residual risk is equal to the max risk because it is not yet treated.
+
+NOTE: By leaving cursor on most fields, a tooltip appears.
+
+====	Risk information sheet
+
+The risk sheet is displayed when you click on the `Not treated` link in the information risk table.
+
+image:InfoRiskSheet.png[Information Risk Sheet]
+
+1.	Click to turn back to risk table.
+2.	Risk values for CID criteria (not yet covered in the example).
+3.	Reminder of the parameters of the risk table.
+4.	Creation / Assignment button for one or more recommendations.
+5.	Selection of kind of treatment:
+
+  a.	Reduction / Modification
+  b.	Denied
+  c.	Accepted
+  d.	Shared
+
+6.	Choosing a risk reduction value, the more effective the control is, the greater the reduction value is.
+7.	Proposal of controls which come from various repositories.
+
+WARNING: Don't forget to save the form in order to calculate the residual risk.
+
+====	Adding additional risk
+
+When an asset is selected in the analysis:
+
+image:SpecificRisk.png[Specific Risk]
+
+1. Click to `create a specific risk`: A pop-up appears and allows to associate a threat and vulnerability pair with the current asset.
+
+NOTE: Threat and vulnerability must exist beforehand.
+
+
+==== Contextual menu of asset
+
+By clicking on image:Menu.png[], the context menu of asset appears:
+
+image:ContextualMenuAsset.png[Contextual Menu of Asset]
+
+1.	`Edit impacts`: Displays the impact and consequence modification view (see <<Impacts and consequences>>).
+2.	`Import analysis`: Allows you to import an analysis from the location pointed to by the selected asset of the scan. The import works exactly like importing an asset, see <<Importing an asset>>).
+3.  `Export analysis`: Allows you to export an analysis, from the place pointed by the selected asset of the analysis. The export works exactly like exporting an asset, see <<Exporting an asset>>).
++
+NOTE: The additional option, `export with assessment`. It means, export gets the evaluation and treatment of risks. By default is disable.
+
++
+
+image::ExportOptions.png[align="center"]
+
+4.  `See asset in the library`: Displays the asset from the library, allowing you to have another context menu that allows changes to the asset. (see <<Context menu of library>>)
+5.	`Detach` : This removes an asset from the risk analysis.
++
+
+WARNING: This action may lead to the loss of risk assessments for this asset and its children.
+
+
+
+====	Impacts and consequences
+
+The aim is to define the level of the primary assets the impacts and consequences that can result from the realization of the risks of the model.
+
+The pop-up below appears.
+
+image:Impacts.png[Impacts]
+
+1.  Consultation of impact scales is done through the menu at the top right of the screen.
++
+
+NOTE: By leaving the pointer unmoved over the numbers,the meaning of this number appears after one second.
+
+When one of the criteria *C* (confidentiality), *I* (integrity) or *A* (availability) is allocated, there is a need to ask : what are the
+consequences on the company, and more particularly on its ROLFP, i.e. its **R**eputation, its **O**peration, its **L**egal, its **F**inances
+or the impact on the **P**erson (in the sense of personal data).
+
+In the case of the above figure, the `3` (out of 5) impact on confidentiality, is explained by the maximum value ROLFP regarding
+confidentiality. Example, `3` is the consequence for the person in case of disclosure of his personal file.
+
+NOTE: To hide the consequences that won't consider. Click on icon image:Hide.png[]. To show it again. Click on `Show hidden consequences`

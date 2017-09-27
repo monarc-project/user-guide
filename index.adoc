@@ -39,71 +39,40 @@
 
 == Introduction
 
-=== Purpose
+include::{includedir}/Introduction.adoc[]
 
-The purpose of this document is to help get started quickly with MONARC.
-It explains the main features of the tool and the necessary steps to
-deal with a risk with the default settings.
+== Home Page
 
+include::{includedir}/HomePage.adoc[]
 
-=== Other documents
+== Client Environment Administration
 
-* link:/Tool-guide[*Tool guide*]: Complete documentation of the tool.
-* link:/Method-guide[*Method guide*]: Complete documentation of the
-method.
-* link:/technical-guide[*Technical guide*]: Complete technical
-documentation.
+include::{includedir}/ClientEnvironmentAdministration.adoc[]
 
+== Analysis management
 
-=== Syntax used in the document
+include::{includedir}/AnalysisManagement.adoc[]
 
-image:Step.png[Cursor] : All numbers in white on a red
-background are used on print-screen views to provide additional
-explanations. Explanations are always after the view with the
-corresponding numbering. *i.e.* 1.
+== Evaluation Scales
 
-`Reference` : MONARC Reference
+include::{includedir}/EvaluationScales.adoc[]
 
+== Management of Knowledge base
 
-=== Syntax used in MONARC
+include::{includedir}/KnowledgeBase.adoc[]
 
-image:Menu.png[Menu] : Button that always brings up the menu.
+== Interviews
 
-image:CreateButton.png[Create] : Creating/adding something in
-context (assets, recommendations, etc.).
+include::{includedir}/Interviews.adoc[]
 
-image:Cursor.png[Cursor] : Most fields of MONARC display
-additional information when the pointer stay unmoved some time.
+== Snapshots
 
-== Creating the first risk analysis
+include::{includedir}/Snapshots.adoc[]
 
-After clicking on
-`Create a risk analysis`, the following pop-up appear
+== Managing the implementation treatment plan
 
-image:NewRiskAnalysis.png[Create a risk analysis]
+include::{includedir}/ImplementationTreatmentPlan.adoc[]
 
-1.  Select `CASES model`
-2.  There are at least two choices. Select `Modelling CASES`, this is
-the default template. It provides sufficient knowledge bases to start an
-analysis.
-3.  `Show inherent operational risks`. This option does not matter right
-now.
-4.  Select your preferred language for this new analysis. (FR/EN/DE)
-5.  Give your analysis a name, for example __My analysis__.
-6.  Optional field, which allows you to describe your analysis with more
-details.
-
-== Description of the main view
-
-image:Main.png[Main view]
-
-1.  Risk Analyses panel: Create and select a risk analysis. Once the
-analysis is selected, the dashboard can be retracted to optimize the
-horizontal space by clicking on the symbol
-image:HideRiskAnalysesPanel.png[Hide Risk Analyses panel icon].
-2.  Navigation panel, users administration and account management.
-3.  Access to steps of the method by clicking on numbers 1 to 4.
-4.  Contextual working areas of analysis.
 
 == Simplified risk analysis
 

@@ -1,0 +1,23 @@
+By clicking on the number 4 on the method bar, the following menu appears:
+
+This view goes beyond the ISO / IEC 27005 standard, because it allows to manage the follow-up of the implementation of the conntrols.
+The current version is in Beta, it is developed but waiting for users to return for improvement.
+By clicking on the link "Managing the Implementation of the Risk Management Plan", the following view appears, listing all the recommendations made by the analysis.
+ 
+1.	Name of the recommendation
+2.	Comment on recommendation
+3.	Responsible for the implementation of the recommendation
+4.	Deadline for the implementation of the recommendation
+5.	Status of Implementation
+6.	When the recommendation has been implemented, click on action will start the process of updating the risks (continued below)
+
+This view lists all the risks that are dependent on the recommendation. Then, for each risk, the following information is entered:
+
+1.	Various information concerning the risk
+2.	Encode the new finding, as is the case after updating the recommendation
+3.	Launches the pop-up validation of the update below
+
+After validation, the risk concerned becomes the current risk, the recommendation is deleted from the risk concerned.
+All validations are stored in a history and can be consulted:
+
+1.	Click to view past recommendations

@@ -1,0 +1,40 @@
+The menu is always accessible from the main view of MONARC:
+
+1.	Calling the menu
+2.	Calling the Management view of evaluation scales
+
+The view "Scales of Evaluations" shows the followinf criterias:
+
+1.	Scale of impact
+2.	Scale of threats
+3.	Scale of vulnerability
+4.	The management of information risk acceptance thresholds
+5.	The management of operational risk acceptance thresholds
+
+NOTE: All scales are editable and customizable. However, it is no longer permitted to modify scales as soon as an evaluation has been encoded.
+
+==== Scale of impact
+
+1.	Click to change the number of steps.
+2.	Click to "Show or Hide" the unused criteria of the analysis.
+3.	Click on the symbol   to hide an unused column.
+4.	Click to add a new impact criterion.
+5.	Click to edit the labels of each step (management is such an Excel table, clicking on a label in order to edit it, by clicking on another, makes the first automatically saves and so on).
+
+==== Scales of threats
+
+1.	Click to change the number of steps
+2.	Click to edit the labels of each echelon (Management is same as scale of impact).
+
+==== Scales of vulnerabilities
+
+1.	Click to change the number of steps
+2.	Click to edit the labels of each echelon (Management is same as scale of impact).
+
+==== Management of operational risk acceptance thresholds
+
+For information risks:
+
+For operational risks:
+
+1.	Modification of threshold values. The table just below updates directly, as well as all the risk tables of the analysis.
