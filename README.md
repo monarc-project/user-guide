@@ -2,7 +2,7 @@
 
 [MONARC](http://monarc.lu) user guide.
 
-In order to generate the quick start install
+In order to generate user guide, install
 [Asciidoctor](http://asciidoctor.org/#installation):
 
 ```bash
