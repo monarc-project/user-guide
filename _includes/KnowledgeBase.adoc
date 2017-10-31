@@ -1,15 +1,23 @@
 The menu is always accessible from the main view of MONARC:
 
-1.	Calling the menu
-2.	Calling the Management view of evaluation scales
+1.	Calling the `menu`
+
+image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+
+[start=2]
+.	Calling the Management view of evaluation scales
+
+image:ContextMenuKB.png[ContextMenuKB]
 
 All parameters are managed with the same view:
 
-1.	Selecting the desired parameter tab
-2.	Added a parameter according to the active tab.
-3.	Finding a parameter.
-4.	Select a parameter (for deletion).
-5.	Editing / deleting active parameters.
+image:KBmanagement.png[KBmanagement]
+
+1.	`Selecting` the desired parameter tab
+2.	Added a `parameter` according to the active tab.
+3.	`Finding` a parameter.
+4.	`Select` a parameter (for deletion).
+5.	`Editing / deleting` active parameters.
 
 Generally, all parameters have a code, label, and description
 
