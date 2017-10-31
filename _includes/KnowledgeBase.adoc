@@ -5,7 +5,7 @@ The menu is always accessible from the main view of MONARC:
 image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
 
 [start=2]
-.	Calling the Management view of evaluation scales
+.	Calling the Management view of Knowledge base
 
 image:ContextMenuKB.png[ContextMenuKB]
 
