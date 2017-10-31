@@ -40,6 +40,7 @@ image:Main.png[Main view]
 TIP: Once the analysis has been selected, the dashboard can be retracted in order to optimize the horizontal space by clicking on the symbol
 image:HideRiskAnalysesPanel.png[Hide Risk Analyses panel icon].
 
-2.  Navigation panel, users administration and account management.
-3.  Access to steps of the method by clicking on numbers 1 to 4.
-4.  Contextual working areas of analysis.
+[start=2]
+.  Navigation panel, users administration and account management.
+.  Access to steps of the method by clicking on numbers 1 to 4.
+.  Contextual working areas of analysis.

@@ -13,7 +13,7 @@ The view "Scales of Evaluations" shows the followinf criterias:
 
 NOTE: All scales are editable and customizable. However, it is no longer permitted to modify scales as soon as an evaluation has been encoded.
 
-==== Scale of impact
+=== Scale of impact
 
 1.	Click to change the number of steps.
 2.	Click to "Show or Hide" the unused criteria of the analysis.
@@ -21,17 +21,17 @@ NOTE: All scales are editable and customizable. However, it is no longer permitt
 4.	Click to add a new impact criterion.
 5.	Click to edit the labels of each step (management is such an Excel table, clicking on a label in order to edit it, by clicking on another, makes the first automatically saves and so on).
 
-==== Scales of threats
+=== Scales of threats
 
 1.	Click to change the number of steps
 2.	Click to edit the labels of each echelon (Management is same as scale of impact).
 
-==== Scales of vulnerabilities
+=== Scales of vulnerabilities
 
 1.	Click to change the number of steps
 2.	Click to edit the labels of each echelon (Management is same as scale of impact).
 
-==== Management of operational risk acceptance thresholds
+=== Management of operational risk acceptance thresholds
 
 For information risks:
 

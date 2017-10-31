@@ -95,8 +95,8 @@ This option is to be used mainly for the support assets, as soon as they are inc
 +
 
 6.	`Asset type`: It determines the nature of the asset and therefore the risk model associated with it.
-8.	`Category`: It is the location in the library where the asset will be stored, or create a new category.
-9.	`Operational risk Tag`: , that allows the asset to be associated with operational risks by default.
+7.	`Category`: It is the location in the library where the asset will be stored, or create a new category.
+8.	`Operational risk Tag`: , that allows the asset to be associated with operational risks by default.
 +
 
 [NOTE]
@@ -106,7 +106,7 @@ This option is enable only when asset type is a primary (*i.e*. Information, pro
 
 +
 
-10.	`Location`: Allows you to order assets in the selected category.
+9.	`Location`: Allows you to order assets in the selected category.
 
 ==== Edit an asset
 
