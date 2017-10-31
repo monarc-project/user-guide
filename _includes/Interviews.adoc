@@ -1,11 +1,25 @@
 The interview table allows during a risk analysis to list in the final report, the various interviews that were necessary to collect the information. Information such as dates, interviewees can be entered for a comprehensive report.
- The menu is always accessible from the main view of MONARC:
 
-1.	Calling the menu
-2.	Calling the Management view of evaluation scales
+The menu is always accessible from the main view of MONARC:
 
+1.	Calling the `menu`
+
+image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+
+[start=2]
+.	Calling the Management view of `Interviews`
+
+image:ContextMenuInterview.png[ContextMenuInterview]
+
+image:Interview.png[Interview]
 
 1.	Click to encode a new interview
 
+image:InterviewAdd.png[InterviewAdd]
 
-1.	Information to be entered: date, names of persons and possibly subjects covered.
+Some informations have to be entered
+
+1. `Date`
+2. `Names` of persons or name of the department
+3. The `subjects` covered.
+4. Once all the fields are filled, `create an interview`
