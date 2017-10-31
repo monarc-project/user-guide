@@ -1,18 +1,31 @@
-Snapshots allow you to create a full backup of an analysis. It is a function to use regularly during the course, before and after great changes, because it is the only way to go back in the changes.
- The menu is always accessible from the main view of MONARC:
+Snapshots allow you to create a full backup of an analysis.
 
-1.	Calling the menu
-2.	Calling the Management view of evaluation scales
+NOTE: It is a function to use regularly during the course, before and after great changes, because it is the only way to go back in the changes.
+
+The menu is always accessible from the main view of MONARC:
+
+1.	Calling the `menu`
+
+image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+
+[start=2]
+.	Calling the Management view of `Snapshot`
+
+image:ContextMenuSnapshot.png[ContextMenuSnapshot]
 
 The following pop-up appears:
 
-1.	Creating a Snapshot: Possibility to enter a comment allowing to contextualize the Snapshot.
-2.	Possible actions:
+image:Snapshot.png[Snapshot]
 
-  a.	View a Snapshot
-  b.	Restore Snapshot. Caution this option will overwrite the current analysis.
-  c.	Delete a Snapshot.
+1.	`Create` a Snapshot: Possibility to enter a comment allowing to contextualize the Snapshot.
+There are some Possible actions:
+[start=2]
+.	`View` a Snapshot
+.	`Restore` Snapshot. Caution this option will overwrite the current analysis.
+.	`Delete` a Snapshot.
 
 When viewing a Snapshot, no changes are possible, and the blue bar as shown above is displayed:
+
+image:SnapshotReturn.png[SnapshotReturn]
 
 1.	Click on the button to return to normal operation.
