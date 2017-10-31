@@ -1,40 +1,58 @@
 The menu is always accessible from the main view of MONARC:
 
-1.	Calling the menu
-2.	Calling the Management view of evaluation scales
+1.	Calling the `menu`
 
-The view "Scales of Evaluations" shows the followinf criterias:
+image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
 
-1.	Scale of impact
-2.	Scale of threats
-3.	Scale of vulnerability
-4.	The management of information risk acceptance thresholds
-5.	The management of operational risk acceptance thresholds
+[start=2]
+.	Calling the Management view of `evaluation scales`
 
-NOTE: All scales are editable and customizable. However, it is no longer permitted to modify scales as soon as an evaluation has been encoded.
+image:ContextMenuEvaluationScale2.png[ContextMenuEvaluationScale]
+
+The view "Scales of Evaluations" shows the following criterias:
+
+*	Scale of impact
+*	Scale of threats
+*	Scale of vulnerability
+*	The management of information risk acceptance thresholds
+*	The management of operational risk acceptance thresholds
+
+NOTE: All scales are editable and customizable.
+
+WARNING: However, it is no longer permitted to modify scales as soon as an evaluation has been encoded.
 
 === Scale of impact
 
-1.	Click to change the number of steps.
-2.	Click to "Show or Hide" the unused criteria of the analysis.
-3.	Click on the symbol   to hide an unused column.
-4.	Click to add a new impact criterion.
-5.	Click to edit the labels of each step (management is such an Excel table, clicking on a label in order to edit it, by clicking on another, makes the first automatically saves and so on).
+image:ScaleImpact.png[ScaleImpact]
+
+1.	Click to modify the number of scales.
+2.	Click on `Show hidden impacts` to show or hide the criteria not used in the analysis.
+3.	Click on the symbol to hide an unused column.
+4.	Click on `New column name` to add a new impact criteria.
+5.	Click to edit the headings of each scale.
 
 === Scales of threats
 
-1.	Click to change the number of steps
-2.	Click to edit the labels of each echelon (Management is same as scale of impact).
+image:ScaleThreats.png[ScaleThreats]
+
+1.	Click to modify the number of scales
+2.	Click to edit the heading on each scale (Management identical to the impact scale).
 
 === Scales of vulnerabilities
 
-1.	Click to change the number of steps
-2.	Click to edit the labels of each echelon (Management is same as scale of impact).
+image:ScaleVulunerabilities.png[ScaleVulunerabilities]
 
-=== Management of operational risk acceptance thresholds
+1.	Click to modify the number of scales
+2.	Click to edit the heading on each scale (Management identical to the impact scale).
 
-For information risks:
 
-For operational risks:
+=== Management of acceptability thresholds
+There are two separate tables for acceptability thresholds, as operational risk and information risk are not calculated in the same way.
+Information risks are calculated using three criteria:
 
-1.	Modification of threshold values. The table just below updates directly, as well as all the risk tables of the analysis.
+image:InformationTresholds.png[InformationTresholds]
+
+1. Modification of thresholds levels of informations risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
+2. Information risks are calculated using three criteria: `Impact x Threat x Vulnerability`
+3. Modification of thresholds levels of operational risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
+4. Operational riks are calculated using two criteria: `Impact x Probability`
