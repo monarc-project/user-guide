@@ -1,11 +1,11 @@
 The menu is always accessible from the main view of MONARC:
 
-1.	Calling the `menu`
+1.	Calling the right contextual menu image:Menu.png[pdfwidth=4%,width=4%]
 
 image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
 
 [start=2]
-.	Calling the Management view of Knowledge base
+.	Calling the Management view of `Knowledge base`
 
 image:ContextMenuKB.png[ContextMenuKB]
 
@@ -38,7 +38,7 @@ The essential parameters of threat threats are the association with the CIA crit
 Example: Passive listening (listening, watching without touching anything) is a threat, for example, that affects only the criterion of confidentiality).
 Threats have categories to generate statistics.
 
-===	Vulnérabilities
+===	Vulnerabilities
 
 Vulnerabilities must describe the risk context in a negative way. The greater the vulnerability, the less existing or effective measures are. Vulnerability is inverse to maturity.
 Example: "Absence of identification of sensitive goods": Low vulnerability if the sensitive goods are identified and vice versa the vulnerability is great if they are not.
@@ -61,3 +61,5 @@ Tags represent a categorization of operational risks. It is a logical grouping o
 === Operational risks
 
 It is a list of risks created by default or added specifically. Each risk can be associated with one or more tags, which allows, when depositing an asset in the analysis to propose default risks, as for the risks of the information.
+
+<<<

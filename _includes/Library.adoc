@@ -25,7 +25,7 @@ Click on a primary asset of the library, usually categorized in `Fundamentals` -
 
 image:PrimaryAsset.png[Primary Asset]
 
-1.	Asset management context menu (details in <<Context menu>>).
+1.	Asset management context menu (details in <<Context menu of library>>).
 2.	Add an existing asset in the structure, creating a composed asset. There is no limit in the asset tree.
 3.	Indication if this asset is currently used in the analysis. In this case, it is found at the root of the analysis.
 4.	Ability to detach asset from analysis.
@@ -42,7 +42,7 @@ Click on a secondary asset of the library, for example on `Building` classified 
 
 image:SecondaryAsset.png[Secondary Asset]
 
-1.	Asset management context menu (details in <<Context menu>>).
+1.	Asset management context menu (details in <<Context menu of library>>).
 2.	Add an existing asset in the structure, creating a compound asset. There is no limit in the asset tree.
 3.	Indication if the asset is already part of the composition of another asset. In case, it is already a sub-element of the assets `Back Office`.
 4.	Indication if this asset is currently used in the analysis. In this case, it is found at the 3rd level of the root of the risk analysis.
@@ -56,7 +56,7 @@ The risk table is modified from the knowledge base.
 
 ===== Context menu of library
 
-By clicking on the image:Menu.png[context menu] icon, the following context menu appears. Whatever the asset type of the library, the menu is the same.
+By clicking on icon image:Menu.png[context menu,pdfwidth=4%,width=4%], the following context menu appears. Whatever the asset type of the library, the menu is the same.
 
 image:ContextMenu.png[Context Menu]
 
@@ -71,7 +71,7 @@ WARNING: Delete action is definitive, even if the asset is used in the analysis.
 
 ==== Create an Asset
 
-In the library, after clicking on image:CreateButton.png[Add Asset], the following pop-up appears:
+In the library, after clicking on icon image:CreateButton.png[Add Asset,pdfwidth=4%,width=4%], the following pop-up appears:
 
 image:AddAsset.png[Add Asset]
 
@@ -110,7 +110,7 @@ This option is enable only when asset type is a primary (*i.e*. Information, pro
 
 ==== Edit an asset
 
-The call is made from the <<Context menu, context menu>> when an asset is selected in the library.
+The call is made from the <<Context menu of library>> when an asset is selected in the library.
 
 For an explanation of all fields that can be changed, see <<Create an Asset>>. For technical reasons, the modification does not make it possible to modify:
 
@@ -120,7 +120,7 @@ For an explanation of all fields that can be changed, see <<Create an Asset>>. F
 
 ==== Importing an asset
 
-This pop-up is accessible from the pop-up <<Create an Asset, Add a new asset>> image:CreateButton.png[]
+This pop-up is accessible from the pop-up <<Create an Asset, Add a new asset>> image:CreateButton.png[pdfwidth=4%,width=4%]
 
 image:Import.png[Import]
 

@@ -1,5 +1,6 @@
-= MONARC User guide
-"security made in Lëtzebuerg" (SMILE) g.i.e.
+= User Guide
+CASES Luxembourg <info@cases.lu>
+:title-logo-image: images/header.svg
 :Date: 2017-09-05
 :Revision:  0.1
 :description: MONARC User guide

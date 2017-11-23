@@ -12,7 +12,7 @@ image:OperRiskTable.png[Operational Risk Table]
 NOTE: The operational risk table may or may not display the inherent risks. They are the operational risks that would impact the organization without any controls in place.
 To show this option see <<Creating a Risk Analysis>>.
 
-image:FieldsOperRiskTable.png [Fields Operational Risk Table]
+image:FieldsOperRiskTable.png[Fields Operational Risk Table]
 
 1.	`Asset`: Assets involved in the evaluation
 2.	`Risk description`: Description of risk
@@ -26,7 +26,7 @@ image:FieldsOperRiskTable.png [Fields Operational Risk Table]
 
 The risk card is displayed when you click on the `Not treated` link in the operational risk table.
 
-image:OPRiskSheet.png [Operational Risk Sheet]
+image:OPRiskSheet.png[Operational Risk Sheet]
 
 1.	`Back to the list`: Return to risk table.
 2.	`Current risk`: Values for risk probability (`Prob.`) and ROLFPfootnoteref:[rolfp] Criteria.
@@ -42,12 +42,14 @@ image:OPRiskSheet.png [Operational Risk Sheet]
 
 NOTE: Once the validation has been done, the risk is treated.
 
-image:OPRiskTreated.png [Operational Risk Treated]
+image:OPRiskTreated.png[Operational Risk Treated]
 
 ==== Adding additional risk
 
 When an asset is selected in the analysis:
 
-image:OPSpecificRisk.png [Operational Specific Risk]
+image:OPSpecificRisk.png[Operational Specific Risk]
 
 1.	Click to `create a specific risk`: A pop-up appears and allows a new risk to be associated with the current asset. If the risk does not exist, it can be created directly.
+
+<<<

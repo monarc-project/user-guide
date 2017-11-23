@@ -4,7 +4,7 @@ NOTE: It is a function to use regularly during the course, before and after grea
 
 The menu is always accessible from the main view of MONARC:
 
-1.	Calling the `menu`
+1.	Calling the right contextual menu image:Menu.png[pdfwidth=4%,width=4%]
 
 image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
 
@@ -29,3 +29,5 @@ When viewing a Snapshot, no changes are possible, and the blue bar as shown abov
 image:SnapshotReturn.png[SnapshotReturn]
 
 1.	Click on the button to return to normal operation.
+
+<<<

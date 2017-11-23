@@ -26,7 +26,7 @@ This option should be used by default to start a new risk analysis. There is als
 This template is typically used temporarily as a _Sandbox_ to test the contents of an import file, for example.
 b.	`Existing analysis`: Duplicate a risk analysis of your choice present in your environment.
 2.	Options *_a_* or *_b_* before selected. It get the source.
-3.  `Show inherent operational risks`. (see <<Operational risks>>)
+3.  `Show inherent operational risks`. (see <<Operational Risks>>)
 4.	Select the preferred language for this new risk analysis. MONARC only present the languages actually available in the selected source.
 5.	Give your risk analysis a name.
 6.	Optional field, which allows you to describe your analysis in more detail.
@@ -38,9 +38,11 @@ image:Main.png[Main view]
 1.  Risk Analyses panel: Create and select a risk analysis.
 
 TIP: Once the analysis has been selected, the dashboard can be retracted in order to optimize the horizontal space by clicking on the symbol
-image:HideRiskAnalysesPanel.png[Hide Risk Analyses panel icon].
+image:HideRiskAnalysesPanel.png[Hide Risk Analyses panel icon,pdfwidth=4%,width=3%].
 
 [start=2]
 .  Navigation panel, users administration and account management.
 .  Access to steps of the method by clicking on numbers 1 to 4.
 .  Contextual working areas of analysis.
+
+<<<

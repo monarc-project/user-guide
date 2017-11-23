@@ -2,7 +2,7 @@ The interview table allows during a risk analysis to list in the final report, t
 
 The menu is always accessible from the main view of MONARC:
 
-1.	Calling the `menu`
+1.	Calling the right contextual menu image:Menu.png[pdfwidth=4%,width=4%]
 
 image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
 
@@ -23,3 +23,5 @@ Some informations have to be entered
 2. `Names` of persons or name of the department
 3. The `subjects` covered.
 4. Once all the fields are filled, `create an interview`
+
+<<<

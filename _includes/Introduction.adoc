@@ -7,30 +7,35 @@ The purpose of this document is to provide an exhaustive explanation of all the 
 [NOTE]
 ===============================================
 * link:/quick-start[*Quick Start*]: Provide a quick start with MONARC.
-* link:/method-guide[*Method guide*]: Complete documentation of the
+* link:/method-guide[*Method Guide*]: Complete documentation of the
 method.
-* link:/technical-guide[*Technical guide*]: Complete technical
+* link:/technical-guide[*Technical Guide*]: Complete technical
 documentation.
 ===============================================
 
-
 === Syntax used in the document
 
-[horizontal]
-image:Step.png[Cursor]:: All numbers in white on a red background are used on print-screen views to provide additional
-  explanations. Explanations are always after the view with the corresponding numbering. *i.e.* 1.
-
-`Reference`:: MONARC Reference
-[horizontal]
+[cols="^,7a",grid="none",frame="none",valign="middle"]
+|====
+|image:Step.png[Cursor] |All numbers in white on a red background are used on print-screen views to provide additional explanations. Explanations are always after the view with the corresponding numbering. *i.e.* 1.
+|====
+[cols="^a,7a",grid="none",frame="none",valign="middle"]
+|====
+|`Reference` |MONARC Reference
+|====
 
 === Syntax used in MONARC
 
-[horizontal]
-image:Menu.png[Menu]:: Button that always brings up the menu.
-
-image:CreateButton.png[Create]:: Creating/adding something in
-context (assets, recommendations, etc.).
-
-image:Cursor.png[Cursor]:: Most fields of MONARC display
-additional information when the pointer stay unmoved some time.
-[horizontal]
+[cols="^,7a",grid="none",frame="none",valign="middle"]
+|====
+|image:Menu.png[Menu]| Button that always brings up the menu.
+|====
+[cols="^,7a",grid="none",frame="none",valign="middle"]
+|====
+|image:CreateButton.png[Create] |Creating/adding something in context (assets, recommendations, etc.).
+|====
+[cols="^,7a",grid="none",frame="none",valign="middle"]
+|====
+|image:Cursor.png[Cursor] |Most fields of MONARC display additional information when the pointer stay unmoved some time.
+|====
+<<<

@@ -31,10 +31,10 @@ image:FieldsInfoRiskTable.png[Fields of Information Risk Table]
 
 1.	`Asset`: Assets involved in the evaluation.
 2.	`CIA Impact`: The CIA criteria that have been assigned to the `Department` are inherited by default from the supporting assets.
-3.	`Prob`: Likelihood of threat (see <<Scales of threats>>).
+3.	`Prob`: Likelihood of threat (see <<Likelihood scale>>).
 4.	`Existing controls`: Describe, in a factual manner, the security control in place concerning the vulnerability or, more broadly, the risk.
-5.	`Qualif`: Evaluation of the control in place in order to determine the level of vulnerability (see <<Scales of vulnerabilities>>).
-6.	`Current risk`: Risk value calculated according to the risk calculation formula. The colors depend on the risk acceptance grid (see <<Risk acceptance thresholds>>).
+5.	`Qualif`: Evaluation of the control in place in order to determine the level of vulnerability (see <<Vulnerability scale>>).
+6.	`Current risk`: Risk value calculated according to the risk calculation formula. The colors depend on the risk acceptance grid (see <<Acceptance thresholds>>).
 7.	`Treatment`: Indication if the risk is treated, and link to the risk profile (see <<Risk information sheet>>).
 8.	`Residual risk`: Value of residual risk. In the case of the figure above, the residual risk is equal to the max risk because it is not yet treated.
 
@@ -75,7 +75,7 @@ NOTE: Threat and vulnerability must exist beforehand.
 
 ==== Contextual menu of asset
 
-By clicking on image:Menu.png[], the context menu of asset appears:
+By clicking on icon image:Menu.png[pdfwidth=4%,width=4%], the context menu of asset appears:
 
 image:ContextualMenuAsset.png[Contextual Menu of Asset]
 
@@ -87,7 +87,7 @@ NOTE: The additional option, `export with assessment`. It means, export gets the
 
 +
 
-image::ExportOptions.png[align="center"]
+image::ExportOptions.png[pdfwidth=40%,align="center"]
 
 4.  `See asset in the library`: Displays the asset from the library, allowing you to have another context menu that allows changes to the asset. (see <<Context menu of library>>)
 5.	`Detach` : This removes an asset from the risk analysis.
@@ -117,4 +117,4 @@ or the impact on the **P**erson (in the sense of personal data).
 In the case of the above figure, the `3` (out of 5) impact on confidentiality, is explained by the maximum value ROLFP regarding
 confidentiality. Example, `3` is the consequence for the person in case of disclosure of his personal file.
 
-NOTE: To hide the consequences that won't consider. Click on icon image:Hide.png[]. To show it again. Click on `Show hidden consequences`
+NOTE: To hide the consequences that won't consider. Click on icon image:Hide.png[pdfwidth=4%,width=3%]. To show it again. Click on `Show hidden consequences`
