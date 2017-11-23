@@ -1,4 +1,4 @@
-By clicking on number 4, the following menu will appear:
+By clicking on number `4`, the following menu will appear:
 
 image:MethodScreenStep4Detailed.png[MethodScreenStep4Detailed]
 
