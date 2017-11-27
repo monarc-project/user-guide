@@ -12,7 +12,7 @@ image:Library.png[Library]
   b.  `EBIOS`: Contains assets inspired by EBIOS. These are assets containing non-optimized risk models.
 
 4.	Sub-categories level.
-5.	Asset level: These are the assets that must be dragging and dropping in the risk analysis area.
+5.	Asset level: These are the assets that must be dragging and dropping to the risk analysis area.
 
 ====	Asset Management
 
@@ -26,7 +26,7 @@ Click on a primary asset of the library, usually categorized in `Fundamentals` -
 image:PrimaryAsset.png[Primary Asset]
 
 1.	Asset management context menu (details in <<Context menu of library>>).
-2.	Add an existing asset in the structure, creating a composed asset. There is no limit in the asset tree.
+2.	Add an existing asset in the structure, creating a composed asset. There is no limit to the asset tree.
 3.	Indication if this asset is currently used in the analysis. In this case, it is found at the root of the analysis.
 4.	Ability to detach asset from analysis.
 5.	Table of operational risks possibly associated with the asset.
@@ -43,7 +43,7 @@ Click on a secondary asset of the library, for example on `Building` classified 
 image:SecondaryAsset.png[Secondary Asset]
 
 1.	Asset management context menu (details in <<Context menu of library>>).
-2.	Add an existing asset in the structure, creating a compound asset. There is no limit in the asset tree.
+2.	Add an existing asset in the structure, creating a compound asset. There is no limit to the asset tree.
 3.	Indication if the asset is already part of the composition of another asset. In case, it is already a sub-element of the assets `Back Office`.
 4.	Indication if this asset is currently used in the analysis. In this case, it is found at the 3rd level of the root of the risk analysis.
 5.	Ability to detach asset from analysis.
@@ -56,7 +56,7 @@ The risk table is modified from the knowledge base.
 
 ===== Context menu of library
 
-By clicking on icon image:Menu.png[context menu,pdfwidth=4%,width=4%], the following context menu appears. Whatever the asset type of the library, the menu is the same.
+By clicking on the icon image:Menu.png[context menu,pdfwidth=4%,width=4%], the following context menu appears. Whatever the asset type of the library, the menu is the same.
 
 image:ContextMenu.png[Context Menu]
 
@@ -71,7 +71,7 @@ WARNING: Delete action is definitive, even if the asset is used in the analysis.
 
 ==== Create an Asset
 
-In the library, after clicking on icon image:CreateButton.png[Add Asset,pdfwidth=4%,width=4%], the following pop-up appears:
+In the library, after clicking on the icon image:CreateButton.png[Add Asset,pdfwidth=4%,width=4%], the following pop-up appears:
 
 image:AddAsset.png[Add Asset]
 
@@ -89,19 +89,19 @@ image:AddAsset.png[Add Asset]
 ========
 This option is to be used mainly for the support assets, as soon as they are included in several primary assets.
 
-*Example*: For IT room or main building, once the risks assessed, only the impact from the primary asset can change the level of risk.
+*Example*: For IT room or main building, once the risks assessed, only the impact of the primary asset can change the level of risk.
 ========
 
 +
 
 6.	`Asset type`: It determines the nature of the asset and therefore the risk model associated with it.
-7.	`Category`: It is the location in the library where the asset will be stored, or create a new category.
-8.	`Operational risk Tag`: , that allows the asset to be associated with operational risks by default.
+7.	`Category`: It is the location of the library where the asset will be stored, or create a new category.
+8.	`Operational risk Tag`: That allows the asset to be associated with operational risks by default.
 +
 
 [NOTE]
 ========
-This option is enable only when asset type is a primary (*i.e*. Information, process, container or service)
+This option is enabled only when asset type is a primary (*i.e*. Information, process, container or service)
 ========
 
 +
@@ -132,7 +132,7 @@ image:Import.png[Import]
 
 [NOTE]
 ========
-Only global assets can be imported by merge.
+Only global assets can be imported by merging.
 ========
 
 +
@@ -169,3 +169,16 @@ image:Export.png[Export Asset]
 2. `Without password`: Default password sets by tool.
 +
 NOTE: This option ensures only the file integrity.
+
+
+
+
+
+
+
+
+
+
+
+
+

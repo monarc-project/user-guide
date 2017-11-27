@@ -17,11 +17,24 @@ image:Interview.png[Interview]
 
 image:InterviewAdd.png[InterviewAdd]
 
-Some informations have to be entered
+Some information has to be entered
 
 1. `Date`
-2. `Names` of persons or name of the department
+2. `Names` of people or name of the department
 3. The `subjects` covered.
 4. Once all the fields are filled, `create an interview`
 
 <<<
+
+
+
+
+
+
+
+
+
+
+
+
+

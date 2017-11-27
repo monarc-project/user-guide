@@ -11,8 +11,8 @@ Depending selection, the display risk table may change:
 |=======================
 |Selection|Information Risks|Operational Risks
 |Root of analysis | All risks of analysis | All risks of analysis
-|Primary Asset | Risks associated to his supporting assets | Risks associated to himself
-|Supporting Asset| Risks associated to himself| No risks
+|Primary Asset | Risks associated with his supporting assets | Risks associated with himself
+|Supporting Asset| Risks associated with himself| No risks
 |=======================
 
 ==== Risks table
@@ -22,9 +22,9 @@ image:InfoRiskTable.png[Information Risk Table]
 1.	The primary asset `Department` is selected in the analysis.
 2.	Display the CIA impacts of the `Department`.
 3.	Information Risk tab selected.
-4.	`Department` asset consists of supporting assets that provide total infomation risks.
+4.	`Department` asset consists of supporting assets that provide total information risks.
 5.	Possibility to select only certain risks according to the risk acceptance threshold.
-6.	Ability to sort on most columns of the table.
+6.	Ability to sort of most columns of the table.
 7.	Selection of the page in the list of results.
 
 image:FieldsInfoRiskTable.png[Fields of Information Risk Table]
@@ -33,12 +33,12 @@ image:FieldsInfoRiskTable.png[Fields of Information Risk Table]
 2.	`CIA Impact`: The CIA criteria that have been assigned to the `Department` are inherited by default from the supporting assets.
 3.	`Prob`: Likelihood of threat (see <<Likelihood scale>>).
 4.	`Existing controls`: Describe, in a factual manner, the security control in place concerning the vulnerability or, more broadly, the risk.
-5.	`Qualif`: Evaluation of the control in place in order to determine the level of vulnerability (see <<Vulnerability scale>>).
-6.	`Current risk`: Risk value calculated according to the risk calculation formula. The colors depend on the risk acceptance grid (see <<Acceptance thresholds>>).
-7.	`Treatment`: Indication if the risk is treated, and link to the risk profile (see <<Risk information sheet>>).
+5.	`Qualif`: Evaluation of control in place in order to determine the level of vulnerability (see <<Vulnerability scale>>).
+6.	`Current risk`: Risk value calculated according to the risk calculation formula. The colours depend on the risk acceptance grid (see <<Acceptance thresholds>>).
+7.	`Treatment`: Indication if the risk is treated, and links to the risk profile (see <<Risk information sheet>>).
 8.	`Residual risk`: Value of residual risk. In the case of the figure above, the residual risk is equal to the max risk because it is not yet treated.
 
-NOTE: By leaving cursor on most fields, a tooltip appears.
+NOTE: By leaving the cursor in most fields, a tooltip appears.
 
 ====	Risk information sheet
 
@@ -48,9 +48,9 @@ image:InfoRiskSheet.png[Information Risk Sheet]
 
 1.	Click to turn back to risk table.
 2.	Risk values for CID criteria (not yet covered in the example).
-3.	Reminder of the parameters of the risk table.
+3.	Reminders of the parameters of the risk table.
 4.	Creation / Assignment button for one or more recommendations.
-5.	Selection of kind of treatment:
+5.	Selection of the kind of treatment:
 
   a.	Reduction / Modification
   b.	Denied
@@ -58,9 +58,9 @@ image:InfoRiskSheet.png[Information Risk Sheet]
   d.	Shared
 
 6.	Choosing a risk reduction value, the more effective the control is, the greater the reduction value is.
-7.	Proposal of controls which come from various repositories.
+7.	Proposals of controls, which come from various repositories.
 
-WARNING: Don't forget to save the form in order to calculate the residual risk.
+WARNING: Do not forget to save the form in order to calculate the residual risk.
 
 ====	Adding additional risk
 
@@ -75,31 +75,31 @@ NOTE: Threat and vulnerability must exist beforehand.
 
 ==== Contextual menu of asset
 
-By clicking on icon image:Menu.png[pdfwidth=4%,width=4%], the context menu of asset appears:
+By clicking on the icon image:Menu.png[pdfwidth=4%,width=4%], the context menu of asset appears:
 
 image:ContextualMenuAsset.png[Contextual Menu of Asset]
 
 1.	`Edit impacts`: Displays the impact and consequence modification view (see <<Impacts and consequences>>).
-2.	`Import analysis`: Allows you to import an analysis from the location pointed to by the selected asset of the scan. The import works exactly like importing an asset, see <<Importing an asset>>).
-3.  `Export analysis`: Allows you to export an analysis, from the place pointed by the selected asset of the analysis. The export works exactly like exporting an asset, see <<Exporting an asset>>).
+2.	`Import analysis`: Allows you to import an analysis from the location pointed to by the selected asset of the scan. The import works exactly like importing an asset. (See <<Importing an asset>>.)
+3.  `Export analysis`: Allows you to export analysis, from the place pointed by the selected asset of the analysis. The export works exactly like exporting an asset. (See <<Exporting an asset>>.)
 +
-NOTE: The additional option, `export with assessment`. It means, export gets the evaluation and treatment of risks. By default is disable.
+NOTE: The additional option, `export with assessment`. It means, export gets the evaluation and treatment of risks. By default is disabled.
 
 +
 
 image::ExportOptions.png[pdfwidth=40%,align="center"]
 
-4.  `See asset in the library`: Displays the asset from the library, allowing you to have another context menu that allows changes to the asset. (see <<Context menu of library>>)
+4.  `See asset in the library`: Displays the asset from the library, allowing you to have another context menu that allows changes to the asset. (See <<Context menu of library>>.)
 5.	`Detach` : This removes an asset from the risk analysis.
 +
 
-WARNING: This action may lead to the loss of risk assessments for this asset and its children.
+WARNING: This action may lead to the loss of risk assessments for this asset and its childrens.
 
 
 
 ====	Impacts and consequences
 
-The aim is to define the level of the primary assets the impacts and consequences that can result from the realization of the risks of the model.
+The aim is to define the level of the primary assets, the impacts and consequences that can result from the realization of the risks of the model.
 
 The pop-up below appears.
 
@@ -115,6 +115,6 @@ consequences on the company, and more particularly on its ROLFP, i.e. its **R**e
 or the impact on the **P**erson (in the sense of personal data).
 
 In the case of the above figure, the `3` (out of 5) impact on confidentiality, is explained by the maximum value ROLFP regarding
-confidentiality. Example, `3` is the consequence for the person in case of disclosure of his personal file.
+confidentiality. For example, `3` is the consequence of the person in case of disclosure of his personal file.
 
-NOTE: To hide the consequences that won't consider. Click on icon image:Hide.png[pdfwidth=4%,width=3%]. To show it again. Click on `Show hidden consequences`
+NOTE: To hide the consequences that will not consider. Click on the icon image:Hide.png[pdfwidth=4%,width=3%]. To show it again. Click on `Show hidden consequences`

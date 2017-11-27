@@ -9,7 +9,7 @@ image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
 
 image:ContextMenuEvaluationScale2.png[ContextMenuEvaluationScale]
 
-The view `Evaluation scales` shows the following criterias:
+The view `Evaluation scales` shows the following criteria:
 
 *	Impact scale
 *	Likelihood scale
@@ -28,7 +28,7 @@ image:ScaleImpact.png[ScaleImpact]
 1.	Click to modify the number of scales.
 2.	Click on `Show hidden impacts` to show or hide the criteria not used in the analysis.
 3.	Click on the symbol to hide an unused column.
-4.	Click on `New column name` to add a new impact criteria.
+4.	Click on `New column name` to add new impact criteria.
 5.	Click to edit the headings of each scale.
 
 === Likelihood scale
@@ -52,9 +52,22 @@ Information risks are calculated using three criteria:
 
 image:InformationTresholds.png[InformationTresholds]
 
-1. Modification of thresholds levels of informations risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
+1. Modification of threshold levels of information risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
 2. Information risks are calculated using three criteria: `Impact x Threat x Vulnerability`
-3. Modification of thresholds levels of operational risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
-4. Operational riks are calculated using two criteria: `Impact x Probability`
+3. Modification of threshold levels of operational risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
+4. Operational risks are calculated using two criteria: `Impact x Probability`
 
 <<<
+
+
+
+
+
+
+
+
+
+
+
+
+

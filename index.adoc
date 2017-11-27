@@ -1,5 +1,6 @@
 = User Guide
 CASES Luxembourg <info@cases.lu>
+v{docdate}
 :title-logo-image: images/header.svg
 :Date: 2017-09-05
 :Revision:  0.1
@@ -50,7 +51,7 @@ include::{includedir}/HomePage.adoc[]
 
 include::{includedir}/ClientEnvironmentAdministration.adoc[]
 
-== Analysis management
+== Analysis Management
 
 include::{includedir}/AnalysisManagement.adoc[]
 
@@ -58,7 +59,7 @@ include::{includedir}/AnalysisManagement.adoc[]
 
 include::{includedir}/EvaluationScales.adoc[]
 
-== Management of Knowledge base
+== Management of Knowledge Base
 
 include::{includedir}/KnowledgeBase.adoc[]
 
@@ -70,6 +71,6 @@ include::{includedir}/Interviews.adoc[]
 
 include::{includedir}/Snapshots.adoc[]
 
-== Managing the implementation treatment plan
+== Managing the Implementation Treatment Plan
 
 include::{includedir}/ImplementationTreatmentPlan.adoc[]

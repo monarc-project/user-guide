@@ -7,14 +7,14 @@ there are already several and according to the state of progress of the analysis
 image:Dashboard.png[Dashboard]
 
 1. Graph showing the statistics of the last modified risk analysis.
-2. List of existing analyzes. In this case, there is only one. Click on the analysis to select it. (see <<Main risk analysis view>>)
-3. Click to `create a risk analysis` (see <<Creating a Risk Analysis>>).
+2. List of existing analyses. In this case, there is only one. Click on the analysis to select it. (See <<Main risk analysis view>>)
+3. Click to `create a risk analysis`. (See <<Creating a Risk Analysis>>.)
 4. Navigation bar
 5. Administration of the client environment. Click on `Manage users`, `Account` or `Logout` (see <<Client Environment Administration>>).
 
 === Creating a Risk Analysis
 
-After clicking on `Create a risk analysis`, the following pop-up appear
+After clicking on `Create a risk analysis`, the following pop-up appears
 
 image:NewRiskAnalysis.png[Create a risk analysis]
 
@@ -24,11 +24,11 @@ a.	`CASES Model`: Proposes available models in the knowledge bases. This option 
 this is the default template made available by the MONARC editor. It provides sufficient knowledge bases to start a risk analysis.
 This option should be used by default to start a new risk analysis. There is also the choice `Blank model` which is a completely empty model.
 This template is typically used temporarily as a _Sandbox_ to test the contents of an import file, for example.
-b.	`Existing analysis`: Duplicate a risk analysis of your choice present in your environment.
-2.	Options *_a_* or *_b_* before selected. It get the source.
-3.  `Show inherent operational risks`. (see <<Operational Risks>>)
+b.	`Existing analysis`: Duplicate risk analysis of your choice present in your environment.
+2.	Options *_a_* or *_b_* before being selected. It gets the source.
+3.  `Show inherent operational risks`. (See <<Operational Risks>>)
 4.	Select the preferred language for this new risk analysis. MONARC only present the languages actually available in the selected source.
-5.	Give your risk analysis a name.
+5.	Give a name to risk analysis.
 6.	Optional field, which allows you to describe your analysis in more detail.
 
 === Main risk analysis view
@@ -41,8 +41,8 @@ TIP: Once the analysis has been selected, the dashboard can be retracted in orde
 image:HideRiskAnalysesPanel.png[Hide Risk Analyses panel icon,pdfwidth=4%,width=3%].
 
 [start=2]
-.  Navigation panel, users administration and account management.
-.  Access to steps of the method by clicking on numbers 1 to 4.
+.  Navigation panel: User administration and account management.
+.  Access to the steps of the method by clicking on numbers `1` to `4`.
 .  Contextual working areas of analysis.
 
 <<<
