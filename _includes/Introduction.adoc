@@ -38,17 +38,8 @@ documentation.
 |====
 |image:Cursor.png[Cursor] |Most fields of MONARC display additional information when the pointer stay unmoved some time.
 |====
+[cols="^,7a",grid="none",frame="none",valign="middle"]
+|====
+|image:IconExport.png[Export] |Export any table (.csv) or graphic (.png).
+|====
 <<<
-
-
-
-
-
-
-
-
-
-
-
-
-

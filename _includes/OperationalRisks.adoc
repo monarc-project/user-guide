@@ -7,7 +7,6 @@ image:OperRiskTable.png[Operational Risk Table]
 3.	Total of operational risks associated with primary asset.
 4.	Ability to select only certain risks, according to the risk acceptance threshold.
 5.	Ability to sort of most columns of the table.
-6.	Selection of the page in the list of results.
 
 NOTE: The operational risk table may or may not display the inherent risks. They are the operational risks that would impact the organization without any controls in place.
 To show this option see <<Creating a Risk Analysis>>.
@@ -53,16 +52,3 @@ image:OPSpecificRisk.png[Operational Specific Risk]
 1.	Click to `create a specific risk`: A pop-up appears and allows a new risk to be associated with the current asset. If the risk does not exist, it can be created directly.
 
 <<<
-
-
-
-
-
-
-
-
-
-
-
-
-

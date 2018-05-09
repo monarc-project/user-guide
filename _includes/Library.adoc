@@ -61,7 +61,7 @@ By clicking on the icon image:Menu.png[context menu,pdfwidth=4%,width=4%], the f
 image:ContextMenu.png[Context Menu]
 
 1.	Starts the pop-up that allows you to modify most of the parameters of an asset (see <<Edit an asset>>).
-2.	Create a copy of the asset named `Name (copy # 1)`, which is then renamed with the `Edit Asset` option.
+2.	Create a copy of the asset named `Name (copy #)`, which is then renamed with the `Edit Asset` option.
 3.	Launches asset export pop-up (see <<Exporting an asset>>).
 4.	Delete an asset.
 +
@@ -76,10 +76,9 @@ In the library, after clicking on the icon image:CreateButton.png[Add Asset,pdfw
 image:AddAsset.png[Add Asset]
 
 1.	To create an asset, it is also possible to import it (see <<Importing an asset>>).
-2.	`Language`: This option cannot be used, the default language of the analysis is imposed.
-3.	`Name`: This name must be unique for the analysis.
-4.	`Label`: This is an additional description, it is displayed in the tooltip when the mouse is positioned without moving on the asset.
-5.	`Scope`: Two possible choices:
+2.	`Name`: This name must be unique for the analysis.
+3.	`Label`: This is an additional description, it is displayed in the tooltip when the mouse is positioned without moving on the asset.
+4.	`Scope`: Two possible choices:
 
   a.	`Local`: Identified asset risks are to be assessed whenever the asset is present in the analysis. A primary asset is generally local in scope.
   b.	`Global` image:Global.png[] : The risks of the asset are only to be assessed once for the whole analysis.
@@ -94,9 +93,9 @@ This option is to be used mainly for the support assets, as soon as they are inc
 
 +
 
-6.	`Asset type`: It determines the nature of the asset and therefore the risk model associated with it.
-7.	`Category`: It is the location of the library where the asset will be stored, or create a new category.
-8.	`Operational risk Tag`: That allows the asset to be associated with operational risks by default.
+5.	`Asset type`: It determines the nature of the asset and therefore the risk model associated with it.
+6.	`Category`: It is the location of the library where the asset will be stored, or create a new category.
+7.	`Operational risk Tag`: That allows the asset to be associated with operational risks by default.
 +
 
 [NOTE]
@@ -106,7 +105,7 @@ This option is enabled only when asset type is a primary (*i.e*. Information, pr
 
 +
 
-9.	`Location`: Allows you to order assets in the selected category.
+8.	`Location`: Allows you to order assets in the selected category.
 
 ==== Edit an asset
 
@@ -114,7 +113,6 @@ The call is made from the <<Context menu of library>> when an asset is selected 
 
 For an explanation of all fields that can be changed, see <<Create an Asset>>. For technical reasons, the modification does not make it possible to modify:
 
-* `Language`
 * `Scope`
 * `Asset type`
 
@@ -165,20 +163,5 @@ image:ImportMonarcLibrary.png[Import Monarc Library]
 
 image:Export.png[Export Asset]
 
-1. `Custom password`: Possibility to encrypt the generated file with a symmetric password that will be necessary during the import.
-2. `Without password`: Default password sets by tool.
-+
-NOTE: This option ensures only the file integrity.
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. `Custom password`: Possibility to encrypt the generated JSON file with a symmetric password that will be necessary during the import.
+2. `Without password`: JSON file decoded.

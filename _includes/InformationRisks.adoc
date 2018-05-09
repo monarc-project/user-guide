@@ -25,7 +25,6 @@ image:InfoRiskTable.png[Information Risk Table]
 4.	`Department` asset consists of supporting assets that provide total information risks.
 5.	Possibility to select only certain risks according to the risk acceptance threshold.
 6.	Ability to sort of most columns of the table.
-7.	Selection of the page in the list of results.
 
 image:FieldsInfoRiskTable.png[Fields of Information Risk Table]
 

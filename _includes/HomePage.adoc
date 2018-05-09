@@ -10,7 +10,7 @@ image:Dashboard.png[Dashboard]
 2. List of existing analyses. In this case, there is only one. Click on the analysis to select it. (See <<Main risk analysis view>>)
 3. Click to `create a risk analysis`. (See <<Creating a Risk Analysis>>.)
 4. Navigation bar
-5. Administration of the client environment. Click on `Manage users`, `Account` or `Logout` (see <<Client Environment Administration>>).
+5. Administration of the client environment. Click on `Administration`, `Account`, `Interface language` or `Logout` (see <<Client Environment Administration>>).
 
 === Creating a Risk Analysis
 
@@ -20,16 +20,15 @@ image:NewRiskAnalysis.png[Create a risk analysis]
 
 
 1.	The creation of a risk analysis is always based on an existing model. There are two choices for this:
-a.	`CASES Model`: Proposes available models in the knowledge bases. This option has at least two choices, `Modelling CASES`,
+a.	`List of risks models`: Proposes available models in the knowledge bases. This option has at least two choices, `Modelling CASES`,
 this is the default template made available by the MONARC editor. It provides sufficient knowledge bases to start a risk analysis.
 This option should be used by default to start a new risk analysis. There is also the choice `Blank model` which is a completely empty model.
 This template is typically used temporarily as a _Sandbox_ to test the contents of an import file, for example.
 b.	`Existing analysis`: Duplicate risk analysis of your choice present in your environment.
 2.	Options *_a_* or *_b_* before being selected. It gets the source.
-3.  `Show inherent operational risks`. (See <<Operational Risks>>)
-4.	Select the preferred language for this new risk analysis. MONARC only present the languages actually available in the selected source.
-5.	Give a name to risk analysis.
-6.	Optional field, which allows you to describe your analysis in more detail.
+3.	Select the preferred language for this new risk analysis. MONARC only present the languages actually available in the selected source.
+4.	Give a name to risk analysis.
+5.	Optional field, which allows you to describe your analysis in more detail.
 
 === Main risk analysis view
 

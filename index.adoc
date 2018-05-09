@@ -74,7 +74,3 @@ include::{includedir}/Snapshots.adoc[]
 == Managing the Implementation Treatment Plan
 
 include::{includedir}/ImplementationTreatmentPlan.adoc[]
-
-== Modifying the deliveries
-
-include::{includedir}/DeliveriesCreation.adoc[]
