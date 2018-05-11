@@ -5,17 +5,4 @@ image::MethodSteps.png[Method Steps,pdfwidth=99%]
 1. Ticking boxes change the progress of the method.
 2. Click on the label, call the contextual management sub-screen.
 
-NOTE: More information about method steps. Consult the link:/Method-guide[*Method Guide*].
-
-
-
-
-
-
-
-
-
-
-
-
-
+NOTE: More information about method steps. Consult the link:/method-guide[*Method Guide*].
