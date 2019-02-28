@@ -1,16 +1,17 @@
-=== Dashboard
+=== Home page
 
 Immediately after user authentication, the following screen appears.
 It may, however, be slightly different, if there is not yet an analysis created or if
 there are already several and according to the state of progress of the analysis.
 
-image:Dashboard.png[Dashboard]
+image:HomePage.png[HomePage]
 
 1. Graph showing the statistics of the last modified risk analysis.
-2. List of existing analyses. In this case, there is only one. Click on the analysis to select it. (See <<Main risk analysis view>>)
-3. Click to `create a risk analysis`. (See <<Creating a Risk Analysis>>.)
-4. Navigation bar
+2. List of existing analyses. In this case, there is only one. Click on the analysis to select it. (See <<Main risk analysis view>>).
+3. Click to `create a risk analysis`. (See <<Creating a Risk Analysis>>.).
+4. Navigation bar.
 5. Administration of the client environment. Click on `Administration`, `Account`, `Interface language` or `Logout` (see <<Client Environment Administration>>).
+6. Inform you if an update of MONARC is available.
 
 === Creating a Risk Analysis
 
@@ -36,7 +37,7 @@ image:Main.png[Main view]
 
 1.  Risk Analyses panel: Create and select a risk analysis.
 
-TIP: Once the analysis has been selected, the dashboard can be retracted in order to optimize the horizontal space by clicking on the symbol
+TIP: Once the analysis has been selected, the left column can be retracted in order to optimize the horizontal space by clicking on the symbol
 image:HideRiskAnalysesPanel.png[Hide Risk Analyses panel icon,pdfwidth=4%,width=3%].
 
 [start=2]
