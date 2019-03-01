@@ -1,0 +1,32 @@
+The menu is always accessible from the main view of MONARC:
+
+1.	Calling the right contextual menu image:Menu.png[pdfwidth=4%,width=4%]
+
+image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+
+[start=2]
+.	Calling the Management view of `Dashboard`
+
+image:ContextMenuDashboard.png[ContextMenuDashboard]
+
+The view `Dashboard` shows informations about the following topics:
+
+*	Risks
+*	Threats
+*	Vulnerabilities
+*	Cartography
+*	Compliance
+
+NOTE: Most of the charts have parameters and are exportable.
+
+image:DasboardDetailed.png[DashboardDetailed]
+
+All the part of the dashboard have the same functionalities.
+
+1. `Choose` the part on which dashboard is required.
+2. `Export` all the data in a XLSX document to make your own graph.
+3. `Change` the paramaters of the selected chart.
+4. `Export` the chart as PNG
+
+
+<<<

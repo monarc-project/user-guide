@@ -63,6 +63,10 @@ include::{includedir}/EvaluationScales.adoc[]
 
 include::{includedir}/KnowledgeBase.adoc[]
 
+== Dashboard
+
+include::{includedir}/Dashboard.adoc[]
+
 == Interviews
 
 include::{includedir}/Interviews.adoc[]
