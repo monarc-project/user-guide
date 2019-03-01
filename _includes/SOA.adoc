@@ -1,0 +1,35 @@
+The menu is always accessible from the main view of MONARC:
+
+1.	Calling the right contextual menu image:Menu.png[pdfwidth=4%,width=4%]
+
+image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+
+[start=2]
+.	Calling the Management view of `Statement of applicability`
+
+image:ContextMenuSoa.png[ContextMenuSoa]
+
+The view `Statement of applicabality` above:
+
+image:Soa.png[Soa]
+
+1. Choose the `referential` on which one you want to work.
+2. The `code` is a clickable field, click on it and see all the risks attached to the security control selected.
+
+image:SoaRisksList.png[SoaRisksList]
+
+[start=3]
+.	Choose if the security control is `included or excluded`, just click on the acronym, the description of it appears if the cursor is on it.
+. The field `remarks/justification`, `Evidences`, `Actions` are text field, just click on it and fill.
+. The `Level of compliance` is a drop-down list.
+. `Export` the selected view in CSV.
+. `Import` information for the selected referential from another.
+
+image:SoaReferentialImport.png[SoaReferentialImport]
+
+1. `Read` what you are willing to do.
+2. Choose the `referential` which contains information that you want to convert into the selected one.
+3. Choose `information` you want to import.
+4. `Import` the information of the referential.
+
+<<<

@@ -63,6 +63,10 @@ include::{includedir}/EvaluationScales.adoc[]
 
 include::{includedir}/KnowledgeBase.adoc[]
 
+== Statement of applicability
+
+include::{includedir}/SOA.adoc[]
+
 == Dashboard
 
 include::{includedir}/Dashboard.adoc[]
