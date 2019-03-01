@@ -38,6 +38,7 @@ image:OPRiskSheet.png[Operational Risk Sheet]
   b.	Refused
   c.	Accepted
   d.	Shared
+7. Proposals of controls, which come from referentials.
 
 NOTE: Once the validation has been done, the risk is treated.
 
