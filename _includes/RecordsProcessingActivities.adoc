@@ -1,0 +1,93 @@
+The menu is always accessible from the main view of MONARC:
+
+1.	Calling the right contextual menu image:Menu.png[pdfwidth=4%,width=4%]
+
+image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+
+[start=2]
+.	Calling the Management view of `Record of processing activites`
+
+image:ContextMenuRecord.png[ContextMenuRecord]
+
+[NOTE]
+===============================================
+The main goal of this functionality is to help companies to have a list of their processing activities to help to be compliant with GDPR
+
+===============================================
+
+[start=3]
+.	Create the first processing activity
+
+image:FirstProcessingActivity.png[FirstProcessingActivity]
+
+To create a new processing activities you can:
+[start=4]
+.	`Import` from a JSON file previously exported from MONARC
+. or `Create` it from an existing one
+.	if you create one without importing, you have to set a label
+
+image:ProcessingActivityCreation.png[ProcessingActivityCreation]
+
+The first processing activity is now created. According to the GDPR you can now:
+
+image:ProcessingActivityFirst.png[ProcessingActivityFirst]
+
+. Fill six categories (Description, Actors, Categories of data subjects and personal data, Recipients, International transfers, Proecssors)
+
+You can also :
+[start=2]
+.	`Download` informations of all the processecing activities.
+. `Create` a new processing activity.
+. `Download` informations of all the selected processecing activity.
+.	`Delete` the selected processing activity.
+. Show or hide a category.
+
+=== Description
+
+In this section you have the general information about the selected processing activity:
+
+image:ProcessingActivityDescription.png[ProcessingActivityDescription]
+
+.	`Edit` the name of the selected processecing activity.
+. See the date of creation (automaticly fill by MONARC).
+.  See the date of last update (automaticly fill by MONARC).
+.	`Fill` the purpose of the processecing activity.
+. `Describe` the main security measures.
+
+[NOTE]
+===============================================
+To edit a field, you just have to click in the corresponding area to enable the edition and click outside to save your work.
+
+===============================================
+
+=== Actors
+
+In this section you have the actors about the selected processing activity:
+
+image:ProcessingActivityActors.png[ProcessingActivityActors]
+
+. Just click inside to edit and outside to save.
+. Before creating an actor, you can choose one from the existing ones.
+. Delete the corresponding fields of the array.
+. You can `create` several joint controller for one processing activities.
+
+=== Categories of data subjects and personal data
+
+In this section you have the actors about the selected processing activity:
+
+image:ProcessingActivityData.png[ProcessingActivityData]
+
+. `Add` several type of data subjects.
+. `Categories of data subjects`, `Description` and `Description of rentention period` are standard editable field.
+. Just type the `category of personal data` and rpess enter to save it.
+. Set the number for the retention and choose the duration in the dropdown list. 
+. `Delete` the corresponding type of data subjects.
+
+=== Recipients
+
+=== Internation transfers
+
+=== Proecssors
+
+
+<<<

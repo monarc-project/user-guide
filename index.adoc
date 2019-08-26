@@ -71,6 +71,10 @@ include::{includedir}/SOA.adoc[]
 
 include::{includedir}/Dashboard.adoc[]
 
+== Record of processing activities
+
+include::{includedir}/RecordsProcessingActivities.adoc[]
+
 == Interviews
 
 include::{includedir}/Interviews.adoc[]

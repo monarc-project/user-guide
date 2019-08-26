@@ -13,7 +13,7 @@ All parameters are managed with the same view:
 
 image:KBmanagement.png[KBmanagement]
 
-1.	`Selecting` the desired parameter tab
+1.	`Selecting` the desired parameter tab.
 2.	Added a `parameter` according to the active tab.
 3.	`Finding` a parameter.
 4.	`Select` a parameter (for deletion).
