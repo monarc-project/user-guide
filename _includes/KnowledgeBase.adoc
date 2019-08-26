@@ -91,4 +91,13 @@ Tags represent a categorization of operational risks. It is a logical grouping o
 It is a list of risks created by default or added specifically. Each risk can be associated with one or more tags, which allows, when depositing an asset in the analysis to propose default risks, as for the risks of the information.
 It is possible to link security controls as for the risks of the information.
 
+=== Recommendations Sets
+
+It is the repository that is used by default to manage the recommendations.
+
+image:RecommendationSet.png[RecommendationSet]
+
+1.	This area is dedicated to manage the selection of sets of recommendations. In the right, there are the standard buttons to edit, add and delete a referential.
+2.	This area is dedicated so manage recommendations of the selected set.
+
 <<<
