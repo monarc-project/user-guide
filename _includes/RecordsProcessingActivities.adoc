@@ -38,7 +38,7 @@ You can also :
 [start=2]
 .	`Download` informations of all the processecing activities.
 . `Create` a new processing activity.
-. `Download` informations of all the selected processecing activity.
+. `Download` informations of the selected processecing activity.
 .	`Delete` the selected processing activity.
 . Show or hide a category.
 
@@ -49,8 +49,8 @@ In this section you have the general information about the selected processing a
 image:ProcessingActivityDescription.png[ProcessingActivityDescription]
 
 .	`Edit` the name of the selected processecing activity.
-. See the date of creation (automaticly fill by MONARC).
-.  See the date of last update (automaticly fill by MONARC).
+. See the date of creation (automaticly filled by MONARC).
+.  See the date of last update (automaticly filled by MONARC).
 .	`Fill` the purpose of the processecing activity.
 . `Describe` the main security measures.
 
@@ -78,16 +78,44 @@ In this section you have the actors about the selected processing activity:
 image:ProcessingActivityData.png[ProcessingActivityData]
 
 . `Add` several type of data subjects.
-. `Categories of data subjects`, `Description` and `Description of rentention period` are standard editable field.
-. Just type the `category of personal data` and rpess enter to save it.
-. Set the number for the retention and choose the duration in the dropdown list. 
+. `Categories of data subjects`, `Description` and `Description of retention period` are standard editable field.
+. Just type the `category of personal data` and press enter to save it.
+. Set the number for the retention and choose the duration in the drop-down list.
 . `Delete` the corresponding type of data subjects.
 
 === Recipients
 
+In this section you have the recipients about the selected processing activity:
+
+image:ProcessingActivityRecipient.png[ProcessingActivityRecipient]
+
+. `Add` several type of data subjects.
+. Use a `recipient` from the drop-down list or create a new one.
+. Set the `recipient type` from the drop-down list.
+. `Description` is a standard editable field.
+. `Delete` the corresponding recipient.
+
 === Internation transfers
 
+In this section you can add an international transfer for the selected processing activity:
+
+image:ProcessingActivityInternationalTransfer.png[ProcessingActivityInternationalTransfer]
+
+. `Add` one more international transfer.
+. `Organisation` , `description`, `country` and `documents` are standard editable field.
+. `Delete` the corresponding international transfer.
+
 === Proecssors
+
+In this section you can manage the processors for the selected processing activity:
+
+image:ProcessingActivityProcessor.png[ProcessingActivityProcessor]
+
+. `Add` one more processor and feel free to select an existing one or create a new one.
+. `Name` , `Contact`, `Activity` and `security measures` are standard editable field.
+. Use an `actor` from the drop-down list or create a new one.
+. `Delete` the corresponding actor.
+. `Detach` the processor from the selected processing activity.
 
 
 <<<
