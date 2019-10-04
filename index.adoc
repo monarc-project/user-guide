@@ -6,7 +6,7 @@ v{docdate}
 :Revision:  0.1
 :description: MONARC User guide
 :keywords: risk-analysis, monarc
-:doctype: article
+:doctype: book
 :compat-mode!:
 :page-layout!:
 :toc: left
