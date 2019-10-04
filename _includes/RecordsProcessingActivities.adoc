@@ -32,7 +32,7 @@ The first processing activity is now created. According to the GDPR you can now:
 
 image:ProcessingActivityFirst.png[ProcessingActivityFirst]
 
-. Fill six categories (Description, Actors, Categories of data subjects and personal data, Recipients, International transfers, Proecssors)
+. Fill six categories (Description, Actors, Categories of data subjects and personal data, Recipients, International transfers, Processors)
 
 You can also :
 [start=2]
@@ -105,7 +105,7 @@ image:ProcessingActivityInternationalTransfer.png[ProcessingActivityInternationa
 . `Organisation` , `description`, `country` and `documents` are standard editable field.
 . `Delete` the corresponding international transfer.
 
-=== Proecssors
+=== Processors
 
 In this section you can manage the processors for the selected processing activity:
 
