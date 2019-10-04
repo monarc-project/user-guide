@@ -95,7 +95,7 @@ image:ProcessingActivityRecipient.png[ProcessingActivityRecipient]
 . `Description` is a standard editable field.
 . `Delete` the corresponding recipient.
 
-=== Internation transfers
+=== International transfers
 
 In this section you can add an international transfer for the selected processing activity:
 
