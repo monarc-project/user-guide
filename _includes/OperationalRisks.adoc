@@ -15,7 +15,7 @@ image:FieldsOperRiskTable.png[Fields Operational Risk Table]
 
 1.	`Asset`: Assets involved in the evaluation
 2.	`Risk description`: Description of risk
-3.	`Inherent risk`: Operational risk is calculated from the two factors, the probability (`Prob.`) of the risk scenario and the `Impact` based on the ROLFPfootnoteref:[rolfp] without controls in place. The current risk represents the maximum value of the probability of the ROLFP impact values.
+3.	`Inherent risk`: Operational risk is calculated from the two factors, the probability (`Prob.`) of the risk scenario and the `Impact` based on the ROLFPfootnote:[rolfp] without controls in place. The current risk represents the maximum value of the probability of the ROLFP impact values.
 4.	`Net risk`: Net risk represents the risk of the measures currently in place. The calculation is the same as for the inherent risks.
 5.	`Existing controls`: Describe here, in a factual manner, the control in place.
 6.	`Treatment`: Indication if the risk is treated and risk profile (see <<Operational risk sheet>>).
@@ -28,8 +28,8 @@ The risk card is displayed when you click on the `Not treated` link in the opera
 image:OPRiskSheet.png[Operational Risk Sheet]
 
 1.	`Back to the list`: Return to risk table.
-2.	`Current risk`: Values for risk probability (`Prob.`) and ROLFPfootnoteref:[rolfp] Criteria.
-3.	`Residual risk` : Values for risk probability and ROLFPfootnoteref:[rolfp] criteria (not yet treated). Those values should be adjusted according to the recommendation and the measures that will be put in place.
+2.	`Current risk`: Values for risk probability (`Prob.`) and ROLFPfootnote:[rolfp] Criteria.
+3.	`Residual risk` : Values for risk probability and ROLFPfootnote:[rolfp] criteria (not yet treated). Those values should be adjusted according to the recommendation and the measures that will be put in place.
 4.	Reminders of the parameters of the risk table.
 5.	`Recommmendations` : Creation / Assignment button for adding one or more recommendations.
 6.	`Kind of treatment` : Selection of the type of risk treatment, the 4 values have their sources of ISO / IEC 27005 :

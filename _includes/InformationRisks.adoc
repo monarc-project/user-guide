@@ -2,8 +2,8 @@ By selecting the top of the analysis or an asset in the tree, the risk table app
 
 image:RiskTable.png[Risk Tables]
 
-1.	The information risk table based on CIAfootnoteref:[CIA,Confidentiality, Integrity and Availability.] criteria.
-2.	The operational risk table based on ROLFPfootnoteref:[rolfp,Reputation, Operational, Legal, Financial and Personal] (see <<Operational Risks>>)
+1.	The information risk table based on CIAfootnote:[CIA,Confidentiality, Integrity and Availability.] criteria.
+2.	The operational risk table based on ROLFPfootnote:[rolfp,Reputation, Operational, Legal, Financial and Personal] (see <<Operational Risks>>)
 
 Depending selection, the display risk table may change:
 
