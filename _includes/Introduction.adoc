@@ -7,7 +7,7 @@ The purpose of this document is to provide an exhaustive explanation of all the 
 [NOTE]
 ===============================================
 * link:https://www.monarc.lu/documentation/quick-start[*Quick Start*]: Provide a quick start with MONARC.
-* link:https://www.monarc.lu/documentation/user-guide[*Method Guide*]: Complete documentation of the method.
+* link:https://www.monarc.lu/documentation/method-guide[*Method Guide*]: Complete documentation of the method.
 * link:https://www.monarc.lu/documentation/technical-guide[*Technical Guide*]: Complete technical documentation.
 ===============================================
 
