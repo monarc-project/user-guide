@@ -86,3 +86,7 @@ include::{includedir}/Snapshots.adoc[]
 == Managing the Implementation Treatment Plan
 
 include::{includedir}/ImplementationTreatmentPlan.adoc[]
+
+== Global Dashboard
+
+include::{includedir}/GlobalDashboard.adoc[]

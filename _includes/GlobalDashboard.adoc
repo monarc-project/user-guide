@@ -1,0 +1,75 @@
+. *Overview*
+
+Global dashboard manipulates with the data stored on the Stats Service side.
+The statistics of all the existed analyzes of the instance is collected on daily base and send to the Stats Service, where it is saved in the database.
+If an analyse is removed, its related statistics data is also removed from the Stats Service database.
+You can find details of the Stats Service installation in our link:https://www.monarc.lu/documentation/technical-guide/#stats-service[*Technical Guide*],
+
+Stats Service can send anonymised statistics data (no client information to identify a client or instance) to a central data storage link:https://dashboard.monarc.lu[*Global statistics*].
+The services architecture is available link:https://monarc-stats-service.readthedocs.io/en/latest/architecture.html[*here*].
+By default the statistics is shared and aims to help the community of Monarc in the future link:https://github.com/monarc-project/MonarcAppFO/wiki/Roadmap#community[*weather forecast*].
+The statistics sharing can be disabled (see point 5 - Global Dashboard statistics sharing option).
+
+
+[start=2]
+. *Global dashboard access*
+
+The Global Dashboard is accessible from the Home page of Monarc.
+
+There are 2 types of the access, depends on the account access:
+
+* If the account has "User" or "Administrator" permissions, then it will be possible to see statistics only for analyzes to which user has an access.
+
+* If the account has "Global Dashboard" permission, then user is able to see stats for all the analyzes of the instance.
+There is also a possibility to set analyzes visibility (number 2 in the yellow box).
+
+
+[start=3]
+. *Global Dashboard access account setting*
+
+image:GlobalDashboardUserSetting.png[GlobalDashboardUserSetting,pdfwidth=50%,width=50%,align=center]
+
+
+[start=4]
+. *Home page access*
+
+The Global Dashboard tab is visible on the Home page only when there is at least 1 analysis exists and the Stats Service is setup (number 1 in the yellow box).
+
+image:GlobalDashboardHomePage.png[GlobalDashboardHomePage]
+
+
+[start=5]
+. *Global Dashboard statistics sharing option*
+
+As you can see on the screenshot below, it is possible to disable the statistics sharing for your instance.
+
+image:GlobalDashboardGlobalSetting.png[GlobalDashboardGlobalSetting,pdfwidth=50%,width=50%,align=center]
+
+[start=5]
+. *Global Dashboard analyzes visibility setting*
+
+Accessible only for accounts with "Global Dashboard" permission and can be found in the right top corner on any of the Global Dashboard charts' tab.
+Only selected analyzes will be presented on the charts.
+
+image:GlobalDashboardAnrsSettings.png[GlobalDashboardAnrsSettings,pdfwidth=70%,width=70%,align=center]]
+
+[start=6]
+. *Global Dashboard statistics overview*
+
+The are some examples of the charts, generated based on comparison of different analyzes and slices of the information.
+
+* *Informational risks*. The stats represents comparison of the informational risks of all the available analyzes.
+
+image:GlobalDashboardInfRisks.png[GlobalDashboardInformationalRisks]
+
+* *Operational risks*. The stats represents comparison of the operational risks of all the available analyzes.
+
+image:GlobalDashboardOpRisks.png[GlobalDashboardOperationalRisks]
+
+* *Cartography*. Matrix with the average analyzes levels based on impact and likelihood.
+
+image:GlobalDashboardCarto.png[GlobalDashboardCartography]
+
+There are also *Threats* and *Vulnerabilities* comparison charts based on specific threats and vulnerabilities values evolution.
+
+<<<
