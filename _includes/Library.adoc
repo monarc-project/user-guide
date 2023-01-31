@@ -8,7 +8,7 @@ image:Library.png[Library]
 2.	Button for creating / importing assets (see <<Create an Asset>>).
 3.	Categories level of the library. There are usually two:
 
-  a.  `Fundamentals`: Contains all default assets offered by CASES.
+  a.  `Fundamentals`: Contains all default assets offered by NC3.
   b.  `EBIOS`: Contains assets inspired by EBIOS. These are assets containing non-optimized risk models.
 
 4.	Sub-categories level.

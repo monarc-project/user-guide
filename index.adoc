@@ -1,8 +1,7 @@
 = User Guide
-CASES Luxembourg <info@cases.lu>
+NC3 Luxembourg <info@nc3.lu>
 v{docdate}
-:title-logo-image: images/header.svg
-:Date: 2017-09-05
+:Date: 2023-01-31
 :Revision:  0.1
 :description: MONARC User guide
 :keywords: risk-analysis, monarc

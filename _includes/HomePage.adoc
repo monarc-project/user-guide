@@ -21,7 +21,7 @@ image:NewRiskAnalysis.png[Create a risk analysis]
 
 
 1.	The creation of a risk analysis is always based on an existing model. There are two choices for this:
-a.	`List of risks models`: Proposes available models in the knowledge bases. This option has at least two choices, `Modelling CASES`,
+a.	`List of risks models`: Proposes available models in the knowledge bases. This option has at least two choices, `Modelling NC3`,
 this is the default template made available by the MONARC editor. It provides sufficient knowledge bases to start a risk analysis.
 This option should be used by default to start a new risk analysis. There is also the choice `Blank model` which is a completely empty model.
 This template is typically used temporarily as a _Sandbox_ to test the contents of an import file, for example.
