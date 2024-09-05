@@ -6,7 +6,7 @@ there are already several and according to the state of progress of the analysis
 
 image:HomePage.png[HomePage]
 
-1. Graph showing the statistics of the last modified risk analysis.
+1. The graph is showing the statistics of the last modified risk analysis.
 2. List of existing analyses. In this case, there is only one. Click on the analysis to select it. (See <<Main risk analysis view>>).
 3. Click to `create a risk analysis`. (See <<Creating a Risk Analysis>>.).
 4. Navigation bar.
