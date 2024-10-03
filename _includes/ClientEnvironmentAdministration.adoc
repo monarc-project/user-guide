@@ -1,19 +1,21 @@
 There are two profiles:
 
-* Administrator: Rights to create, modify, and delete users.
+* Administrator: An administrator can create, modify, and delete users.
 
 +
 [NOTE]
-An administrator does not have the access rights on the risk analysis (but he can give them).
+An administrator does not have access rights to the risk analysis (but he can give them).
 +
 
-*	Users: Access right on risk analysis.
+*	Users: The users have access rights to risk analysis.
+
+In the top right-hand corner of the Navigation bar, the follwing isons can be seen:
 
 image::AdminBar.png[Admin Bar,pdfwidth=20%,width=20%,align=center]
 
-1.	Administration (Enable only for administrator users)
+1.	Administration (Accessible only for administrator users)
       - Manage users (see <<Manage users>>)
-      - Organization (see <<Organization>>)
+      - General settings (see <<Organization>>)
       - Deliverable templates (see <<Deliverable templates>>)
 2.	User account (see <<User account>>)
 3.  Interface language (see <<Interface language>>)
@@ -24,33 +26,76 @@ image::AdminBar.png[Admin Bar,pdfwidth=20%,width=20%,align=center]
 
 ===== List of users
 
+By clicking on the gear icon in the top right-hand corner, the following menu appears:
+
+image:
+
+If you click on the ‘Manage users’ option, the Users screen appears:
 image:UserList.png[User List]
 
-1. Create a user or administrator.
-2. Status: Activating or deactivating accounts.
-3. 	Information about the person.
-4.	Editing a person's information.
-5.	Deleting a person.
+1. *Users*: You can create a user or administrator.
+2.	*Search*: You can search among the users/administrators (the list will automatically update)
+3.	*Filter*: you can filter the list, there are three options: Show all, Show inactive only, Show active only
+4.	*Undo*: You can go back to the previously filtered list
+5.	*Status*: This column shows the status of the users (active: chackmark, inactive cross)
+6.	*First and Last name of the users
+7.	*E-mail*: the email addresses of the users
+8.	*2FA*: this column shows whether the user enables or not enabled two factor authentication
+9.	*Edit*: by clicking on a pencil icon, you may edit the chosen user’s data in the system
+10.	*Reset password*: by clicking on the circular two arrows icon, you may reset the password of the chosen user
+11.	*Delete*: by clicking on the trash bin icon, you can delete the schosen user
+
+===== Add a user
+
+If you click on the + icon in the top left-hand corner, the following screen appears:
+
+image:
+
+Fill in the ‘First name’ and ‘Last name’ fields, and add an e-mail address. 
+
+image:
+
+Then, click on the ‘Permissions and Roles’ option to change the screen, where you can choose from three options: Administrator, User, or Global dasboard.
+
+image:
+
+===== Set a password
+
+As the next step, set the password for the new user by clicking on the toggle to activate it:
+
+image:
+
+Once the password field is populated, click on the Create button (in the lower right-hand corner). The newly-created user becomes visible in the list of users.
+
+image:
 
 ===== User rights and information
 
-After clicking on the icon image:Edit.png[Edit,pdfwidth=4%,width=3%], the following screen appears:
+===== Edit a user
+
+After clicking on the pencil icon image:Edit.png[Edit,pdfwidth=4%,width=3%], the following screen appears:
 
 image:UserRights.png[User Rights]
 
-1.	General information.
-2.	Selection of profiles `Administrator` or/and `User`.
-3.	Management of user rights by analysis. By risk analysis, there are 3 types of rights:
+1.	General information (First name, Last name, E-mail address).
+2.	Permissions and roles (`Administrator` or/and `User`, `Global dashboard`).
+3.	Set password
+4.	Permissions (No access, Read, Read and write)
 
-    *	No access.
-    *	Read only.
-    *	Read and write.
+Once you click on the down-pointing triangle, the three options for permission levels become visible.
+
+image:
 
 ==== Organization
 
-image:Organization.png[Organization]
+Click on the gear ison in the top right-hand corner, then select the second menu item from the submenu. The ‘General settins’ window opens with two sections: Organization information’ and ‘Sharing statistics’.
 
-1.	Manage general information about the entity (MONARC account).
+image:
+
+The ‘Organization information’ stores information about the name of your organization and its e-mail address, whereas the ‘Sharing statistics’ section shows whether you agree to share the statistics of your organizations or not.
+Once you populated the fields for ‘Organization information’ and made your decision regarding ‘Sharing statistics’, click on the ‘Update settings’ button to save your settings.
+
+image:Organization.png[Organization]
 
 ==== Deliverable templates
 

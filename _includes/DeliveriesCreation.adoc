@@ -1,4 +1,4 @@
-It's possible with MONARC to custom by organization the different deliveries which are generated.
+It's possible with MONARC to custom by the organization the different deliveries which are generated.
 
 image:DeliveriesManagementView.png[DeliveriesManagementView]
 
