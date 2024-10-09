@@ -3,6 +3,6 @@ By clicking on the numbers `1` to `4`, a contextual menu appears.
 image::MethodSteps.png[Method Steps,pdfwidth=99%]
 
 1. Ticking boxes change the progress of the method.
-2. Click on the label, call the contextual management sub-screen.
+2. Click on the label, and call the contextual management sub-screen.
 
 NOTE: More information about method steps. Consult the link:/method-guide[*Method Guide*].
