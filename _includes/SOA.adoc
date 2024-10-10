@@ -1,35 +1,45 @@
 The menu is always accessible from the main view of MONARC:
 
-1.	Calling the right contextual menu image:Menu.png[pdfwidth=4%,width=4%]
+To reach the Statement of applicability screen, please click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] on the right:
 
-image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+Image: 
 
-[start=2]
-.	Calling the Management view of `Statement of applicability`
+Then, from the drop-down menu, choose the `Statement of applicability` menu item:
+
+Image:
 
 image:ContextMenuSoa.png[ContextMenuSoa]
 
-The view `Statement of applicabality` above:
+The `Statement of applicabality` screen appears:
+
+image: 
 
 image:Soa.png[Soa]
 
-1. Choose the `referential` on which one you want to work.
+1. Choose the `referential` (ISO 27002, NIST Core, PCI DSS 4.0) on which one you want to work.
 2. The `code` is a clickable field, click on it and see all the risks attached to the security control selected.
+3.	To choose whether the security control is included or excluded, simply click on the acronym. A description will appear when you hover over it with the cursor.
+4.	The field `remarks/justification`, `Evidences`, `Actions` are text fields, just click on them and fill in the relevant cell.
+5.	`Export` the selected view in CSV.
+6.	`Import` information for the selected referential from another.
+7.	The Level of compliance is a drop-down list.
 
-image:SoaRisksList.png[SoaRisksList]
+The inclusion/exclusion acronyms are as follows:
 
-[start=3]
-.	Choose if the security control is `included or excluded`, just click on the acronym, the description of it appears if the cursor is on it.
-. The field `remarks/justification`, `Evidences`, `Actions` are text field, just click on it and fill.
-. The `Level of compliance` is a drop-down list.
-. `Export` the selected view in CSV.
-. `Import` information for the selected referential from another.
+EX 	- Excluded
+CO	- Contractual obligations
+BP	- Best practices
+LR	- Legal requirements
+BR	- Business requirements
+RRA	- Results of risk assessment
 
-image:SoaReferentialImport.png[SoaReferentialImport]
+If you click on the ‘Import from other referential’, the Import a statement of applicability (SOA) screen appears:
 
-1. `Read` what you are willing to do.
-2. Choose the `referential` which contains information that you want to convert into the selected one.
-3. Choose `information` you want to import.
-4. `Import` the information of the referential.
+image:
+
+1.	Please `Read` the text before importing
+2.	Choose the `referential` which contains information that you want to convert into the selected one.
+3.	Choose import options
+4.	Clik on the `Import` button so  the information of the referential is imported.
 
 <<<
