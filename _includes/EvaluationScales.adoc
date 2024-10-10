@@ -1,61 +1,77 @@
-The menu is always accessible from the main view of MONARC:
+To reach the ‘Evaluation scale’ menu, use the contextual menu (three-dot menu) in the top right-hand corner of the application. 
 
-1.	Calling the right contextual menu image:Menu.png[pdfwidth=4%,width=4%]
+Image:
 
-image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+Once you click on the three-dot menu, a submenu opens. Choose the submenu ‘Evaluation scales’:
 
-[start=2]
-.	Calling the Management view of `Evaluation scales`
+Image:
 
-image:ContextMenuEvaluationScale2.png[ContextMenuEvaluationScale]
+The `Evaluation scales` window opens which has the following parts (from top to bottom):
 
-The view `Evaluation scales` shows the following criteria:
-
-*	Impact scale
-*	Likelihood scale
-*	Vulnerability scale
-*	The management of information risk acceptance thresholds
-*	The management of operational risk acceptance thresholds
+1.	Impacts and consequences scale
+2.	Likelihood scale
+3.	Vulnerabilities scale
+4.	Acceptance thresholds of information risks
 
 NOTE: All scales are editable and customizable.
 
 WARNING: However, it is no longer permitted to modify scales as soon as an evaluation has been encoded.
 
-=== Impact scale
+=== Impacts and consequences scale
 
-image:ScaleImpact.png[ScaleImpact]
+The first section of the Evaluation scales window is the ‘Impacts and consequences scale’ table. It is a fully customizable table, by clicking on its different parts, you can edit it.
+
+Image:
 
 1.	Click to modify the number of scales.
 2.	Click on `Show hidden impacts` to show or hide the criteria not used in the analysis.
-3.	Click on the symbol to hide an unused column.
-4.	Click on `New column name` to add new impact criteria.
-5.	Click to edit the headings of each scale.
+3.	Click to edit the headings of each scale.
+4.  Click on the symbol to hide an unused column.
+5.	Click on the `New column name` to add new impact criteria.
+
+Please note that you can edit the headings and the content of the cells by simply clicking on them, allowing you to provide different values or explanations.
+
+Image:
 
 === Likelihood scale
 
+The Likelihood scale is the second part of the window. In the below example, there are only five scale values of the scale between 0-4.  
+
+Image:
+
 image:ScaleThreats.png[ScaleThreats]
 
-1.	Click to modify the number of scales
-2.	Click to edit the heading on each scale (Management identical to the impact scale).
+You can modify it easily. Just click on any of the values and give a different value: the Impacts and consequences scale table will change accordingly.
+
+Image:
+
+Just like with the scale values, you can also modify the description/explanation of the values by clicking on them and giving a different description/explanation.
+
+Image:
 
 === Vulnerability scale
 
-image:ScaleVulunerabilities.png[ScaleVulunerabilities]
+Image:
 
-1.	Click to modify the number of scales
+1.	Click to modify the number of scales.
 2.	Click to edit the heading on each scale (Management identical to the impact scale).
 
-
 === Acceptance thresholds
+
 There are two separate tables for acceptability thresholds, as operational risk and information risk are not calculated in the same way.
 Information risks are calculated using three criteria:
 
-image:InformationTresholds.png[InformationTresholds]
+Image:
 
 1. Modification of threshold levels of information risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
-2. Information risks are calculated using three criteria: `Impact x Threat x Vulnerability`
-3. Modification of threshold levels of operational risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
-4. Operational risks are calculated using two criteria: `Impact x Probability`
+2. Information risks are calculated using three criteria: `Impact x Threat x Vulnerability`.
+
+The acceptance threshold table for operational risks is different. To reach it, you should click on the ‘Operational risks’ tab at the top of the  Evaluation scales window.  
+
+Image:
+
+1. Modification of threshold levels of operational risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
+2. Operational risks are calculated using two criteria: `Impact x Probability`.
 
 <<<
 
