@@ -1,23 +1,34 @@
-The menu is always accessible from the main view of MONARC:
+The knowledge base menu is always accessible from the main view of MONARC:
 
-1.	Calling the right contextual menu image:Menu.png[pdfwidth=4%,width=4%]
+Click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%]
 
-image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale] in the top right-hand corner of the screen and choose the submenu ‘Knowledge base’ from the list:
 
-[start=2]
-.	Calling the Management view of `Knowledge base`
+Image:
 
 image:ContextMenuKB.png[ContextMenuKB]
 
-All parameters are managed with the same view:
+All parameters are managed with the same view. The knowledge base has the following tabs:
 
-image:KBmanagement.png[KBmanagement]
+1.	Asset types
+2.	Threats
+3.	Vulnerabilities
+4.	Referentials
+5.	Information risks
+6.	Tags
+7.	Operational risks
+8.	Recommendation sets
 
-1.	`Selecting` the desired parameter tab.
-2.	Added a `parameter` according to the active tab.
-3.	`Finding` a parameter.
-4.	`Select` a parameter (for deletion).
-5.	`Editing / deleting` active parameters.
+In the User Guide, the tabs will be explained in the above order.  
+The knowledge base opens with the ‘Asset types’ tab and contains the following main functionalities:
+
+Image:
+
+1.	`Select` the desired parameter tab.
+2.	Add a `parameter` according to the active tab.
+3.	`Search for` a parameter.
+4.	`Select` a parameter (for manipulation).
+5.	`Edit/delete` selected parameters.
 
 Generally, all parameters have a code, label, and description
 
@@ -25,15 +36,24 @@ Generally, all parameters have a code, label, and description
 *	The label is displayed in all MONARC views.
 *	The description is the label that typically appears in the tooltip.
 
-[NOTE]
-===============================================
-When adding an item, all the tabs (except information risks) have the possibility to add items from external files (click at the top of the pop-up on Import from files).
+If you click on the ‘Add an asset’ icon, the ‘Add an asset type’ window appears. You can add assets by importing them from a file or from MOSP.
+If you choose to import an asset/assets from a file, the ’File import center’ appears.
 
-image:KBImportCenter.png[KBmanagement]
+Image:
 
-1.	Display all the information needed to create the right file.
-2.	Upload the file.
-3.	Import it.
+1.	You can choose a file to upload it.
+2.	You can get information on the form and content requirements related to the file to be uploaded.
+3.	You can import the file.
+
+If you click on the ‘I’ icon, the File Schema popup appears, which provides additional information about the mandatory fields to populate when creating a file to be uploaded.
+
+Image:
+
+Selecting assets separately or as a group
+
+You can select assets separately by clicking on the checkbox in front of the relevant asset (1), or you can select all the assets in the list by choosing the top checkbox next to the column header called ‘Status’ (2).
+
+Image:
 
 ===============================================
 
@@ -42,62 +62,105 @@ image:KBImportCenter.png[KBmanagement]
 There are two types of assets:
 
 *	Primary or business assets: They generally represent, but are not limited to, internal or external services, processes or information. They are the ones that are at the root of the analysis and that will decline their impact on other assets. The containers used to organize the analysis visually are declared as a primary asset (e.g. Back Office).
-*	Secondary or supporting assets: These are the assets on which risks are associated, they are using to describe the risk profile of the primary assets.
+*	Secondary or supporting assets: These are the assets on which risks are associated, they are used to describe the risk profile of the primary assets.
 
 === Threats
 
-The essential parameters of threat threats are the association with the CIA criteria. It is important when creating a new threat to properly specify these criteria, because they will condition the risk tables.
+The essential parameters of threat threats are in alignment with the CIA criteria. It is important when creating a new threat to properly specify these criteria, because they will influence the risk tables.
 Example: Passive listening (listening, watching without touching anything) is a threat, for example, that affects only the criterion of confidentiality.
 Threats have themes to generate statistics.
 
+The screenshot below shows an example of what the Threats table looks like. As you can see, its structure is very similar to that of the Asset types table, and you can perform the same operations with the elements.
+
+Image:
+
 ===	Vulnerabilities
 
-Vulnerabilities must describe the risk context in a negative way. The greater the vulnerability, the less existing or effective measures are. Vulnerability is inverse to maturity.
+Vulnerabilities must negatively describe the risk context. The greater the vulnerability, the less existing or effective the measures are. Vulnerability is inverse to maturity.
 Example: "Absence of identification of sensitive goods": Low vulnerability if the sensitive goods are identified and vice versa, the vulnerability is great if they are not.
-The description of the vulnerability is very important because it appears in the risk table as an additional description that helps the security specialist to refine his questionnaire or the precise points that are sought in relation to a risk.
+The description of the vulnerability is very important because it appears in the risk table as an additional description that helps the security specialist refine a questionnaire or the precise points that are sought about a risk.
+
+The screenshot below shows an example of what the Vulnerabilities table looks like. As you can see, its structure is very similar to that of the Asset types table, and you can perform the same operations with the elements.
+
+Image:
 
 ===	Referentials
 
-It is the repository that is used by default to help the implementation of controls with regard to a specific risk.
+It is a repository used by default to assist in the implementation of controls for managing a specific risk.
+
+Image:
 
 image:Referential.png[Referential]
 
-1.	This area is dedicated to manage the selection of referential. In the right, there are the standard buttons to edit, add and delete a referential.
-2.	This new icon appears when you have two referential, it allows you to add, import or export matching between the selected referential and the others.
-3.	This area is dedicated so manage security controls of the selected referential.
+1.	This area is dedicated to managing the selection of referential. On the right, there are the standard buttons to edit, add, and delete a referential.
+2.	This new icon appears when you have two referentials. It allows you to add, import or export matching between the selected referential and the others.
+3.	This area is dedicated to managing security controls of the selected referential.
 
-=== Risks
+=== INformation Risks
 
-This table is the core of MONARC's knowledge base. It is here that associations are made between "Asset Type", "Threat" and "Vulnerability". It is the combination of the risks inherent in each asset that will be proposed by default when the risk model is created.
-For each association that can be assimilated as a risk scenario, it is possible to associate security measures from the referentials tabs.
-Only supporting assets are available for a Threat / Vulnerability association.
+This table is the core of MONARC's knowledge base. This is where associations between 'Asset Type,' 'Threat,' and 'Vulnerability' are made. 
+The combination of risks inherent to each asset will be proposed by default when the risk model is created. 
+For each association, which can be considered a risk scenario, it is possible to link security measures from the referentials tabs. 
+Only supporting assets are available for Threat/Vulnerability associations.
 
-image:KBinformationRisks.png[KBinformationRisks]
+Image:
 
-1.	It is possible to switch between referential to see its linked controls of the risks show below.
-2.	This new icon appears when you have two referential, it allows you to automatically linked controls of a referential to risks. It uses the matching defined in the step before.
+It is possible to switch between referentials to see their linked controls of the risks shown below.
+Use the down-pointing arrow, so you can choose between the options that appear.
 
-image:KBcreateAmvs.png[KBcreateAmvs]
+Image:
+
+This new icon (Update controls) appears when you have two referentials. 
+It allows you to automatically linked controls of a referential to risks. It uses the matching defined in the step before.
+
+Image:
+
+The Update controls popup opens, where you can use two drop-down menus to match two referentials.
+
+Image:
 
 1.	The first referential is the one which you want to link to the risks.
 2.	The second is the source you want to use (it has taken risks linked to its controls).
 
 === Tags (Operational Risks)
 
+The layout of the Tags table is very similar to the previous ones.
+Just like with the tables described above, you can add an element (tags), search among elements, reset the filters, or export the items as a CSV file. 
+
 Tags represent a categorization of operational risks. It is a logical grouping of risks that can then be associated with primary assets.
+
+Image:
 
 === Operational Risks
 
 It is a list of risks created by default or added specifically. Each risk can be associated with one or more tags, which allows, when depositing an asset in the analysis to propose default risks, as for the risks of the information.
-It is possible to link security controls as for the risks of the information.
+It is possible to link security controls to the risks of the information.
+
+Image:
+
+1.	Add an operational risk
+2.	Search among operational risks
+3.	Filter among tags
+4.	Choose between standards (ISO 27002, NIST Core, etc.)
+5.	Reset filters
+6.	Update controls
+7.	Export into a CSV file
+
 
 === Recommendations Sets
 
-It is the repository that is used by default to manage the recommendations.
+The Recommendations Sets table is the repository that is used by default to manage the recommendations.
 
-image:RecommendationSet.png[RecommendationSet]
+Image:
 
-1.	This area is dedicated to manage the selection of sets of recommendations. In the right, there are the standard buttons to edit, add and delete a referential.
-2.	This area is dedicated so manage recommendations of the selected set.
+1.	Add, edit, or delete a recommendation
+2.	Search among the recommendations
+3.	A drop-down menu to choose from to ‘Show all, only the inactive, or only the active  recommendations
+4.	Reset filters
+5.	Export recommendations as a CSV file
+
+When you click on the pencil icon, the ‘Edit a recommendation’ window pops up. There, you can check the meaning of the column ‘Importance’.
+
+Image:
 
 <<<
