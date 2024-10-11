@@ -28,7 +28,7 @@ image::Administration_3.png[Administration Bar,pdfwidth=20%,width=20%,align=cent
 
 By clicking on the gear icon in the top right-hand corner, the following menu appears:
 
-image:
+image: Administration_1.png[Administration,pdfwidth=20%,width=20%,align=center]
 
 If you click on the ‘Manage users’ option, the Users screen appears:
 image:UserList.png[User List]
