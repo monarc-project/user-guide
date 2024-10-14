@@ -4,7 +4,7 @@ Immediately after user authentication, the following screen appears.
 It may, however, be slightly different, if there is not yet an analysis created or if
 there are already several and according to the state of progress of the analysis.
 
-image:HomePage.png[HomePage]
+image:HomePage_1_800.png[HomePage]
 
 On the Home page, the following main areas and functionalities can be found:
 
@@ -16,9 +16,13 @@ On the Home page, the following main areas and functionalities can be found:
 
 === Creating a Risk Analysis
 
-After clicking on `Create a risk analysis`, the following pop-up appears:
+After clicking on `Create a risk analysis`, 
 
-image:NewRiskAnalysis.png[Create a risk analysis]
+image:RiskAnalysis_1_800.png[Create a risk analysis]
+
+the following pop-up appears:
+
+image:RiskAnalysis_2_800.png[Create a risk analysis popup]
 
 1. *Source*: The creation of a risk analysis is always based on an existing model. There are two choices for this:
 a.	`List of risks models`: This option proposes available models in the knowledge bases. It has at least two choices, `Modelling NC3`, and the `Blank model`.
@@ -32,7 +36,7 @@ b.	`Existing analysis`: By choosing this radio button, you can duplicate the ris
 
 === Main risk analysis view
 
-image:Main.png[Main view]
+image:RiskAnalysis_3_800.png[Main view]
 
 1.  Risk Analyses panel: Create and select a risk analysis.
 
