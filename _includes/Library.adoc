@@ -2,7 +2,7 @@
 
 Click on the `+` and the `-` to unfold and fold the categories of the Library.
 
-image:Library.png[Library]
+image:AssetsLibrary_1.png[Assets Library]
 
 1.	Search area in order to quickly find an asset.
 2.	Button for creating/importing assets (see <<Create an Asset>>).
@@ -23,7 +23,7 @@ This concept is explained in detail in the <<Type of assets>> section.
 
 Click on a primary asset of the Library, usually categorized in `Fundamentals` -> `Primary Assets`.
 
-image:PrimaryAsset.png[Primary Asset]
+image:PrimaryAssets_1_800.png[Primary Assets]
 
 1.	Asset management context menu (details in the <<Context menu of Library>>).
 2.	Add an existing asset in the structure, creating a composed asset. There is no limit to the asset tree.
@@ -40,7 +40,7 @@ The modification of the operational risk table is based on the knowledge base.
 
 Click on a secondary asset of the Library, for example on `Building` classified in `Fundamentals` -> `Buildings & Premises`.
 
-image:SecondaryAsset.png[Secondary Asset]
+image:SecondaryAssets_1_800.png[Secondary Asset]
 
 1.	Asset management context menu (details in the <<Context menu of Library>>).
 2.	Add an existing asset in the structure, creating a compound asset. There is no limit to the asset tree.
@@ -58,23 +58,21 @@ The risk table is modified from the knowledge base.
 
 By clicking on the icon image:Menu.png[context menu,pdfwidth=4%,width=4%], the following context menu appears. Whatever the asset type of the library, the menu is the same.
 
-image:ContextMenu.png[Context Menu]
+image:LibraryContextMenu_1_800.png[Library Context Menu]
 
 1.	Starts the pop-up that allows you to modify most of the parameters of an asset (see <<Edit an asset>>).
 2.	Create a copy of the asset named `Name (copy #)`, which is then renamed with the `Edit Asset` option.
 3.	Launches asset export pop-up (see <<Exporting an asset>>).
-4. Publish an asset in MOSP
+4.  Publish an asset in MOSP
 4.	Delete an asset.
 +
 WARNING: Delete action is definitive, even if the asset is used in the analysis.
-
-
 
 ==== Create an Asset
 
 In the Library, after clicking on the icon image:CreateButton.png[Add Asset,pdfwidth=4%,width=4%], the following pop-up appears:
 
-image:AddAsset.png[Add Asset]
+image:AddAsset_1_800.png[Add Asset]
 
 1.	To create an asset, it is also possible to import it (see <<Importing an asset>>). You have two options, you can import assets from the Asset import center, or MOSP.
 2.	`Name`: This name must be unique for the analysis.
@@ -145,7 +143,7 @@ WARNING: The import of an uncontrolled asset can be destructive for the current 
 
 The pop-up appears after clicking on the `Import from file` option in the `Asset Import center`.
 
-image:ImportFile.png[Import File]
+image:AssetImportCenter_1_800.png[Asset Import Center]
 
 1.	`Choose File`: Access the directories of the computer to point to a file.
 2.	`Asset password`: When exporting the selected file, a password is used to encrypt the file. Please enter the password to be used here.
@@ -159,7 +157,7 @@ The pop-up appears after clicking on the `Import from MONARC Library` option in 
 2. In the Add an asset window, the option ‘Asset import center’ should be chosen.
 3. Choose MONARC Library
 
-image:ImportMonarcLibrary.png[Import Monarc Library]
+image:AssetImportCenter_2_800.png[Asset Import Center]
 
 1.	Table of available assets in the MONARC common Library.
 2.	`Action`: Initiate the import procedure for the corresponding asset.
@@ -168,9 +166,11 @@ image:ImportMonarcLibrary.png[Import Monarc Library]
 
 To export an asset, click on the asset you want to export. Then click the `Asset management context menu` and choose the option ‘Export asset’:
 
- The ‘Export asset’ window opens where you can decide whether you want to export your asset with a custom password or without a passw
+image:ExportAsset_2.png[Export Asset]
 
-image:Export.png[Export Asset]
+The ‘Export asset’ window opens where you can decide whether you want to export your asset with a custom password or without a passw
+
+image:ExportAsset_1.png[Export Asset]
 
 1. `Custom password`: Option to encrypt the generated JSON file with a symmetric password, which is required during the import.
 2. `Without password`: If you choose this option, the JSON file will not be encrypted.

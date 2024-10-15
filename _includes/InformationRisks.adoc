@@ -1,6 +1,6 @@
 By selecting the top of the analysis or an asset in the tree, the risk table appears. There are two separate risk tables:
 
-image:RiskTable.png[Risk Tables]
+image:InformationRisks_1_800.png[Risk Tables]
 
 1.	The information risk table is based on CIAfootnote:[CIA,Confidentiality, Integrity and Availability.] criteria.
 2.	The operational risk table is based on ROLFPfootnote:[rolfp,Reputation, Operational, Legal, Financial and Personal] (see <<Operational Risks>>)
@@ -17,7 +17,7 @@ Depending on your selection, the display risk table may change:
 
 ==== Risks table
 
-image:InfoRiskTable.png[Information Risk Table]
+image:InformationRisks_2_800.png[Information Risk Table]
 
 1.	The primary asset `Printing Department` is selected in the analysis.
 2.	Display the CIA impacts on the `Printing Department`.
@@ -28,7 +28,7 @@ image:InfoRiskTable.png[Information Risk Table]
 
 The risk table consists of the following columns:
 
-image:FieldsInfoRiskTable.png[Fields of Information Risk Table]
+image:InformationRisks_3_800.png[Information Risk Table]
 
 1.	`Asset`: Assets involved in the evaluation.
 2.	`CIA Impact`: The CIA criteria that have been assigned to the `Printing Department` are inherited by default from the supporting assets.
@@ -45,7 +45,7 @@ NOTE: By hovering the cursor over the fields, a relevant tooltip appears.
 
 The risk sheet is displayed when you click on the `Not treated` link in the information risk table.
 
-image:InfoRiskSheet.png[Information Risk Sheet]
+image:RiskInformationSheet_1_800.png[Information Risk Sheet]
 
 1.	Risk values for CID criteria (not yet covered in the example).
 2.	Reminders of the parameters of the risk table.
@@ -64,7 +64,7 @@ WARNING: Do not forget to save the form in order to calculate the residual risk.
 
 The below screenshot shows an asset selected in the analysis:
 
-image:SpecificRisk.png[Specific Risk]
+image:InformationRisks_4_800.png[Specific Risk]
 
 1. Click to `create a specific risk`: A pop-up appears and allows you to associate a threat and vulnerability pair with the current asset.
 
@@ -75,7 +75,7 @@ NOTE: Threat and vulnerability must exist beforehand.
 
 By clicking on the icon image:Menu.png[pdfwidth=4%,width=4%], the context menu of the asset appears:
 
-image:ContextualMenuAsset.png[Contextual Menu of Asset]
+image:ContextualMenu_1_800.png[Contextual Menu of Asset]
 
 1.	`Edit impacts`: Displays the impact and consequence modification view (see <<Impacts and consequences>>).
 2.	`Import analysis`: By clicking on this option, the Asset import center window opens, where you can decide whether you want to import an asset by duplicating or merging it into the analysis (See <<Importing an asset>>.). You can choose a file and give a password to the import.
@@ -87,7 +87,6 @@ NOTE: The additional option, is `export with assessment`. It means, export gets 
 
 image::ExportOptions.png[pdfwidth=40%,align="center"]
 
-
 4.	Asset context: The Asset context window opens, where you can add asset context fields (labels) to the asset.
 5.  `See asset in the library`: Displays the asset from the library, allowing you to have another context menu that allows changes to the asset. (See the <<Context menu of library>>.)
 6.	`Detach` : This option removes an asset from the risk analysis.
@@ -95,29 +94,30 @@ image::ExportOptions.png[pdfwidth=40%,align="center"]
 
 WARNING: This action may lead to the loss of risk assessments for this asset and its childrens.
 
-
-
 ====	Impacts and consequences
 
-Edit impacts
+===== Edit impacts
+
 The first contextual menu of an asset is called the ‘Edit impacts’. The goal is to determine the level of primary assets and assess the potential impacts and consequences that may arise from the realization of the model's risks. 
 Once you click on the ‘Edit impacts’ link, the following pop-up appears:
 
-image:Impacts.png[Impacts]
+image:EditImpacts_1_800.png[Edit Impacts]
 
 When you hover your mouse over the eye-shaped icon next to the column names, a relevant tooltip will appear. For example, hovering over the 'Operational' column will display the following tooltip: 
 
-Image: 
+Image:EditImpacts_2_800.png[Edit Impacts]
 
 Next, set the consequences (e.g., Reputation, Operational, etc.) based on the aspects of Confidentiality, Integrity, and Availability by selecting the appropriate value (0, 1, 2, 3, or 4) from the drop-down menu:
 
-Image:
+Image:EditImpacts_3_800.png[Edit Impacts]
 
 The tooltips always help you. For example, hover your mouse over the value 2 to see the consequence it describes for the 'Operational' consequence under the 'Integrity' aspect:
 
-Image:
+Image:EditImpacts_4_800.png[Edit Impacts]
 
 These tooltips help a lot in choosing the right values. If you have selected the values everywhere, it is worth reviewing the values on the right side of the table (there are also tooltips here). 
+
+Image:EditImpacts_5_800.png[Edit Impacts]
 
 If you find the settings appropriate, save them by clicking on the ‘Save’ button.
 
@@ -128,6 +128,8 @@ NOTE: By leaving the pointer unmoved over the numbers,the meaning of this number
 When one of the criteria *C* (confidentiality), *I* (integrity) or *A* (availability) is allocated, there is a need to ask : what are the
 consequences on the company, and more particularly on its ROLFP, i.e. its **R**eputation, its **O**peration, its **L**egal, its **F**inances
 or the impact on the **P**erson (in the sense of personal data)?
+
+Image:EditImpacts_6_800.png[Edit Impacts]
 
 In the case of the above figure, the `3` (out of 5) impact on confidentiality, is explained by the maximum value ROLFP regarding
 confidentiality. For example, `3` is the consequence of the person in case of disclosure of his personal file.
