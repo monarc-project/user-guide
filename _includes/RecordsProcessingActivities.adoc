@@ -1,13 +1,13 @@
 The menu is always accessible from the main view of MONARC:
 
-1.	Calling the right contextual menu image:Menu.png[pdfwidth=4%,width=4%]
+1.	To reach the ‘Record of processing activities’ menu, first, click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] in the upper right-hand corner.
 
-image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+image:ProcessingActivities_1_800.png[Context Menu]
 
 [start=2]
-.	Calling the Management view of `Record of processing activites`
+.	Then, from the dropdown-menu choose `Record of processing activites`
 
-image:ContextMenuRecord.png[ContextMenuRecord]
+image:ProcessingActivities_2_800.png[Record of processing activities]
 
 [NOTE]
 ===============================================
@@ -15,18 +15,20 @@ The main goal of this functionality is to help companies to have a list of their
 
 ===============================================
 
-[start=3]
-.	Create the first processing activity
+====== How to record a processing activity?
 
-image:FirstProcessingActivity.png[FirstProcessingActivity]
+To create a processing activity, click on the + sign in the top right-hand corner of the screen:
 
-To create a new processing activities you can:
-[start=4]
-.	`Import` from a JSON file previously exported from MONARC
-. or `Create` it from an existing one
-.	if you create one without importing, you have to set a label
+image:ProcessingActivities_3_800.png[Record of processing activity]
 
-image:ProcessingActivityCreation.png[ProcessingActivityCreation]
+You can create a new processing activity by:
+
+.	`Importing` a JSON file previously exported from MONARC
+.   or `Creating` it from an existing one
+
+If you create a processing activity without importing it, you have to set a label.
+
+image:ProcessingActivities_4_800.png[ProcessingActivityCreation]
 
 The first processing activity is now created. According to the GDPR you can now:
 
