@@ -1,28 +1,22 @@
-The menu is always accessible from the main view of MONARC:
-
 To reach the Statement of applicability screen, please click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] on the right:
 
-Image: 
+Image:StatementApplicability_1_800.png[Contextual Menu] 
 
 Then, from the drop-down menu, choose the `Statement of applicability` menu item:
 
-Image:
-
-image:ContextMenuSoa.png[ContextMenuSoa]
+image:StatementApplicability_2_800.png[Statement of applicability menu]
 
 The `Statement of applicabality` screen appears:
 
-image: 
-
-image:Soa.png[Soa]
+image:StatementApplicability_3_800.png[Statement of applicability screen] 
 
 1. Choose the `referential` (ISO 27002, NIST Core, PCI DSS 4.0) on which one you want to work.
 2. The `code` is a clickable field, click on it and see all the risks attached to the security control selected.
-3.	To choose whether the security control is included or excluded, simply click on the acronym. A description will appear when you hover over it with the cursor.
-4.	The field `remarks/justification`, `Evidences`, `Actions` are text fields, just click on them and fill in the relevant cell.
-5.	`Export` the selected view in CSV.
-6.	`Import` information for the selected referential from another.
-7.	The Level of compliance is a drop-down list.
+3. To choose whether the security control is included or excluded, simply click on the acronym. A description will appear when you hover over it with the cursor.
+4. The field `remarks/justification`, `Evidences`, `Actions` are text fields, just click on them and fill in the relevant cell.
+5. `Export` the selected view in CSV.
+6. `Import` information for the selected referential from another.
+7. The Level of compliance is a drop-down list.
 
 The inclusion/exclusion acronyms are as follows:
 
@@ -35,7 +29,7 @@ RRA	- Results of risk assessment
 
 If you click on the ‘Import from other referential’, the Import a statement of applicability (SOA) screen appears:
 
-image:
+image:ImportSOA_1_800.png[Import a statement of applicability screen] 
 
 1.	Please `Read` the text before importing
 2.	Choose the `referential` which contains information that you want to convert into the selected one.
