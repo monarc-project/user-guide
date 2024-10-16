@@ -5,44 +5,33 @@ The `Interviews` menu is always accessible from the main view of MONARC:
 
 1. To reach the Interviews menu, first, click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] in the upper right-hand corner.
 
-image:
-
-image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+image:Interviews_1_800.png[Context Menu Interviews]
 
 2. Then, from the dropdown-menu, choose the menu `Interviews table`:
 
-image:
+image:Interviews_2_800.png[Interviews Table]
 
 3.	Click on the link `Add an interview`
 
-image:
+image:Interviews_3_800.png[Add an interview]
 
 4. The `Interviews table` window opens
 
-image:
+image:Interviews_4_800.png[Interviews Table window]
 
 Some information has to be entered
 
 1. Fill out the `Date`.
 2. Give the `Names` of the people or the name of the department participate in the ineterview.
 3. Enter the `Contents` covered.
+
+image:Interviews_5_800.png[Interviews Table - add an interview]
+
 4. Once all the fields are filled, click on the link `Create an interview`.
 
 The Interview table popup appears with the data you provided in the previous screen.
 
-image:
+image:Interviews_6_800.png[Interviews Table - new interview appears]
 
 <<<
-
-
-
-
-
-
-
-
-
-
-
-
 
