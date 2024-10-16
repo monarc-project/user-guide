@@ -1,10 +1,7 @@
-The knowledge base menu is always accessible from the main view of MONARC:
+The knowledge base menu is always accessible from the main view of MONARC.
+Click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] in the top right-hand corner of the screen and choose the submenu ‘Knowledge base’ from the list:
 
-Click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%]
-
-image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale] in the top right-hand corner of the screen and choose the submenu ‘Knowledge base’ from the list:
-
-Image:
+Image:KnowledgeBase_1_800.png[Knowledge Base Menu]
 
 image:ContextMenuKB.png[ContextMenuKB]
 
@@ -22,10 +19,10 @@ All parameters are managed with the same view. The knowledge base has the follow
 In the User Guide, the tabs will be explained in the above order.  
 The knowledge base opens with the ‘Asset types’ tab and contains the following main functionalities:
 
-Image:
+Image:KnowledgeBase_2_800.png[Knowledge Base screen]
 
 1.	`Select` the desired parameter tab.
-2.	Add a `parameter` according to the active tab.
+2.	 Add a `parameter` according to the active tab.
 3.	`Search for` a parameter.
 4.	`Select` a parameter (for manipulation).
 5.	`Edit/delete` selected parameters.
@@ -36,10 +33,11 @@ Generally, all parameters have a code, label, and description
 *	The label is displayed in all MONARC views.
 *	The description is the label that typically appears in the tooltip.
 
-If you click on the ‘Add an asset’ icon, the ‘Add an asset type’ window appears. You can add assets by importing them from a file or from MOSP.
+If you click on the ‘Add an asset’ icon, the ‘Add an asset type’ window appears. 
+You can add assets by importing them from a file or from MOSP.
 If you choose to import an asset/assets from a file, the ’File import center’ appears.
 
-Image:
+Image:FileImportCenter_1_800.png[File import center]
 
 1.	You can choose a file to upload it.
 2.	You can get information on the form and content requirements related to the file to be uploaded.
@@ -47,13 +45,13 @@ Image:
 
 If you click on the ‘I’ icon, the File Schema popup appears, which provides additional information about the mandatory fields to populate when creating a file to be uploaded.
 
-Image:
+Image:FileImportCenter_2_800.png[File import center]
 
-Selecting assets separately or as a group
+====== Selecting assets separately or as a group
 
 You can select assets separately by clicking on the checkbox in front of the relevant asset (1), or you can select all the assets in the list by choosing the top checkbox next to the column header called ‘Status’ (2).
 
-Image:
+Image:KnowledgeBase_3_800.png[Selecting assets]
 
 ===============================================
 
@@ -72,7 +70,7 @@ Threats have themes to generate statistics.
 
 The screenshot below shows an example of what the Threats table looks like. As you can see, its structure is very similar to that of the Asset types table, and you can perform the same operations with the elements.
 
-Image:
+Image:ThreatsTable_1_800.png[Threats Table]
 
 ===	Vulnerabilities
 
@@ -82,42 +80,40 @@ The description of the vulnerability is very important because it appears in the
 
 The screenshot below shows an example of what the Vulnerabilities table looks like. As you can see, its structure is very similar to that of the Asset types table, and you can perform the same operations with the elements.
 
-Image:
+Image:VulnerabilitiesTable_1_800.png[Vulnerabilities Table]
 
 ===	Referentials
 
 It is a repository used by default to assist in the implementation of controls for managing a specific risk.
 
-Image:
-
-image:Referential.png[Referential]
+image:ReferentialsTable_1_800.png[Referentials Table]
 
 1.	This area is dedicated to managing the selection of referential. On the right, there are the standard buttons to edit, add, and delete a referential.
 2.	This new icon appears when you have two referentials. It allows you to add, import or export matching between the selected referential and the others.
 3.	This area is dedicated to managing security controls of the selected referential.
 
-=== INformation Risks
+=== Information Risks
 
 This table is the core of MONARC's knowledge base. This is where associations between 'Asset Type,' 'Threat,' and 'Vulnerability' are made. 
 The combination of risks inherent to each asset will be proposed by default when the risk model is created. 
 For each association, which can be considered a risk scenario, it is possible to link security measures from the referentials tabs. 
 Only supporting assets are available for Threat/Vulnerability associations.
 
-Image:
+Image:InformationRisk_1_800.png[Information Risk Table]
 
 It is possible to switch between referentials to see their linked controls of the risks shown below.
 Use the down-pointing arrow, so you can choose between the options that appear.
 
-Image:
+Image:InformationRisk_2_800.png[Information Risk Table]
 
 This new icon (Update controls) appears when you have two referentials. 
 It allows you to automatically linked controls of a referential to risks. It uses the matching defined in the step before.
 
-Image:
+Image:InformationRisk_3_800.png[Update controls]
 
 The Update controls popup opens, where you can use two drop-down menus to match two referentials.
 
-Image:
+Image:InformationRisk_4_800.png[Update controls]
 
 1.	The first referential is the one which you want to link to the risks.
 2.	The second is the source you want to use (it has taken risks linked to its controls).
@@ -129,14 +125,14 @@ Just like with the tables described above, you can add an element (tags), search
 
 Tags represent a categorization of operational risks. It is a logical grouping of risks that can then be associated with primary assets.
 
-Image:
+Image:TagsTable_1_800.png[Update controls]
 
 === Operational Risks
 
 It is a list of risks created by default or added specifically. Each risk can be associated with one or more tags, which allows, when depositing an asset in the analysis to propose default risks, as for the risks of the information.
 It is possible to link security controls to the risks of the information.
 
-Image:
+Image:OperationalRisksTable_1_800.png[Operational Risks]
 
 1.	Add an operational risk
 2.	Search among operational risks
@@ -146,12 +142,11 @@ Image:
 6.	Update controls
 7.	Export into a CSV file
 
-
 === Recommendations Sets
 
 The Recommendations Sets table is the repository that is used by default to manage the recommendations.
 
-Image:
+Image:RecommendationsTable_1_800.png[Recommendations Sets table]
 
 1.	Add, edit, or delete a recommendation
 2.	Search among the recommendations
@@ -161,6 +156,6 @@ Image:
 
 When you click on the pencil icon, the ‘Edit a recommendation’ window pops up. There, you can check the meaning of the column ‘Importance’.
 
-Image:
+Image:EditRecommendations_1_800.png[Edit Recommendations table]
 
 <<<
