@@ -1,12 +1,10 @@
 To create an Implementation and Treatment Plan, first click on number `4`, then click on the link ‘Management of the implementation of the risk treatment plan’ in the popup appears:
 
-image:
-image:MethodScreenStep4Detailed.png[MethodScreenStep4Detailed]
+image:ImplementationTreatmentPlan_1_800.png[Treatment Plan]
 
 This view goes beyond the ISO/IEC 27005, as it enables the user to manage the follow-up to the implementation of the measures.
 
-image:
-image:PTRImplementation.png[PTRImplementation]
+image:ImplementationTreatmentPlan_2_800.png[Treatment Plan]
 
 1. This is a `recommandation` established before.
 2. Importance
@@ -16,8 +14,7 @@ image:PTRImplementation.png[PTRImplementation]
 6. `Status` of Implementation.
 7. In the Actions column, click on the relevant icon image:Action.png[pdfwidth=3%,width=2%] to implement the recommendation and switch on the following view. By clicking on the icon in the second row (Rec 3), the following screen appears:
 
-image:
-image:RecommendationImplementation.png[RecommendationImplementation]
+image:ImplementationTreatmentPlan_3_800.png[Treatment Plan]
 
 The screen provides information on the chosen asset, the threat and the vulnerability related to it, and the controls already implemented. You can set a new control (1) and launch the validation of it by clicking on the checkmark icon.
 
@@ -26,18 +23,17 @@ The screen provides information on the chosen asset, the threat and the vulnerab
 
 To set a new control, click inside the cell in the column ‘New controls’ and give a new value (1), then click on the checkmark (2) to validate it.
 
-image:
-image:RecommendationImplementationPOPUP.png[RecommendationImplementationPOPUP]
+image:ImplementationTreatmentPlan_4_800.png[Treatment Plan]
 
 The following popup appears. At the top of the window, (area bounded on a blue background) you can read the summary about the asset, the threat and the vulnerability. Below, you can add an optional comment. 
 As the final step, click on the ‘Validate’ link to save your changes. 
 
-image:
+image:ImplementationTreatmentPlan_5_800.png[Treatment Plan]
 
 Once you click on the Validation link, the application takes you back to the ‘Implementation of the risk treatment plan’ screen. 
 The changed recommendation (Rec 3) is removed from the list. 
 
-image:
+image:ImplementationTreatmentPlan_6_800.png[Treatment Plan]
 
 Now, you can follow the same procedure for each recommendation.
 After that go to your risk analysis and make a second iteration.
@@ -48,14 +44,11 @@ All validations are stored in history and can be consulted.
 Click on the link ‘Open the implementation history’ to get a list of those recommendation you have already handled.
 Since I only modified one recommendation (Rec 3), there is only one item on the list:
 
-image:
-image:RecommendationImplementationHistory.png[RecommendationImplementationHistory]
+image:ImplementationTreatmentPlan_7_800.png[Treatment Plan]
 
 The table shows all relevant data regarding the past recommendations. You can go back to the ‘Implementation of the risk treatment plan’ if you click on the ‘Back to the list’ link in the top left-hand corner. 
 Click on the orange down-pointing arrow to export this table in CSV format.
 
-image:
-image:RecommendationImplementationPast.png[RecommendationImplementationPast]
+image:ImplementationTreatmentPlan_8_800.png[Treatment Plan]
 
-
-
+<<<
