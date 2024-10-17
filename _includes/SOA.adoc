@@ -1,6 +1,6 @@
 To reach the Statement of applicability screen, please click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] on the right:
 
-Image:StatementApplicability_1_800.png[Contextual Menu] 
+image:StatementApplicability_1_800.png[Contextual Menu] 
 
 Then, from the drop-down menu, choose the `Statement of applicability` menu item:
 
