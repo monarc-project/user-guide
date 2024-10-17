@@ -4,7 +4,7 @@ Immediately after user authentication, the following screen appears.
 It may, however, be slightly different, if there is not yet an analysis created or if
 there are already several and according to the state of progress of the analysis.
 
-image:HomePage_1_800.png[HomePage]
+image:HomePage_1_800.png[Home Page]
 
 On the Home page, the following main areas and functionalities can be found:
 
@@ -27,7 +27,9 @@ image:RiskAnalysis_2_800.png[Create a risk analysis popup]
 1. *Source*: The creation of a risk analysis is always based on an existing model. There are two choices for this:
 a.	`List of risks models`: This option proposes available models in the knowledge bases. It has at least two choices, `Modelling NC3`, and the `Blank model`.
 Modelling NC3 is the default template made available by the MONARC editor. It provides sufficient knowledge bases to start a risk analysis. This option should be used by default to start a new risk analysis. 
+
 The Blank model is empty. This template is typically used temporarily as a Sandbox to test the contents of an import file, for example.
+
 b.	`Existing analysis`: By choosing this radio button, you can duplicate the risk analysis of your choice present in your environment.
 2.	*Description*: Give a meaningful description of your risk analysis.
 3.	*Language*: From the dropdown menu, choose a preferred language you want to use for your risk analysis (French, English, German, or Dutch).
