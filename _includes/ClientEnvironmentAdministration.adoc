@@ -28,9 +28,10 @@ image::Administration_3.png[Administration Bar,pdfwidth=20%,width=20%,align=cent
 
 By clicking on the gear icon in the top right-hand corner, the following menu appears:
 
-image: Administration_1.png[Administration,pdfwidth=20%,width=20%,align=center]
+image:Administration_1.png[Administration]
 
 If you click on the ‘Manage users’ option, the Users screen appears:
+
 image:Administration_2_800.png[User List]
 
 1.    *Users*: You can create a user or administrator.
@@ -38,7 +39,7 @@ image:Administration_2_800.png[User List]
 3.	*Filter*: you can filter the list, there are three options: Show all, Show inactive only, Show active only
 4.	*Undo*: You can go back to the previously filtered list
 5.	*Status*: This column shows the status of the users (active: chackmark, inactive cross)
-6.	*First and Last name of the users
+6.	*First and Last name* of the users
 7.	*E-mail*: the email addresses of the users
 8.	*2FA*: this column shows whether the user enables or not enabled two factor authentication
 9.	*Edit*: by clicking on a pencil icon, you may edit the chosen user’s data in the system
@@ -55,7 +56,7 @@ Fill in the ‘First name’ and ‘Last name’ fields, and add an e-mail addre
 
 image:AddUser_2_800.png[Add a User]
 
-Then, click on the ‘Permissions and Roles’ option to change the screen, where you can choose from three options: Administrator, User, or Global dasboard.
+Then, click on the ‘Permissions and Roles’ option to change the screen, where you can choose from three options: Administrator, User, or Global dashboard.
 
 image:AddUser_3_800.png[Add a User - User roles]
 
@@ -88,7 +89,7 @@ image:EditUser_2_800.png[Edit a User - set permissions]
 
 ==== General settings
 
-Click on the gear ison in the top right-hand corner, then select the second menu item from the submenu. The ‘General settins’ window opens with two sections: Organization information’ and ‘Sharing statistics’.
+Click on the gear ison in the top right-hand corner, then select the second menu item from the submenu. The ‘General settins’ window opens with two sections: 'Organization information’ and ‘Sharing statistics’.
 
 image:GeneralSettings_1_800.png[General settings menu]
 
