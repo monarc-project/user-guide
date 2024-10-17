@@ -1,9 +1,8 @@
 The knowledge base menu is always accessible from the main view of MONARC.
+
 Click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] in the top right-hand corner of the screen and choose the submenu ‘Knowledge base’ from the list:
 
-Image:KnowledgeBase_1_800.png[Knowledge Base Menu]
-
-image:ContextMenuKB.png[ContextMenuKB]
+image:KnowledgeBase_1_800.png[Knowledge Base Menu]
 
 All parameters are managed with the same view. The knowledge base has the following tabs:
 
@@ -19,7 +18,7 @@ All parameters are managed with the same view. The knowledge base has the follow
 In the User Guide, the tabs will be explained in the above order.  
 The knowledge base opens with the ‘Asset types’ tab and contains the following main functionalities:
 
-Image:KnowledgeBase_2_800.png[Knowledge Base screen]
+image:KnowledgeBase_2_800.png[Knowledge Base screen]
 
 1.	`Select` the desired parameter tab.
 2.	 Add a `parameter` according to the active tab.
@@ -37,7 +36,7 @@ If you click on the ‘Add an asset’ icon, the ‘Add an asset type’ window 
 You can add assets by importing them from a file or from MOSP.
 If you choose to import an asset/assets from a file, the ’File import center’ appears.
 
-Image:FileImportCenter_1_800.png[File import center]
+image:FileImportCenter_1_800.png[File import center]
 
 1.	You can choose a file to upload it.
 2.	You can get information on the form and content requirements related to the file to be uploaded.
@@ -45,15 +44,13 @@ Image:FileImportCenter_1_800.png[File import center]
 
 If you click on the ‘I’ icon, the File Schema popup appears, which provides additional information about the mandatory fields to populate when creating a file to be uploaded.
 
-Image:FileImportCenter_2_800.png[File import center]
+image:FileImportCenter_2_800.png[File import center]
 
 ====== Selecting assets separately or as a group
 
 You can select assets separately by clicking on the checkbox in front of the relevant asset (1), or you can select all the assets in the list by choosing the top checkbox next to the column header called ‘Status’ (2).
 
-Image:KnowledgeBase_3_800.png[Selecting assets]
-
-===============================================
+image:KnowledgeBase_3_800.png[Selecting assets]
 
 === Type of assets
 
@@ -70,7 +67,7 @@ Threats have themes to generate statistics.
 
 The screenshot below shows an example of what the Threats table looks like. As you can see, its structure is very similar to that of the Asset types table, and you can perform the same operations with the elements.
 
-Image:ThreatsTable_1_800.png[Threats Table]
+image:ThreatsTable_1_800.png[Threats Table]
 
 ===	Vulnerabilities
 
@@ -80,7 +77,7 @@ The description of the vulnerability is very important because it appears in the
 
 The screenshot below shows an example of what the Vulnerabilities table looks like. As you can see, its structure is very similar to that of the Asset types table, and you can perform the same operations with the elements.
 
-Image:VulnerabilitiesTable_1_800.png[Vulnerabilities Table]
+image:VulnerabilitiesTable_1_800.png[Vulnerabilities Table]
 
 ===	Referentials
 
@@ -99,21 +96,21 @@ The combination of risks inherent to each asset will be proposed by default when
 For each association, which can be considered a risk scenario, it is possible to link security measures from the referentials tabs. 
 Only supporting assets are available for Threat/Vulnerability associations.
 
-Image:InformationRisk_1_800.png[Information Risk Table]
+image:InformationRisk_1_800.png[Information Risk Table]
 
 It is possible to switch between referentials to see their linked controls of the risks shown below.
 Use the down-pointing arrow, so you can choose between the options that appear.
 
-Image:InformationRisk_2_800.png[Information Risk Table]
+image:InformationRisk_2_800.png[Information Risk Table]
 
 This new icon (Update controls) appears when you have two referentials. 
 It allows you to automatically linked controls of a referential to risks. It uses the matching defined in the step before.
 
-Image:InformationRisk_3_800.png[Update controls]
+image:InformationRisk_3_800.png[Update controls]
 
 The Update controls popup opens, where you can use two drop-down menus to match two referentials.
 
-Image:InformationRisk_4_800.png[Update controls]
+image:InformationRisk_4_800.png[Update controls]
 
 1.	The first referential is the one which you want to link to the risks.
 2.	The second is the source you want to use (it has taken risks linked to its controls).
@@ -125,14 +122,14 @@ Just like with the tables described above, you can add an element (tags), search
 
 Tags represent a categorization of operational risks. It is a logical grouping of risks that can then be associated with primary assets.
 
-Image:TagsTable_1_800.png[Update controls]
+image:TagsTable_1_800.png[Update controls]
 
 === Operational Risks
 
 It is a list of risks created by default or added specifically. Each risk can be associated with one or more tags, which allows, when depositing an asset in the analysis to propose default risks, as for the risks of the information.
 It is possible to link security controls to the risks of the information.
 
-Image:OperationalRisksTable_1_800.png[Operational Risks]
+image:OperationalRisksTable_1_800.png[Operational Risks]
 
 1.	Add an operational risk
 2.	Search among operational risks
@@ -146,7 +143,7 @@ Image:OperationalRisksTable_1_800.png[Operational Risks]
 
 The Recommendations Sets table is the repository that is used by default to manage the recommendations.
 
-Image:RecommendationsTable_1_800.png[Recommendations Sets table]
+image:RecommendationsTable_1_800.png[Recommendations Sets table]
 
 1.	Add, edit, or delete a recommendation
 2.	Search among the recommendations
@@ -156,6 +153,6 @@ Image:RecommendationsTable_1_800.png[Recommendations Sets table]
 
 When you click on the pencil icon, the ‘Edit a recommendation’ window pops up. There, you can check the meaning of the column ‘Importance’.
 
-Image:EditRecommendations_1_800.png[Edit Recommendations table]
+image:EditRecommendations_1_800.png[Edit Recommendations table]
 
 <<<

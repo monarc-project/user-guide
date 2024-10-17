@@ -1,10 +1,10 @@
 To reach the ‘Evaluation scale’ menu, use the contextual menu (three-dot menu) in the top right-hand corner of the application. 
 
-Image:EvaluationScales_1_800.png[Context Menu]
+image:EvaluationScales_1_800.png[Context Menu]
 
 Once you click on the three-dot menu, a submenu opens. Choose the submenu ‘Evaluation scales’:
 
-Image:EvaluationScales_2_400.png[Evaluation Scale Context Menu]
+image:EvaluationScales_2_400.png[Evaluation Scale Context Menu]
 
 The `Evaluation scales` window opens which has the following parts (from top to bottom):
 
@@ -21,7 +21,7 @@ WARNING: However, it is no longer permitted to modify scales as soon as an evalu
 
 The first section of the Evaluation scales window is the ‘Impacts and consequences scale’ table. It is a fully customizable table, by clicking on its different parts, you can edit it.
 
-Image:ImpactScale_1_800.png[Impact Scale]
+image:ImpactScale_1_800.png[Impact Scale]
 
 1.	Click to modify the number of scales.
 2.	Click `Show hidden impacts` to show or hide the criteria not used in the analysis.
@@ -31,25 +31,25 @@ Image:ImpactScale_1_800.png[Impact Scale]
 
 Please note that you can edit the headings and the content of the cells by simply clicking on them, allowing you to provide different values or explanations.
 
-Image:ImpactScale_2_800.png[Edit Impact Scale]
+image:ImpactScale_2_800.png[Edit Impact Scale]
 
 === Likelihood scale
 
 The Likelihood scale is the second part of the window. In the below example, there are only five scale values of the scale between 0-4.  
 
-Image:LikelihoodScale_1_800.png[Likelihood Scale]
+image:LikelihoodScale_1_800.png[Likelihood Scale]
 
 You can modify it easily. Just click on any of the values and give a different value: the Impacts and consequences scale table will change accordingly.
 
-Image:LikelihoodScale_2_800.png[Edit Likelihood Scale]
+image:LikelihoodScale_2_800.png[Edit Likelihood Scale]
 
 Just like with the scale values, you can also modify the description/explanation of the values by clicking on them and giving a different description/explanation.
 
-Image:LikelihoodScale_3_800.png[Edit Likelihood Scale]
+image:LikelihoodScale_3_800.png[Edit Likelihood Scale]
 
 ===  Vulnerability scale
 
-Image:VulnerabilityScale_1_800.png[Vulnerability Scale]
+image:VulnerabilityScale_1_800.png[Vulnerability Scale]
 
 1.	Click to modify the number of scales.
 2.	Click to edit the heading on each scale (Management identical to the impact scale).
@@ -59,14 +59,14 @@ Image:VulnerabilityScale_1_800.png[Vulnerability Scale]
 There are two separate tables for acceptability thresholds, as operational risk and information risk are not calculated in the same way.
 Information risks are calculated using three criteria:
 
-Image:AcceptanceThresholds_1_800.png[Acceptance thresholds]
+image:AcceptanceThresholds_1_800.png[Acceptance thresholds]
 
 1. Modification of threshold levels of information risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
 2. Information risks are calculated using three criteria: `Impact x Threat x Vulnerability`.
 
 The acceptance threshold table for operational risks is different. To reach it, you should click on the ‘Operational risks’ tab at the top of the  Evaluation scales window.  
 
-Image:AcceptanceThresholds_2_800.png[Acceptance thresholds]
+image:AcceptanceThresholds_2_800.png[Acceptance thresholds]
 
 1. Modification of threshold levels of operational risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
 2. Operational risks are calculated using two criteria: `Impact x Probability`.
