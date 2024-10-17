@@ -1,6 +1,6 @@
 The main view of risk analysis consists of 4 distinct parts.
 
-image:RiskAnalysis_1_800.png[Risk Analysis Main View]
+image:RiskAnalysisMain_1_800.png[Risk Analysis Main View]
 
 1.	Access to the steps of the method: Click on the numbers from `1` to `4` to access the menus which follow the step-by-step method (see <<Method steps call>>).
 2.	Risk Analysis area: allows you to structure the assets of the analysis hierarchically by using the _Drag and Drop_ function

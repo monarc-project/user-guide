@@ -30,7 +30,7 @@ image:OperationalRisk_2_800.png[Fields Operational Risk Table]
 In the risk analysis, click on an asset and choose the Operational risk tab. 
 Then, in the ‘Kind of treatment’ dropdown menu choose ‘Not treated’. The not treated assets should appear in the table.
 
-Image:OperationalRiskSheet_1_800.png[Operational Risk Sheet]
+image:OperationalRiskSheet_1_800.png[Operational Risk Sheet]
 
 Click on the `Not treated` link in the operational risk table, so the risk card is displayed.
 

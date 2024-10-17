@@ -40,7 +40,7 @@ The modification of the operational risk table is based on the knowledge base.
 
 Click on a secondary asset of the Library, for example on `Building` classified in `Fundamentals` -> `Buildings & Premises`.
 
-image:SecondaryAssets_1_800.png[Secondary Asset]
+image:SecondaryAssets_1_800.png[Secondary Assets]
 
 1.	Asset management context menu (details in the <<Context menu of Library>>).
 2.	Add an existing asset in the structure, creating a compound asset. There is no limit to the asset tree.
