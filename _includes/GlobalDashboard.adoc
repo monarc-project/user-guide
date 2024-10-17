@@ -10,7 +10,6 @@ The architecture of the services is available link:https://monarc-stats-service.
 By default, statistics sharingcis enabled and is intended to assist the Monarc community in the future link:https://github.com/monarc-project/MonarcAppFO/wiki/Roadmap#community[*forecasting*].
 However, this statistics sharing can be disabled (see point 5 - Global Dashboard statistics sharing option).
 
-
 [start=2]
 . *Global dashboard access*
 
@@ -27,14 +26,16 @@ There is also an option to configure the visibility of analyses (see number 2 in
 
 image:GlobalDashboardUserSetting.png[GlobalDashboardUserSetting,pdfwidth=50%,width=50%,align=center]
 
-
 [start=4]
 . *Home page access*
 
-The Global Dashboard tab is visible on the Home page only if at least one analysis exists and the Stats Service is set up (number 1 in the yellow box).
+The Global Dashboard tab is visible on the Home page only if at least one analysis exists and the Stats Service is set up.
 
-image:
-image:GlobalDashboardHomePage.png[GlobalDashboardHomePage]
+image:GlobalDashboard_1_800.png[Global Dashboard link]
+
+The Dashboard contains the analysis and the following icons to manage them:
+
+image:GlobalDashboard_2_800.png[Global Dashboard icons]
 
 1.	Language
 2.	Read and Write access (an eye icon)
@@ -42,14 +43,13 @@ image:GlobalDashboardHomePage.png[GlobalDashboardHomePage]
 4.	Visible (blue icon) or not visible (grey icon) on the Global Dashboard
 5.	Statistics data is collected (blue icon)/ommitted (grey icon)
 
-
 [start=5]
 . *Global Dashboard statistics sharing option*
 
-As shown in the screenshot below, you can disable statistics sharing for your instance. Click the gear icon on the Home page, and choose ‘General settings’.
+As shown in the screenshot below, you can disable statistics sharing for your instance. 
+Click the gear icon on the Home page, and choose ‘General settings’.
 
-image:
-image:GlobalDashboardGlobalSetting.png[GlobalDashboardGlobalSetting,pdfwidth=50%,width=50%,align=center]
+image:GlobalDashboard_3_800.png[Global Dashboard sharing]
 
 [start=5]
 . *Global Dashboard analyzes visibility setting*
@@ -57,56 +57,55 @@ image:GlobalDashboardGlobalSetting.png[GlobalDashboardGlobalSetting,pdfwidth=50%
 This option is accessible only to accounts with "Global Dashboard" permissions and can be found in the top-right corner of any Global Dashboard chart tab. Only the selected analyses will be displayed on the charts.
 On the Home page, click on the Global dashboard link, then on the gear icon (Settings) in the top right-hand corner:
 
-image:
-image:GlobalDashboardAnrsSettings.png[GlobalDashboardAnrsSettings,pdfwidth=70%,width=70%,align=center]]
+image:GlobalDashboard_4_800.png[Global Dashboard visibility setting]
 
 The Global Dashboard settings page will appear, allowing you to decide for each risk analysis whether you want it to be displayed on the dashboard and whether statistics should be collected for it.
 
-image:
+image:GlobalDashboard_5_800.png[Global Dashboard settings]
 
 [start=6]
 . *Global Dashboard statistics overview*
 
 On the left, you can see the Current risks analyses, whereas on the right, the Residual risks analyses.
 
-image:
-image:GlobalDashboardInfRisks.png[GlobalDashboardInformationalRisks]
+image:GlobalDashboard_6_800.png[Global Dashboard statistics overview]
 
 1.	Decide what kind of chart type you want to get  Vertical Bar Chart, Horizontal Bar Chart, or Daily Records)
 
-image:
+image:GlobalDashboard_7.png[Global Dashboard chart types]
 
 2.	Filter by risk analysis: You can decide wich risk analysis should be shown on the Dashboard
 
-image:
+image:GlobalDashboard_8.png[Global Dashboard filter analysis]
 
 3.	You can export the chart as a PNG file
 4.	You can decide whether you want to see the risks stacked or grouped on the chart
 5.	By ticking the checkbox in front of them, you can decide whether you want to see the Low risks, Medium risks or High risks (or all of them)
 
-image:
+In the below screenshot, only the medium and high risks are shown on a vertical bar chart:
+
+image:GlobalDashboard_9.png[Global Dashboard - Medium and High risks]
 
 Here are some examples of charts generated from comparisons of different analyses.
 * *Informational risks*. The stats represents comparison of the informational risks of all the available analyzes.
 
-image:
+image:GlobalDashboardInfRisks.png[Global Dashboard Informational Risks]
 
 * *Operational risks*. The stats represents comparison of the operational risks of all the available analyzes.
 
-image:GlobalDashboardOpRisks.png[GlobalDashboardOperationalRisks]
+image:GlobalDashboardOpRisks.png[Global Dashboard Operationa lRisks]
 
 * *Threats*. Threats can be shown as per their probability, occurrence, or their maximum associated risk level  as an overview or as per a daily records view. 
 You can also filter among the threats  by providing a start and end date and you can export the charts as a PNG file.
 
-image:
+image:GlobalDashboard_10.png[Global Dashboard - Threats]
 
 * *Vulnerabilities*. The vulnerabilities overview shows vulnerabilities as per their qualification, occurrence, and Max. associated risk level.
 
-image:
+image:GlobalDashboard_11.png[Global Dashboard - Vulnerabilities]
 
 * *Cartography*. Matrix with the average analyzes levels based on impact and likelihood.
 
-image:
 image:GlobalDashboardCarto.png[GlobalDashboardCartography]
 
 <<<
