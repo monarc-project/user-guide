@@ -4,7 +4,7 @@ image:ImplementationTreatmentPlan_1_800.png[Treatment Plan]
 
 This view goes beyond the ISO/IEC 27005, as it enables the user to manage the follow-up to the implementation of the measures.
 
-image:ImplementationTreatmentPlan_2_800.png[Treatment Plan]
+image:ITP_2_800.png[Treatment Plan]
 
 1. This is a `recommandation` established before.
 2. Importance
