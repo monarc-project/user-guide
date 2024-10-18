@@ -4,7 +4,7 @@ The menu is always accessible from the main view of MONARC:
 
 image:Dashboard_1_800.png[Dashboard - context menu]
 
-2. Then, from the drop-dwon menu, shoose `Dashboard`.
+2. Then, from the drop-dwon menu, choose `Dashboard`.
 
 image:Dashboard_2_800.png[Context Menu Dashboard]
 

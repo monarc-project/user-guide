@@ -22,14 +22,12 @@ image:Interviews_4_800.png[Interviews Table window]
 Some information has to be entered
 
 1. Fill out the `Date`.
-2. Give the `Names` of the people or the name of the department participate in the ineterview.
+2. Give the `Names` of the people or the name of the department participate in the interview.
 3. Enter the `Contents` covered.
 
 image:Interviews_5_800.png[Interviews Table - add an interview]
 
-4. Once all the fields are filled, click on the link `Create an interview`.
-
-The Interview table popup appears with the data you provided in the previous screen.
+Once all the fields are filled, click on the link `Create an interview`. The Interview table popup appears with the data you provided in the previous screen.
 
 image:Interviews_6_800.png[Interviews Table - new interview appears]
 

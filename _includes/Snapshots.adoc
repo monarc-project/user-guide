@@ -4,11 +4,11 @@ NOTE: It is a function to be used regularly throughout the process, both before 
 
 The menu is always accessible from the main view of MONARC:
 
-1.	To reach the Snapshot functionality, first, click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] in the upper right-hand corner.
+To reach the Snapshot functionality, first, click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] in the upper right-hand corner.
 
 image:Snapshot_1_800.png[Context Menu]
 
-2.	Then, from the dropdown-menu, choose  `Snapshots`.
+Then, from the dropdown-menu, choose `Snapshots`.
 
 image:Snapshots_2_800.png[dropdown-menu Snapshots]
 
