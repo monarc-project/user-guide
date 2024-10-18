@@ -51,10 +51,10 @@ image:RiskInformationSheet_1_800.png[Information Risk Sheet]
 2.	Reminders of the parameters of the risk table.
 3.	Creation / Assignment button for one or more recommendations.
 4.	Selection of the kind of treatment:
-  1.	Reduction / Modification
-  2.	Denied
-  3.	Accepted
-  4.	Shared
+    *	Reduction/Modification
+    * Denied
+    * Accepted
+    *	Shared
 5.	Choosing a risk reduction value, the more effective the control is, the greater the reduction value is.
 6.	Proposals of controls, which come from various repositories.
 
@@ -103,7 +103,7 @@ Once you click on the ‘Edit impacts’ link, the following pop-up appears:
 
 image:EditImpacts_1_800.png[Edit Impacts]
 
-When you hover your mouse over the eye-shaped icon next to the column names, a relevant tooltip will appear. For example, hovering over the 'Operational' column will display the following tooltip: 
+When you hover your mouse over the eye-shaped icon next to the column names, a relevant tooltip appears. For example, hovering over the 'Operational' column will display the following tooltip: 
 
 image:EditImpacts_2_800.png[Edit Impacts]
 
@@ -121,7 +121,7 @@ image:EditImpacts_5_800.png[Edit Impacts]
 
 If you find the settings appropriate, save them by clicking on the ‘Save’ button.
 
-NOTE: By leaving the pointer unmoved over the numbers,the meaning of this number appears after one second.
+NOTE: By leaving the pointer unmoved over the numbers, the meaning of this number appears after one second.
 
 When one of the criteria *C* (confidentiality), *I* (integrity) or *A* (availability) is allocated, there is a need to ask : what are the
 consequences on the company, and more particularly on its ROLFP, i.e. its **R**eputation, its **O**peration, its **L**egal, its **F**inances
@@ -132,4 +132,4 @@ image:EditImpacts_6_800.png[Edit Impacts]
 In the case of the above figure, the `3` (out of 5) impact on confidentiality, is explained by the maximum value ROLFP regarding
 confidentiality. For example, `3` is the consequence of the person in case of disclosure of his personal file.
 
-NOTE: To hide the consequences that will not be considered. Click on the icon image:Hide.png[pdfwidth=4%,width=3%]. To show it again. Click on `Show hidden consequences`
+NOTE: To hide the consequences that will not be considered. Click on the icon image:Hide.png[pdfwidth=4%,width=3%]. To show it again. Click on `Show hidden consequences`.

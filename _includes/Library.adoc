@@ -12,7 +12,7 @@ image:AssetsLibrary_1.png[Assets Library]
   b.  `EBIOS`: Contains assets inspired by EBIOS. These are assets containing non-optimized risk models.
 
 4.	Sub-categories level.
-5.	Asset level: These are the assets that must be dragged and dropped to the risk analysis area.
+5.	Asset level: These are the assets that must be dragged and dropped to the Risk Analysis area.
 
 ====	Asset Management
 
@@ -27,9 +27,8 @@ image:PrimaryAssets_1_800.png[Primary Assets]
 
 1.	Asset management context menu (details in the <<Context menu of Library>>).
 2.	Add an existing asset in the structure, creating a composed asset. There is no limit to the asset tree.
-3.	Indication if this asset is currently used in the analysis. In this case, it is found at the root of the analysis.
-4.	Ability to detach assets from analysis.
-5.	Table of operational risks possibly associated with the asset.
+3.	Ability to detach assets from analysis.
+4.	Table of operational risks possibly associated with the asset.
 
 WARNING: Detaching an asset from the analysis will remove all its evaluation.
 
@@ -154,7 +153,7 @@ image:AssetImportCenter_1_800.png[Asset Import Center]
 The pop-up appears after clicking on the `Import from MONARC Library` option in the `Asset Import center`.
 
 1. Click the + icon (Add an asset)
-2. In the Add an asset window, the option ‘Asset import center’ should be chosen.
+2. In the Add an asset window, choose the option ‘Asset import center’.
 3. Choose MONARC Library
 
 image:AssetImportCenter_2_800.png[Asset Import Center]
@@ -168,7 +167,7 @@ To export an asset, click on the asset you want to export. Then click the `Asset
 
 image:ExportAsset_2.png[Export Asset]
 
-The ‘Export asset’ window opens where you can decide whether you want to export your asset with a custom password or without a passw
+The ‘Export asset’ window opens where you can decide whether you want to export your asset with a custom password or without a password.
 
 image:ExportAsset_1.png[Export Asset]
 
