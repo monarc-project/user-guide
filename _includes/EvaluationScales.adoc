@@ -49,14 +49,14 @@ image:LikelihoodScale_3_800.png[Edit Likelihood Scale]
 
 ===  Vulnerability scale
 
-image:VulnerabilityScale_1_800.png[Vulnerability Scale]
+image:VulnerabilitieScale_1_800.png[Vulnerability Scale]
 
 1.	Click to modify the number of scales.
 2.	Click to edit the heading on each scale (Management identical to the impact scale).
 
 === Acceptance thresholds
 
-There are two separate tables for acceptability thresholds, as operational risk and information risk are not calculated in the same way.
+There are two separate tables for acceptability thresholds, as operational risks and information risks are not calculated in the same way.
 Information risks are calculated using three criteria:
 
 image:AcceptanceThresholds_1_800.png[Acceptance thresholds]
