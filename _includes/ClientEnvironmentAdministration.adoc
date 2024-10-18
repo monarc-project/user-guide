@@ -35,16 +35,16 @@ If you click on the ‘Manage users’ option, the Users screen appears:
 image:Administration_2_800.png[User List]
 
 1.    *Users*: You can create a user or administrator.
-2.	*Search*: You can search among the users/administrators (the list will automatically update)
-3.	*Filter*: you can filter the list, there are three options: Show all, Show inactive only, Show active only
-4.	*Undo*: You can go back to the previously filtered list
-5.	*Status*: This column shows the status of the users (active: chackmark, inactive cross)
-6.	*First and Last name* of the users
-7.	*E-mail*: the email addresses of the users
-8.	*2FA*: this column shows whether the user enables or not enabled two factor authentication
-9.	*Edit*: by clicking on a pencil icon, you may edit the chosen user’s data in the system
-10.	*Reset password*: by clicking on the circular two arrows icon, you may reset the password of the chosen user
-11.	*Delete*: by clicking on the trash bin icon, you can delete the schosen user
+2.	*Search*: You can search among the users/administrators (the list will automatically update).
+3.	*Filter*: you can filter the list, there are three options: Show all, Show inactive only, Show active only.
+4.	*Undo*: You can go back to the previously filtered list.
+5.	*Status*: This column shows the status of the users (active: chackmark, inactive cross).
+6.	*First and Last name* of the users.
+7.	*E-mail*: the email addresses of the users.
+8.	*2FA*: this column shows whether the user enabled or not enabled two factor authentication.
+9.	*Edit*: by clicking on a pencil icon, you may edit the chosen user’s data in the system.
+10.	*Reset password*: by clicking on the circular two-arrows icon, you may reset the password of the chosen user.
+11.	*Delete*: by clicking on the trash bin icon, you can delete the schosen user.
 
 ===== Add a user
 
@@ -99,27 +99,5 @@ Once you populated the fields for ‘Organization information’ and made your d
 ==== Deliverable templates
 
 include::DeliveriesCreation.adoc[]
-
-==== User account
-
-This view allows you to:
-
-image:Account.png[User Account]
-
-1.  Manage general user information.
-2.	Change the password. Password complexity is required.
-
-==== Interface language
-
-There are 4 interface language:
-
-* French
-* English
-* German
-* Dutch
-
-[NOTE]
-This action only changes the interfaces language (The risk analysis language is not modify).
-
 
 <<<
