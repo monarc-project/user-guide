@@ -1,21 +1,21 @@
 === Purpose
 
-The purpose of this document is to provide an exhaustive explanation of all the options in the MONARC tool.
+The purpose of this document is to provide a comprehensive explanation of all the options in the MONARC tool.
 
 === Other documents
 
 [NOTE]
 ===============================================
-* link:https://www.monarc.lu/documentation/quick-start[*Quick Start*]: Provide a quick start with MONARC.
-* link:https://www.monarc.lu/documentation/method-guide[*Method Guide*]: Complete documentation of the method.
-* link:https://www.monarc.lu/documentation/technical-guide[*Technical Guide*]: Complete technical documentation.
+* link:https://www.monarc.lu/documentation/quick-start[*Quick Start*]: Provides a quick start about MONARC.
+* link:https://www.monarc.lu/documentation/method-guide[*Method Guide*]: Provides the complete documentation of the method.
+* link:https://www.monarc.lu/documentation/technical-guide[*Technical Guide*]: Provides the complete technical documentation of the tool.
 ===============================================
 
 === Syntax used in the document
 
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:Step.png[Cursor] |All numbers in white on a red background are used on print-screen views to provide additional explanations. Explanations are always after the view with the corresponding numbering. *e.g.* 1.
+|image:Step.png[Cursor] |All numbers in white on an orange background are used on print-screen views to provide additional explanations. Explanations are always after the view with the corresponding numbering. *e.g.* 1.
 |====
 [cols="^a,7a",grid="none",frame="none",valign="middle"]
 |====
@@ -26,15 +26,15 @@ The purpose of this document is to provide an exhaustive explanation of all the 
 
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:Menu.png[Menu]| Button that always brings up the menu.
+|image:Menu.png[Menu]| The three-dot menu icon brings up the menu items.
 |====
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:CreateButton.png[Create] |Creating/adding something in context (assets, recommendations, etc.).
+|image:CreateButton.png[Create] |Create/add something in context (assets, recommendations, etc.).
 |====
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:Cursor.png[Cursor] |Most fields of MONARC display additional information when the pointer stay unmoved some time.
+|image:Cursor.png[Cursor] |Most fields of MONARC display additional information when the pointer stays unmoved for some time.
 |====
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====

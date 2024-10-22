@@ -1,34 +1,41 @@
 Snapshots allow you to create a full backup for analysis.
 
-NOTE: It is a function to use regularly during the course, before and after great changes, because it is the only way to go back to the changes.
+NOTE: It is a function to be used regularly throughout the process, both before and after major changes, as it provides the only way to track and reference those changes.
 
 The menu is always accessible from the main view of MONARC:
 
-1.	Calling the right contextual menu image:Menu.png[pdfwidth=4%,width=4%]
+To reach the Snapshot functionality, first, click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] in the upper right-hand corner.
 
-image:ContextMenuEvaluationScale1.png[ContextMenuEvaluationScale]
+image:Snapshot_1_800.png[Context Menu]
 
-[start=2]
-.	Calling the Management view of `Snapshot`
+Then, from the dropdown-menu, choose `Snapshots`.
 
-image:ContextMenuSnapshot.png[ContextMenuSnapshot]
+image:Snapshots_2_800.png[dropdown-menu Snapshots]
 
 The following pop-up appears:
 
-image:Snapshot.png[Snapshot]
+image:Snapshots_3_800.png[Snapshots]
 
-1.	`Create` a Snapshot: Possibility to enter a comment allowing to contextualize the snapshot.
-There are some possible actions:
-[start=2]
-.	`View` a Snapshot
-.	`Restore` Snapshot. Caution this option will overwrite the current analysis.
-.	`Delete` a Snapshot.
+First, name your snapshot, then click on ‘Create a snapshot’ so you can create a backup of your project.
 
-When viewing a snapshot, no changes are possible, and the blue bar as shown above is displayed:
+image:Snapshots_4_800.png[Snapshots]
 
-image:SnapshotReturn.png[SnapshotReturn]
+Once you clicked on ‘Create a snapshot’, the following screen appears showing the date and time when you created the snapshot. 
+The table also shows your name and your comment (if you add a comment in the previous screen).
+ 
+image:Snapshots_5_800.png[Snapshots]
 
-1.	Click on the button to return to normal operations.
+You can do the following actions:
+
+.	`View` the snapshot
+.	`Restore` the snapshot. Caution: this option will overwrite the current analysis!
+.	`Delete` the snapshot you created.
+
+When you leave the popup window by clicking on the ‘X’ in the upper right-hand corner, you will see the snapshot view. A message informs you that you are curently on a snapshot and you cannot make any changes.
+
+Click on the ‘Return to risk analysis’ link to back to your risk analysis.
+
+image:Snapshots_6_800.png[Snapshots]
 
 <<<
 
