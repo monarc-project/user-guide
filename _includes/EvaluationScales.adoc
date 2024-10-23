@@ -49,7 +49,7 @@ image:LikelihoodScale_3_800.png[Edit Likelihood Scale]
 
 ===  Vulnerability scale
 
-image:VulnerabilitieScale_1_800.png[Vulnerability Scale]
+image:VulnerabilitiesScale_1_800.png[Vulnerability Scale]
 
 1.	Click to modify the number of scales.
 2.	Click to edit the heading on each scale (Management identical to the impact scale).
