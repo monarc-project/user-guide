@@ -1,4 +1,4 @@
-The Interviews table is used during risk analysis to document the various interviews conducted to gather information for the final report. 
+The Interviews table is used during risk analysis to document the various interviews conducted to gather information for the final report.
 Key details such as dates and interviewees can be included, ensuring a comprehensive and organized report.
 
 The `Interviews` menu is always accessible from the main view of MONARC:
@@ -7,15 +7,15 @@ The `Interviews` menu is always accessible from the main view of MONARC:
 
 image:Interviews_1_800.png[Context Menu Interviews]
 
-2. Then, from the dropdown-menu, choose the menu `Interviews table`:
+2. Then, from the dropdown-menu, choose the menu `Interviews table`.
 
 image:Interviews_2_800.png[Interviews Table]
 
-3.	Click on the link `Add an interview`
+3. Click on the link `Add an interview`.
 
 image:Interviews_3_800.png[Add an interview]
 
-4. The `Interviews table` window opens
+4. The `Interviews table` window opens.
 
 image:Interviews_4_800.png[Interviews Table window]
 

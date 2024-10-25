@@ -15,7 +15,7 @@ All parameters are managed with the same view. The knowledge base has the follow
 7.	Operational risks
 8.	Recommendation sets
 
-In the User Guide, the tabs will be explained in the above order.  
+In the User Guide, the tabs will be explained in the above order.
 The knowledge base opens with the ‘Asset types’ tab and contains the following main functionalities:
 
 image:KnowledgeBase_2_800.png[Knowledge Base screen]
@@ -32,7 +32,7 @@ Generally, all parameters have a code, label, and description
 *	The label is displayed in all MONARC views.
 *	The description is the label that typically appears in the tooltip.
 
-If you click on the ‘Add an asset’ icon, the ‘Add an asset type’ window appears. 
+If you click on the ‘Add an asset’ icon, the ‘Add an asset type’ window appears.
 You can add assets by importing them from a file or from MOSP.
 If you choose to import an asset/assets from a file, the ’File import center’ appears.
 
@@ -46,7 +46,7 @@ If you click on the ‘I’ icon, the File Schema popup appears, which provides 
 
 image:FileImportCenter_2_800.png[File import center]
 
-====== Selecting assets separately or as a group
+== Selecting assets separately or as a group
 
 You can select assets separately by clicking on the checkbox in front of the relevant asset (1), or you can select all the assets in the list by choosing the top checkbox next to the column header called ‘Status’ (2).
 
@@ -91,9 +91,9 @@ image:ReferentialsTable_1_800.png[Referentials Table]
 
 === Information Risks
 
-This table is the core of MONARC's knowledge base. This is where associations between 'Asset Type,' 'Threat,' and 'Vulnerability' are made. 
-The combination of risks inherent to each asset will be proposed by default when the risk model is created. 
-For each association, which can be considered a risk scenario, it is possible to link security measures from the referentials tabs. 
+This table is the core of MONARC's knowledge base. This is where associations between 'Asset Type,' 'Threat,' and 'Vulnerability' are made.
+The combination of risks inherent to each asset will be proposed by default when the risk model is created.
+For each association, which can be considered a risk scenario, it is possible to link security measures from the referentials tabs.
 Only supporting assets are available for Threat/Vulnerability associations.
 
 image:InformationRisk_1_800.png[Information Risk Table]
@@ -103,7 +103,7 @@ Use the down-pointing arrow, so you can choose between the options that appear.
 
 image:InformationRisk_2.png[Information Risk Table]
 
-This new icon (Update controls) appears when you have two referentials. 
+This new icon (Update controls) appears when you have two referentials.
 It allows you to automatically linked controls of a referential to risks. It uses the matching defined in the step before.
 
 image:InformationRisk_3.png[Update controls]
@@ -118,7 +118,7 @@ image:InformationRisk_4_800.png[Update controls]
 === Tags (Operational Risks)
 
 The layout of the Tags table is very similar to the previous ones.
-Just like with the tables described above, you can add an element (tags), search among elements, reset the filters, or export the items as a CSV file. 
+Just like with the tables described above, you can add an element (tags), search among elements, reset the filters, or export the items as a CSV file.
 
 Tags represent a categorization of operational risks. It is a logical grouping of risks that can then be associated with primary assets.
 
