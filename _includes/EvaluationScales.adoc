@@ -17,7 +17,9 @@ NOTE: All scales are editable and customizable.
 
 WARNING: However, it is no longer permitted to modify scales as soon as an evaluation has been encoded.
 
-=== Impacts and consequences scale
+=== Information Risk Scale
+
+==== Impacts and consequences scale
 
 The first section of the Evaluation scales window is the ‘Impacts and consequences scale’ table. It is a fully customizable table, by clicking on its different parts, you can edit it.
 
