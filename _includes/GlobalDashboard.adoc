@@ -58,7 +58,7 @@ image:GlobalDashboard_3_800.png[Global Dashboard sharing]
 This option is accessible only to accounts with "Global Dashboard" permissions and can be found in the top-right corner of any Global Dashboard chart tab. Only the selected analyses will be displayed on the charts.
 On the Home page, click on the Global dashboard link, then on the gear icon (Settings) in the top right-hand corner:
 
-image:GBD_4_800.png[Global Dashboard visibility setting]
+image:GlobalBashboard_4_800.png[Global Dashboard visibility setting]
 
 The Global Dashboard settings page will appear, allowing you to decide for each risk analysis whether you want it to be displayed on the dashboard and whether statistics should be collected for it.
 

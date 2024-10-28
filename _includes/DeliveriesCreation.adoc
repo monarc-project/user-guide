@@ -88,7 +88,7 @@ image:ContextEstablishment_2_800.png[Context Establishment step 2]
 
 ====== List of tags for the context modeling:
 
-image:ContextModeling_1_800.png[Context modeling]
+image:ContextModeling_1_800M.png[Context modeling]
 
 1. Identification of assets, vulnerabilities and impacts appreciation
 2. Synthesis of assets/impacts
@@ -174,7 +174,7 @@ Please scan the QR code with your phone and follow the steps to set up 2FA.
 
 The third section is called the ‘Danger zone’. This is where you can delete your account.
 
-image:UserAccount_5.png[User account - delete account]
+image:UserAccount_5_800.png[User account - delete account]
 
 ====== Interface language
 
