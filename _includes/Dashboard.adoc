@@ -1,10 +1,10 @@
 The menu is always accessible from the main view of MONARC:
 
-1.	To reach the Dashboard, first, click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] in the upper right-hand corner.
+1. To reach the Dashboard, first, click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] in the upper right-hand corner.
 
 image:Dashboard_1_800.png[Dashboard - context menu]
 
-2. Then, from the drop-dwon menu, choose `Dashboard`.
+2. Then, from the drop-down menu, choose `Dashboard`.
 
 image:Dashboard_2_800.png[Context Menu Dashboard]
 
@@ -26,6 +26,3 @@ All the part of the dashboard have the same functionalities.
 2. `Export` all the data in a XLSX document to make your own graph.
 3. `Change` the paramaters of the selected chart.
 4. `Export` the chart as PNG
-
-
-<<<

@@ -63,7 +63,7 @@ image:LibraryContextMenu_1_800.png[Library Context Menu]
 2.	Create a copy of the asset named `Name (copy #)`, which is then renamed with the `Edit Asset` option.
 3.	Launches asset export pop-up (see <<Exporting an asset>>).
 4.  Publish an asset in MOSP
-4.	Delete an asset.
+5.	Delete an asset.
 +
 WARNING: Delete action is definitive, even if the asset is used in the analysis.
 

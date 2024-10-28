@@ -15,7 +15,7 @@ The main goal of this functionality is to help companies to have a list of their
 
 ===============================================
 
-====== How to record a processing activity?
+== How to record a processing activity?
 
 To create a processing activity, click on the + sign in the top right-hand corner of the screen:
 
