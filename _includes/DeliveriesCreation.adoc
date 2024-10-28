@@ -88,7 +88,7 @@ image:ContextEstablishment_2_800.png[Context Establishment step 2]
 
 ====== List of tags for the context modeling:
 
-image:ContextModeling_1_800M.png[Context modeling]
+image:CM_800.png[Context modeling]
 
 1. Identification of assets, vulnerabilities and impacts appreciation
 2. Synthesis of assets/impacts
