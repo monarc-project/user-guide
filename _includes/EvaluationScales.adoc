@@ -1,4 +1,4 @@
-To reach the ‘Evaluation scale’ menu, use the contextual menu (three-dot menu) in the top right-hand corner of the application.
+To reach the ‘Evaluation scales’ menu, use the contextual menu (three-dot menu) in the top right-hand corner of the application.
 
 image:EvaluationScales_1_800.png[Context Menu]
 
@@ -6,6 +6,16 @@ Definition of the risk evaluation criteria
 Once you click on the three-dot menu, a submenu opens. Choose the submenu ‘Evaluation scales’:
 
 image:EvaluationScales_2_400.png[Evaluation Scale Context Menu]
+
+The screen has three tabs as follows:
+
+1. Information risks
+2. Operational risks
+3. Compliance
+
+This chapter is divided into three parts accordingly.
+
+=== Information risks
 
 The `Evaluation scales` window opens which has the following parts (from top to bottom):
 
@@ -18,7 +28,7 @@ NOTE: All scales are editable and customizable.
 
 WARNING: However, it is no longer permitted to modify scales as soon as an evaluation has been encoded.
 
-=== Impacts and consequences scale
+==== Impacts and consequences scale
 
 The first section of the Evaluation scales window is the ‘Impacts and consequences scale’ table. It is a fully customizable table, by clicking on its different parts, you can edit it.
 
@@ -67,6 +77,15 @@ image:AcceptanceThresholds_1_800.png[Acceptance thresholds]
 
 
 === Operational risk scales (2nd tab)
+
+To reach the ‘Evaluation scales’ menu, use the contextual menu (three-dot menu) in the top right-hand corner of the application and choose the submenu 'Evaluation scales'.
+The Operational risks screen can be reached by clickin on the second tab of the screen 'Operatioanl risks'.
+
+The Operational risks screen consists of three parts as follows:
+
+1. Impact scale
+2. Likelihood scale
+3. Acceptance threshods of operational risks
 
 ==== Impacts scale, has to be 5.2.1
 
