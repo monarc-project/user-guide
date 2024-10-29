@@ -23,8 +23,9 @@ image::Administration_3.png[Administration Bar,pdfwidth=20%,width=20%,align=cent
 
 === Administration
 ==== Manage users
-
 ===== List of users
+
+====== List of users
 
 By clicking on the gear icon in the top right-hand corner, the following menu appears:
 
