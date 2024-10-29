@@ -93,10 +93,48 @@ The Operational risks screen consists of three parts as follows:
 
 ==== Impacts scale
 
-==== ....
+The first table is the Operational Risk Impact Scale. 
+By default, it has 5 levels, but you may edit it by clicking on the number and provide a different value.
+In the below example, the Operational Risk Impact Scale has 5 levels (from zero to 4) and 5 impacts (Reputation, Operational, Legal, Financial, and Personal).
+
+image:OpRiskImpactScale_1_800.png[Operational Risk Impact Scale]
+
+1.	Click to modify the number of scales.
+2.	Click `Show hidden impacts` to show or hide the criteria not used in the analysis.
+3.	Click edit the headings of each scale.
+4.  Click the symbol to hide an unused column.
+5.	Click the `New column name` to add new impact criteria.
+
+Please note that you can edit the headings and the content of the cells by simply clicking on them, allowing you to provide different values or explanations.
+
+image:EditOpRisk1.png[Edit Operational Risk Impacts scale cells]
+
+You may make any impact hidden by clicking on the 'eye' icon next to the name of the impact 
+
+image:HideImpacts1.png[Hide Operational Risk Impacts]
+
+and then click on the toggle 'Show hidden impacts' to become grey:
+
+image:HideImpacts2.png[Hide Operational Risk Impacts]
 
 
-The acceptance threshold table for operational risks is different. To reach it, you should click on the ‘Operational risks’ tab at the top of the  Evaluation scales window.
+==== Likelihood scale
+
+The second table is the Operational Risk Likelihood scale:
+
+OpRiskLikelihoodScale1_800[Operational Risk Likelihood scale]
+
+By default, it has 4 levels, but you may edit it by clicking on the number and provide a different value.
+
+OpRiskLikelihoodScale2_800[Edit Operational Risk Likelihood scale]
+
+Also, you can edit the content of the cells by simply clicking on them, allowing you to provide a different explanation.
+
+OpRiskLikelihoodScale3_800[Edit Operational Risk Likelihood scale]
+
+==== Acceptance threshods of operational risks
+
+The third table is the Acceptance thresholds for operational risks.
 
 image:AcceptanceThresholds_2_800.png[Acceptance thresholds]
 
