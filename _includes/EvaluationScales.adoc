@@ -91,7 +91,7 @@ The Operational risks screen consists of three parts as follows:
 2. Likelihood scale
 3. Acceptance threshods of operational risks
 
-==== Impacts scale
+==== Impact scale
 
 The first table is the Operational Risk Impact Scale. 
 By default, it has 5 levels, but you may edit it by clicking on the number and provide a different value.
@@ -105,7 +105,11 @@ image:OpRiskImpactScale_1_800.png[Operational Risk Impact Scale]
 4.  Click the symbol to hide an unused column.
 5.	Click the `New column name` to add new impact criteria.
 
-Please note that you can edit the headings and the content of the cells by simply clicking on them, allowing you to provide different values or explanations.
+The operational risks impact scales are customisable by modifying the names of any of the existing scale names and adding custom ones.
+The level number can be also adjusted to the value that best fits the organisation's needs.
+Each of the impact levels can have a specific predefined value. 
+The values adjustment has to be started from the bottom to extend the values definition (for example having them set in geometric progression: 0, 1, 2, 4, 8, 16...).
+You can edit the headings and the content of the cells by simply clicking on them, allowing you to provide different values or explanations.
 
 image:EditOpRisk1.png[Edit Operational Risk Impacts scale cells]
 
@@ -122,15 +126,15 @@ image:HideImpacts2.png[Hide Operational Risk Impacts]
 
 The second table is the Operational Risk Likelihood scale:
 
-image:OpRiskLikelihoodScale1_800[Operational Risk Likelihood scale]
+image:OpRiskLikelihoodScale1_800.png[Operational Risk Likelihood scale]
 
 By default, it has 4 levels, but you may edit it by clicking on the number and provide a different value.
 
-image:OpRiskLikelihoodScale2_800[Edit Operational Risk Likelihood scale]
+image:OpRiskLikelihoodScale2_800.png[Edit Operational Risk Likelihood scale]
 
 Also, you can edit the content of the cells by simply clicking on them, allowing you to provide a different explanation.
 
-image:OpRiskLikelihoodScale3_800[Edit Operational Risk Likelihood scale]
+image:OpRiskLikelihoodScale3_800.png[Edit Operational Risk Likelihood scale]
 
 ==== Acceptance threshods of operational risks
 
@@ -140,6 +144,33 @@ image:AcceptanceThresholds_2_800.png[Acceptance thresholds]
 
 1. Modification of threshold levels of operational risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
 2. Operational risks are calculated using two criteria: `Impact x Probability`.
+
+=== Compliance
+
+The third tab on the top of the screen is 'Compliance'.
+
+image:Compliance_1_800.png[Compliance table]
+
+The compliance levels configuration is created to allow customisation of the “Statement of Applicability” levels and define the colours of the records highlighting when the level is selected in the table.
+The number of levels is customisable and the colour selection is done from the colours palette.
+By default, there are six levels of the Compliance scale but it can be modified simply by clicking on the level number:
+
+image:Compliance_2_800.png[Edit Compliance table - Edit the number of compliance scale levels]
+
+All cells in the table can be modified by clicking on the given cell. 
+You can modify the first column by changing the compliance scale level (described above).
+You can also edit any cells of the second column (Level of compliance):
+
+image:Compliance_3_800.png[Edit Compliance table - Level of compliance]
+
+If you want to change colour of a certain level of compliance, click on the relevant cell in the colour column.
+Then choose a different colour from the palette:
+
+image:Compliance_4_800.png[Edit Compliance table - Change the colour representation of the Level of compliance]
+
+Since the lolour for the level 'Initial' and 'Managed' were very similar (orange shade), let's change the level of 'Managed' to blue:
+
+image:Compliance_5_800.png[Edit Compliance table - Change the colour of compliance]
 
 <<<
 
