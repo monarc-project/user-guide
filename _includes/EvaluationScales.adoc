@@ -168,7 +168,7 @@ Then choose a different colour from the palette:
 
 image:Compliance_4_800.png[Edit Compliance table - Change the colour representation of the Level of compliance]
 
-Since the lolour for the level 'Initial' and 'Managed' were very similar (orange shade), let's change the level of 'Managed' to blue:
+Since the colour for the level 'Initial' and 'Managed' were very similar (orange shade), let's change the colour for the level of 'Managed' to blue:
 
 image:Compliance_5_800.png[Edit Compliance table - Change the colour of compliance]
 
