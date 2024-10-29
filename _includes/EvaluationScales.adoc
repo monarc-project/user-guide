@@ -122,15 +122,15 @@ image:HideImpacts2.png[Hide Operational Risk Impacts]
 
 The second table is the Operational Risk Likelihood scale:
 
-OpRiskLikelihoodScale1_800[Operational Risk Likelihood scale]
+image:OpRiskLikelihoodScale1_800[Operational Risk Likelihood scale]
 
 By default, it has 4 levels, but you may edit it by clicking on the number and provide a different value.
 
-OpRiskLikelihoodScale2_800[Edit Operational Risk Likelihood scale]
+image:OpRiskLikelihoodScale2_800[Edit Operational Risk Likelihood scale]
 
 Also, you can edit the content of the cells by simply clicking on them, allowing you to provide a different explanation.
 
-OpRiskLikelihoodScale3_800[Edit Operational Risk Likelihood scale]
+image:OpRiskLikelihoodScale3_800[Edit Operational Risk Likelihood scale]
 
 ==== Acceptance threshods of operational risks
 
