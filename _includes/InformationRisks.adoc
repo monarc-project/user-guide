@@ -93,7 +93,7 @@ The labels of the context field values are created on the analysis wise and the 
 If an asset is global the context value is shared to its siblings.
 
 You can add asset context fields by clicking on the + icon at the bottom of the popup. 
-You can edit the field label by clicking in the pencil icon or delete it by clicking on the trasbin icon:
+You can edit the field label by clicking in the pencil icon or delete it by clicking on the trash bin icon:
 
 image:AssetContext_1_800.png[Asset Context -edit labels]
 

@@ -34,16 +34,18 @@ image:OperationalRiskSheet_1_800.png[Operational Risk Sheet]
 
 Click on the `Not treated` link in the operational risk table, so the risk card is displayed.
 
-image:OperationalRiskSheet_2_800.png[Operational Risk Sheet]
+image:OperationalRiskSheet_2_800MM.png[Operational Risk Sheet]
 
 1. `Current risk`: Values for risk probability (`Prob.`) and ROLFPfootnote:[rolfp] Criteria.
 2. `Residual risk` : Values for risk probability and ROLFPfootnote:[rolfp] criteria (not yet treated). Those values should be adjusted according to the recommendation and the measures that will be put in place.
 Reminders of the parameters of the risk table.
 3. `Asset`: the name of the asset
 4. `Risk description`: the description of the risk
-5. `Recommmendations` : Creation / Assignment button for adding one or more recommendations.
-6. `Kind of treatment` : Selection of the type of risk treatment (Not treated, Reduction, Denied, Accepted, or Shared).
-7. `Security referentials` (ISO 27002, NIST Core, etc.)
+5. `Risk owner` : This field is aligned to the ISO27005 latest specification and allow you to specify the risk owner. The risk owner is saved in the database and can be selected by typing its first letter for using in another risks. 
+6. `Risk context` : This field is aligned to the ISO27005 latest specification and allow you to specify the risk context.The context field is a free text field.
+7. `Recommmendations` : Creation / Assignment button for adding one or more recommendations.
+8. `Kind of treatment` : Selection of the type of risk treatment (Not treated, Reduction, Denied, Accepted, or Shared).
+9. `Security referentials` : (ISO 27002, NIST Core, etc.)
 
 NOTE: Once the validation has been done, the risk is treated.
 
