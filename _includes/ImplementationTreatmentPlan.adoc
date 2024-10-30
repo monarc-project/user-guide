@@ -53,7 +53,8 @@ image:ImplementationTreatmentPlan_8_800.png[Treatment Plan]
 
 The risks treatment table preparation is an important step before starting the implementation of the risks treatment plan. 
 The goal is to prioritise the recommendations list by drag-and-drop and move the most important recommendations to the top of the list.
-The risk treatment table's useful feature is the possibility to export the prepared list as .csv file and update the recommendation codes and descriptions on place in case of needs.
+
+The risk treatment table's useful feature is the possibility to export the prepared list as a .csv file and update the recommendation codes and descriptions on place in case of needs.
 
 
 <<<
