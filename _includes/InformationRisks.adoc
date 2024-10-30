@@ -87,7 +87,16 @@ NOTE: The additional option, is `export with assessment`. It means, export gets 
 
 image::ExportOptions.png[pdfwidth=40%,align="center"]
 
-4.	Asset context: The Asset context window opens, where you can add asset context fields (labels) to the asset.
+4.	Asset context: The Asset context window opens, where you can add asset context fields (labels) to the asset. 
+Each asset can have custom context set by clicking on the 3 dots of the asset context menu. 
+The labels of the context field values are created on the analysis wise and the values of the context are particular to the selected asset. 
+If an asset is global the context value is shared to its siblings.
+
+You can add asset context fields by clicking on the + icon at the bottom of the popup. 
+You can edit the field label by clicking in the pencil icon or delete it by clicking on the trasbin icon:
+
+image:AssetContext_1_800.png[Asset Context -edit labels]
+
 5.  `See asset in the library`: Displays the asset from the library, allowing you to have another context menu that allows changes to the asset. (See the <<Context menu of library>>.)
 6.	`Detach` : This option removes an asset from the risk analysis.
 +
