@@ -173,3 +173,16 @@ image:ExportAsset_1.png[Export Asset]
 
 1. `Custom password`: Option to encrypt the generated JSON file with a symmetric password, which is required during the import.
 2. `Without password`: If you choose this option, the JSON file will not be encrypted.
+
+Please note that you can export the whole Assets Library.
+
+It allows to export (and therefore later import) the complete structure of the Library Assets. 
+This is a very useful feature if you want to share the prepared Assets modelings of analysis. 
+The Assets Library can be exported along with analysis data and Knowledge Base or not.
+
+To export the whole Assets Library, please click on the downward pointing orange arrow (circled in the below screenshot).
+If you hover your mouse over this icon, the tooltip 'Export (CSV)' appears.
+
+image:ExportAssetsLibrary_1_800.png[Export the whole Assets Library]
+
+
