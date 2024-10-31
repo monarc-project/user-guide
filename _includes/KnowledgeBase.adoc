@@ -18,13 +18,17 @@ All parameters are managed with the same view. The knowledge base has the follow
 In the User Guide, the tabs will be explained in the above order.
 The knowledge base opens with the ‘Asset types’ tab and contains the following main functionalities:
 
-image:KnowledgeBase_2_800.png[Knowledge Base screen]
+image:KnowledgeBase_2_800M.png[Knowledge Base screen]
 
 1.	`Select` the desired parameter tab.
 2.	 Add a `parameter` according to the active tab.
 3.	`Search for` a parameter.
 4.	`Select` a parameter (for manipulation).
 5.	`Edit/delete` selected parameters.
+6.  `Show active only`: by clicking on the field, you may choose 'Show inactive only' or 'Show all'.
+7.  `Reset filter` : You may reset the filter to the original setting by clicking on the arrow turning to the left.
+8.  `Export CSV`: You can export the knowledge base objects by clicking on the downward pointing orange arrow. You can export (and later import) the complete Knowledge Base objects ether with the analysis data or without. 
+This way the Knowledge Base of the analysis can be shared. 
 
 Generally, all parameters have a code, label, and description
 
