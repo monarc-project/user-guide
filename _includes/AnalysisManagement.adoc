@@ -8,6 +8,39 @@ image:RiskAnalysisMain_1_800.png[Risk Analysis Main View]
 3.	Asset library area: Asset storage. The _drag-and-drop_ function must be used to place these assets in the analysis (to move them to the Risk Analysis Area) (see <<Library>>).
 4.	Contextual area of work in the analysis: Depending on the assets and active parts of the analysis, this area contains contextual elements of the work.
 
+=== Risk analysis management
+
+You can manage your analysis in two steps as follows:
+
+- first, click on the name of the analysis
+- second, click on the three-dot context menu (if you hover your mouse over the menu, a tooltip 'Actions' appears)
+
+image:AnalysisManagement_1_800.png[Analysis Management two steps]
+
+When you click the three-dot context menu, the following options appear:
+
+image:AnalysisManagement_2_800.png[Analysis Management esit options]
+
+1. Edit risk analysis - use this option in case you want to modify your existing risk analysis. The Edit risk analysis pop-up appears:
+
+image:EditRiskAnalysis_1_800.png[Import a Risk analysis]
+
+2. Import a risk analysis - you can import a risk analysis by duplicating or merging (the imported risk analysis becomes part of the existing risk analysis)
+
+image:ImportAnalysis_1_800.png[Import a Risk analysis]
+
+3. Export the whole risk analysis - you can export the whole analysis with or without the assets library and the knowledge base.
+
+image:ExportRiskAnalysis_1_800.png[Export a Risk analysis]
+
+4. Delete risk analysis
+
+image:DeleteRiskAnalysis_1_800.png[Export a Risk analysis]
+
+
+
+
+
 === Method steps call
 
 include::./MethodSteps.adoc[]
