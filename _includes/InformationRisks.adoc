@@ -51,10 +51,10 @@ image:RiskInformationSheet_1_800.png[Information Risk Sheet]
 2.	Reminders of the parameters of the risk table.
 3.	Creation / Assignment button for one or more recommendations.
 4.	Selection of the kind of treatment:
-    *	Reduction/Modification
+    * Reduction/Modification
     * Denied
     * Accepted
-    *	Shared
+    * Shared
 5.	Choosing a risk reduction value, the more effective the control is, the greater the reduction value is.
 6.	Proposals of controls, which come from various repositories.
 
@@ -79,7 +79,7 @@ image:ContextualMenu_1_800.png[Contextual Menu of Asset]
 
 1.	`Edit impacts`: Displays the impact and consequence modification view (see <<Impacts and consequences>>).
 2.	`Import analysis`: By clicking on this option, the Asset import center window opens, where you can decide whether you want to import an asset by duplicating or merging it into the analysis (See <<Importing an asset>>.). You can choose a file and give a password to the import.
-3.  `Export analysis`: This option allows you to export analysis, from the place pointed by the selected asset of the analysis. The export works exactly like exporting an asset. (See <<Exporting an asset>>.)
+3.	`Export analysis`: This option allows you to export analysis, from the place pointed by the selected asset of the analysis. The export works exactly like exporting an asset. (See <<Exporting an asset>>.)
 +
 NOTE: The additional option, is `export with assessment`. It means, export gets the evaluation and treatment of risks. By default is disabled.
 
@@ -87,18 +87,20 @@ NOTE: The additional option, is `export with assessment`. It means, export gets 
 
 image::ExportOptions.png[pdfwidth=40%,align="center"]
 
-4.	Asset context: The Asset context window opens, where you can add asset context fields (labels) to the asset. 
-Each asset can have custom context set by clicking on the 3 dots of the asset context menu. 
-The labels of the context field values are created on the analysis wise and the values of the context are particular to the selected asset. 
+4.	Asset context: The Asset context window opens, where you can add asset context fields (labels) to the asset.
+Each asset can have custom context set by clicking on the 3 dots of the asset context menu.
+The labels of the context field values are created on the analysis wise and the values of the context are particular to the selected asset.
 If an asset is global the context value is shared to its siblings.
 
-You can add asset context fields by clicking on the + icon at the bottom of the popup. 
+You can add asset context fields by clicking on the + icon at the bottom of the popup.
 You can edit the field label by clicking in the pencil icon or delete it by clicking on the trash bin icon:
 
 image:AssetContext_1_800.png[Asset Context -edit labels]
 
-5.  `See asset in the library`: Displays the asset from the library, allowing you to have another context menu that allows changes to the asset. (See the <<Context menu of library>>.)
-6.	`Detach` : This option removes an asset from the risk analysis.
+[start=5]
+5. `See asset in the library`: Displays the asset from the library, allowing you to have another context menu that allows changes to the asset. (See the <<Context menu of library>>.)
+
+6. `Detach` : This option removes an asset from the risk analysis.
 +
 
 WARNING: This action may lead to the loss of risk assessments for this asset and its childrens.
@@ -107,12 +109,12 @@ WARNING: This action may lead to the loss of risk assessments for this asset and
 
 ===== Edit impacts
 
-The first contextual menu of an asset is called the ‘Edit impacts’. The goal is to determine the level of primary assets and assess the potential impacts and consequences that may arise from the realization of the model's risks. 
+The first contextual menu of an asset is called the ‘Edit impacts’. The goal is to determine the level of primary assets and assess the potential impacts and consequences that may arise from the realization of the model's risks.
 Once you click on the ‘Edit impacts’ link, the following pop-up appears:
 
 image:EditImpacts_1_800.png[Edit Impacts]
 
-When you hover your mouse over the eye-shaped icon next to the column names, a relevant tooltip appears. For example, hovering over the 'Operational' column will display the following tooltip: 
+When you hover your mouse over the eye-shaped icon next to the column names, a relevant tooltip appears. For example, hovering over the 'Operational' column will display the following tooltip:
 
 image:EditImpacts_2_800.png[Edit Impacts]
 
@@ -124,7 +126,7 @@ The tooltips always help you. For example, hover your mouse over the value 2 to 
 
 image:EditImpacts_4_800.png[Edit Impacts]
 
-These tooltips help a lot in choosing the right values. If you have selected the values everywhere, it is worth reviewing the values on the right side of the table (there are also tooltips here). 
+These tooltips help a lot in choosing the right values. If you have selected the values everywhere, it is worth reviewing the values on the right side of the table (there are also tooltips here).
 
 image:EditImpacts_5_800.png[Edit Impacts]
 
