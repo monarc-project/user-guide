@@ -1,12 +1,60 @@
 The main view of risk analysis consists of 4 distinct parts.
 
-image:MainView.png[Main View]
+image:RiskAnalysisMain_1_800.png[Risk Analysis Main View]
 
 1.	Access to the steps of the method: Click on the numbers from `1` to `4` to access the menus which follow the step-by-step method (see <<Method steps call>>).
-2.	Asset library area: Asset storage. The _drag-and-drop_ function must be used to place these assets in the analysis (see <<Library>>).
-3.	Risk Analysis area: allows you to structure the assets of the analysis hierarchically by using the _Drag and Drop_ function
+2.	Risk Analysis area: allows you to structure the assets of the analysis hierarchically by using the _Drag and Drop_ function
 (hold down the left mouse button to move an asset). (See <<Information Risks>> and <<Operational Risks>>)
-4.	Contextual area of work in the analysis: Depending on the assets and active parts of the analysis, this area contains contextual elements of the work.
+3.	Asset library area: Asset storage. The _drag-and-drop_ function must be used to place these assets in the analysis (to move them to the Risk Analysis Area) (see <<Library>>).
+4. Contextual area of work in the analysis: Depending on the assets and active parts of the analysis, this area contains contextual elements of the work.
+
+=== Risk analysis management
+
+You can manage your analysis in two steps as follows:
+
+1. First, click on the name of the analysis
+2. Second, click on the three-dot context menu (if you hover your mouse over the menu, a tooltip 'Actions' appears)
+
+image:AnalysisManagement_1_800.png[Analysis Management two steps]
+
+When you click the three-dot context menu, the following options appear:
+
+image:AnalysisManagement_2_800.png[Analysis Management esit options]
+
+[start=1]
+1. Edit risk analysis - use this option in case you want to modify your existing risk analysis. 
+    This option allows you to modify the name, the description of the analysis, and add or remove linked referential. The Edit risk analysis pop-up appears:
+
+image:EditRiskAnalysis_1_800.png[Import a Risk analysis]
+
+[start=2]
+2. Import a risk analysis - you can import a complete risk analysis.
+    The file format is JSON and the structure can be viewed by exporting an analysis. There are 2 possible options of the export:
+    - By merging (default). When matched assets names are not duplicated in the library.
+    - By duplication. When the library assets are duplicated in case if presented before. The analysis assets will also be duplicated.
+
+WARNING: An analysis can be only imported when the language of its creation is the same as the current analysis (into which import is performed)!
+
+image:ImportAnalysis_1_800.png[Import a Risk analysis]
+
+[start=3]
+3. Export the whole risk analysis - you can export the whole analysis with or without the assets library and the knowledge base.
+The export of the analysis can be done with the following options:
+- The export file can be protected by a password if it is set (Custom password option).
+- "Include assets library?" The whole assets library is included in the export if the option is selected.
+- "Include knowledge base?" The whole knowledge base is included in the export if the option is selected.
+- “Export with assessments?” All the evaluations are included. Optionally can be added or not different analysis evaluation criteria (Options section).
+
+image:ExportRiskAnalysis_1_800.png[Export a Risk analysis]
+
+[start=4]
+4. Delete risk analysis
+
+If you click on the link 'Delete risk analysis', the following pop-up appears:
+
+image:DeleteRiskAnalysis_1_800.png[Export a Risk analysis]
+
+Please note that the operation is irreversible.
 
 === Method steps call
 

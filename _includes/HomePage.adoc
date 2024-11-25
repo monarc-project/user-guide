@@ -4,36 +4,43 @@ Immediately after user authentication, the following screen appears.
 It may, however, be slightly different, if there is not yet an analysis created or if
 there are already several and according to the state of progress of the analysis.
 
-image:HomePage.png[HomePage]
+image:HomePage_1_800.png[Home Page]
 
-1. Graph showing the statistics of the last modified risk analysis.
-2. List of existing analyses. In this case, there is only one. Click on the analysis to select it. (See <<Main risk analysis view>>).
-3. Click to `create a risk analysis`. (See <<Creating a Risk Analysis>>.).
-4. Navigation bar.
-5. Administration of the client environment. Click on `Administration`, `Account`, `Interface language` or `Logout` (see <<Client Environment Administration>>).
-6. Inform you if an update of MONARC is available.
+On the Home page, the following main areas and functionalities can be found:
+
+1. List of existing analyses. In this case, there is only one. Click on the analysis to select it. (See <<Main risk analysis view>>).
+2. Click to `create a risk analysis`. (See <<Creating a Risk Analysis>>.).
+3. Navigation bar.
+4. Administration of the client environment. Click on `Administration`, `Account`, `Interface language` or `Logout` (see <<Client Environment Administration>>).
+5. Graph showing the statistics of the last modified risk analysis.
 
 === Creating a Risk Analysis
 
-After clicking on `Create a risk analysis`, the following pop-up appears
+After clicking on `Create a risk analysis`, 
 
-image:NewRiskAnalysis.png[Create a risk analysis]
+image:RiskAnalysis_1_800.png[Create a risk analysis]
 
+the following pop-up appears:
 
-1.	The creation of a risk analysis is always based on an existing model. There are two choices for this:
-a.	`List of risks models`: Proposes available models in the knowledge bases. This option has at least two choices, `Modelling NC3`,
-this is the default template made available by the MONARC editor. It provides sufficient knowledge bases to start a risk analysis.
-This option should be used by default to start a new risk analysis. There is also the choice `Blank model` which is a completely empty model.
-This template is typically used temporarily as a _Sandbox_ to test the contents of an import file, for example.
-b.	`Existing analysis`: Duplicate risk analysis of your choice present in your environment.
-2.	Options *_a_* or *_b_* before being selected. It gets the source.
-3.	Select the preferred language for this new risk analysis. MONARC only present the languages actually available in the selected source.
-4.	Give a name to risk analysis.
-5.	Optional field, which allows you to describe your analysis in more detail.
+image:RiskAnalysis_2_800.png[Create a risk analysis popup]
+
+1. *Source*: The creation of a risk analysis is always based on an existing model. There are two choices for this:
+       
+        a.	`List of risks models`: This option proposes available models in the knowledge bases. It has at least two choices, `Modelling NC3`, and the `Blank model`.
+        Modelling NC3 is the default template made available by the MONARC editor. It provides sufficient knowledge bases to start a risk analysis. This option should be used by default to start a new risk analysis. 
+
+        The Blank model is empty. This template is typically used temporarily as a Sandbox to test the contents of an import file, for example.
+
+        b.	`Existing analysis`: By choosing this radio button, you can duplicate the risk analysis of your choice present in your environment.
+
+2.	*Description*: Give a meaningful description of your risk analysis.
+3.	*Language*: From the dropdown menu, choose a preferred language you want to use for your risk analysis (French, English, German, or Dutch).
+4.	*Name*: Give a name to your risk analysis.
+5.	*Description*: An optional field, which allows you to describe your analysis in more detail.
 
 === Main risk analysis view
 
-image:Main.png[Main view]
+image:RiskAnalysis_3_800.png[Main view]
 
 1.  Risk Analyses panel: Create and select a risk analysis.
 

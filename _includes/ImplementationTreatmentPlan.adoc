@@ -1,47 +1,60 @@
-By clicking on the number `4`, the following menu will appear:
+To create an Implementation and Treatment Plan, first click on number `4`, then click on the link ‘Management of the implementation of the risk treatment plan’ in the popup appears:
 
-image:MethodScreenStep4Detailed.png[MethodScreenStep4Detailed]
+image:ImplementationTreatmentPlan_1_800.png[Treatment Plan]
 
 This view goes beyond the ISO/IEC 27005, as it enables the user to manage the follow-up to the implementation of the measures.
 
-image:PTRImplementation.png[PTRImplementation]
+image:ITP_800.png[Treatment Plan]
 
 1. This is a `recommandation` established before.
-2. You can put a `comment` for the implementation of the recommendation.
-3. For each recommendation you can set a `manager`.
-4. For each recommendation you can set a `deadline`.
-5. `Status` of Implementation.
-6. Click on the icon image:Action.png[pdfwidth=3%,width=2%] to implement the recommendation and switch on the following view.
+2. Importance
+3. You can put a `comment` for the implementation of the recommendation.
+4. For each recommendation you can set a `manager`.
+5. For each recommendation you can set a `deadline`. By clicking on the down-pointing triangle (in the upper right corner of the cell), you can open a calendar and set a different deadline.
+6. `Status` of Implementation.
+7. In the Actions column, click on the relevant icon image:Action.png[pdfwidth=3%,width=2%] to implement the recommendation and switch on the following view. By clicking on the icon in the second row (Rec 3), the following screen appears:
 
-image:RecommendationImplementation.png[RecommendationImplementation]
+image:ImplementationTreatmentPlan_3_800.png[Treatment Plan]
+
+The screen provides information on the chosen asset, the threat and the vulnerability related to it, and the controls already implemented. You can set a new control (1) and launch the validation of it by clicking on the checkmark icon.
 
 1. Set the `new control`, now in place. It will replace the old one in the risk analysis and replace the old current risk by the residual risk.
 2. Launches the pop-up validation of the update below by clicking on the icon image:Check.png[pdfwidth=3%,width=2%]
 
-image:RecommendationImplementationPOPUP.png[RecommendationImplementationPOPUP]
+To set a new control, click inside the cell in the column ‘New controls’ and give a new value (1), then click on the checkmark (2) to validate it.
 
-Follow the same procedure for each recommendation.
+image:ImplementationTreatmentPlan_4_800.png[Treatment Plan]
+
+The following popup appears. At the top of the window, (area bounded on a blue background) you can read the summary about the asset, the threat and the vulnerability. Below, you can add an optional comment. 
+As the final step, click on the ‘Validate’ link to save your changes. 
+
+image:ImplementationTreatmentPlan_5_800.png[Treatment Plan]
+
+Once you click on the Validation link, the application takes you back to the ‘Implementation of the risk treatment plan’ screen. 
+The changed recommendation (Rec 3) is removed from the list. 
+
+image:ImplementationTreatmentPlan_6_800.png[Treatment Plan]
+
+Now, you can follow the same procedure for each recommendation.
 After that go to your risk analysis and make a second iteration.
 
 After validation, the risk concerned becomes the current risk; the recommendation is deleted from the risk concerned.
 
-All validations are stored in history and can be consulted:
+All validations are stored in history and can be consulted.
+Click on the link ‘Open the implementation history’ to get a list of those recommendation you have already handled.
+Since I only modified one recommendation (Rec 3), there is only one item on the list:
 
-image:RecommendationImplementationHistory.png[RecommendationImplementationHistory]
+image:ImplementationTreatmentPlan_7_800.png[Treatment Plan]
 
-1. Click to view past recommendations
+The table shows all relevant data regarding the past recommendations. You can go back to the ‘Implementation of the risk treatment plan’ if you click on the ‘Back to the list’ link in the top left-hand corner. 
+Click on the orange down-pointing arrow to export this table in CSV format.
 
-image:RecommendationImplementationPast.png[RecommendationImplementationPast]
+image:ImplementationTreatmentPlan_8_800.png[Treatment Plan]
 
+The risks treatment table preparation is an important step before starting the implementation of the risks treatment plan. 
+The goal is to prioritise the recommendations list by drag-and-drop and move the most important recommendations to the top of the list.
 
-
-
-
-
-
-
-
-
+The risk treatment table's useful feature is the possibility to export the prepared list as a .csv file and update the recommendation codes and descriptions on place in case of needs.
 
 
-
+<<<

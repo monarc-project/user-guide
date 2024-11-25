@@ -1,17 +1,21 @@
 ==== Risks table
 
-image:OperRiskTable.png[Operational Risk Table]
+Below is an example of an Operational Risk table.
 
-1.	Select the primary asset. In this case, `Department`.
-2.	Click on tab `Operational risks`.
-3.	Total of operational risks associated with primary asset.
-4.	Ability to select only certain risks, according to the risk acceptance threshold.
-5.	Ability to sort of most columns of the table.
+image:OperationalRisk_1_800.png[Operational Risk Table]
+
+To reach this table, please follow the steps as follows:
+
+1.	Select the primary asset. In this case, `GDPR legal obligations`.
+2.	Click on the tab `Operational risks`.
+3.	The figure shows the total operational risks associated with the primary asset.
+4.	By selecting the relevant radio button, you can choose specific risks based on the risk acceptance threshold.
+5.	Ability to sort most columns of the table. The sort can be done by Asset, Position, Net probability, Net risk, and Residual risk. The sort direction can be Ascending or Descending.
 
 NOTE: The operational risk table may or may not display the inherent risks. They are the operational risks that would impact the organization without any controls in place.
 To show this option see <<Creating a Risk Analysis>>.
 
-image:FieldsOperRiskTable.png[Fields Operational Risk Table]
+image:OperationalRisk_2_800.png[Fields Operational Risk Table]
 
 1.	`Asset`: Assets involved in the evaluation
 2.	`Risk description`: Description of risk
@@ -19,37 +23,41 @@ image:FieldsOperRiskTable.png[Fields Operational Risk Table]
 4.	`Net risk`: Net risk represents the risk of the measures currently in place. The calculation is the same as for the inherent risks.
 5.	`Existing controls`: Describe here, in a factual manner, the control in place.
 6.	`Treatment`: Indication if the risk is treated and risk profile (see <<Operational risk sheet>>).
-7.	`Residual risk` : Value of the residual risk. In the case of the figure above, the residual risk is equal to the max risk because it has not yet been treated.
+7.	`Residual risk` : Value of the residual risk. In the case of the figure above, the residual risk is equal to the maximum risk because it has not yet been treated.
 
 ====	Operational risk sheet
 
-The risk card is displayed when you click on the `Not treated` link in the operational risk table.
+In the risk analysis, click on an asset and choose the Operational risk tab.
+Then, in the ‘Kind of treatment’ dropdown menu choose ‘Not treated’. The not treated assets should appear in the table.
 
-image:OPRiskSheet.png[Operational Risk Sheet]
+image:OperationalRiskSheet_1_800.png[Operational Risk Sheet]
 
-1.	`Back to the list`: Return to risk table.
-2.	`Current risk`: Values for risk probability (`Prob.`) and ROLFPfootnote:[rolfp] Criteria.
-3.	`Residual risk` : Values for risk probability and ROLFPfootnote:[rolfp] criteria (not yet treated). Those values should be adjusted according to the recommendation and the measures that will be put in place.
-4.	Reminders of the parameters of the risk table.
-5.	`Recommmendations` : Creation / Assignment button for adding one or more recommendations.
-6.	`Kind of treatment` : Selection of the type of risk treatment, the 4 values have their sources of ISO / IEC 27005 :
+Click on the `Not treated` link in the operational risk table, so the risk card is displayed.
 
-  a.	Modification / Reduce
-  b.	Refused
-  c.	Accepted
-  d.	Shared
-7. Proposals of controls, which come from referentials.
+image:OperationalRiskSheet_2_800MM.png[Operational Risk Sheet]
+
+1. `Current risk`: Values for risk probability (`Prob.`) and ROLFPfootnote:[rolfp] Criteria.
+2. `Residual risk` : Values for risk probability and ROLFPfootnote:[rolfp] criteria (not yet treated). Those values should be adjusted according to the recommendation and the measures that will be put in place.
+Reminders of the parameters of the risk table.
+3. `Asset`: the name of the asset
+4. `Risk description`: the description of the risk
+5. `Risk owner` : This field is aligned to the ISO27005 latest specification and allow you to specify the risk owner. The risk owner is saved in the database and can be selected by typing its first letter for using in another risks. 
+6. `Risk context` : This field is aligned to the ISO27005 latest specification and allow you to specify the risk context.The context field is a free text field.
+7. `Recommmendations` : Creation / Assignment button for adding one or more recommendations.
+8. `Kind of treatment` : Selection of the type of risk treatment (Not treated, Reduction, Denied, Accepted, or Shared).
+9. `Security referentials` : (ISO 27002, NIST Core, etc.)
 
 NOTE: Once the validation has been done, the risk is treated.
 
-image:OPRiskTreated.png[Operational Risk Treated]
-
 ==== Adding additional risk
 
-When an asset is selected in the analysis:
+You can add further risks to your risk table. Select an asset in the risk analysis and click on the ‘Create a specific risk’ link below the risk table:
 
-image:OPSpecificRisk.png[Operational Specific Risk]
+image:AddingRisk_1_800.png[Operational Specific Risk]
 
-1.	Click to `create a specific risk`: A pop-up appears and allows a new risk to be associated with the current asset. If the risk does not exist, it can be created directly.
+1.	Click to `create a specific risk`: A pop-up appears and allows a new risk to be associated with the current asset.
+If the risk does not exist, it can be created directly. In the popup window, you can decide whether you want to add an existing risk or create a new one:
+
+image:AddOperationalRisk_1_800.png[Adding Operational Specific Risk]
 
 <<<
