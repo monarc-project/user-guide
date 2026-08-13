@@ -4,6 +4,13 @@ Below is an example of an Operational Risk table.
 
 image:OperationalRisk_1_800.png[Operational Risk Table]
 
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+The operational risk table now includes a read-only `Risk source` column between `Asset` and `Risk description`.
+It keeps the origin of the scenario visible directly in the operational risk register and displays `-` when no source has been assigned yet.
+--
+
 To reach this table, please follow the steps as follows:
 
 1.	Select the primary asset. In this case, `GDPR legal obligations`.
@@ -25,10 +32,23 @@ image:OperationalRisk_2_800.png[Fields Operational Risk Table]
 6.	`Treatment`: Indication if the risk is treated and risk profile (see <<Operational risk sheet>>).
 7.	`Residual risk` : Value of the residual risk. In the case of the figure above, the residual risk is equal to the maximum risk because it has not yet been treated.
 
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+When the operational risk's `Next reassessment date` is in the past, an orange warning icon is displayed next to its identifier. Hover the icon to see the overdue date.
+--
+
 ====	Operational risk sheet
 
 In the risk analysis, click on an asset and choose the Operational risk tab.
 Then, in the ‘Kind of treatment’ dropdown menu choose ‘Not treated’. The not treated assets should appear in the table.
+
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+The operational risk sheet now includes a `Risk source` row above `Risk description`.
+From this field, you can select an active source, choose `None`, clear the current value, or create a new source directly from the sheet and assign it immediately.
+--
 
 image:OperationalRiskSheet_1_800.png[Operational Risk Sheet]
 
@@ -48,6 +68,25 @@ Reminders of the parameters of the risk table.
 9. `Security referentials` : (ISO 27002, NIST Core, etc.)
 
 NOTE: Once the validation has been done, the risk is treated.
+
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+The operational risk sheet now follows the same card structure as the information risk sheet:
+
+* `Risk identification`
+* `Governance & review`
+* `Treatment`
+* `Residual acceptance`
+* `History`
+
+The `Governance & review` card contains the supervisor-based `Risk owner` field together with `Last review date`, `Next reassessment date`, `Related reassessment trigger criteria`, and `Review frequency`.
+When a last review date is set, MONARC proposes a next reassessment date one year later. You may change that date. Related trigger criteria become available after a next reassessment date is set and link the operational risk to one or more analysis-level trigger criteria.
+
+The risk-level review frequency can be `Monthly`, `Quarterly`, `Semi-annually`, `Annually`, `On trigger`, or `Other` with a custom value. It records the intended rhythm; the warning icon is controlled by the explicit next reassessment date.
+The `Residual acceptance` card captures the residual-risk approver, decision, date, performer, and justification.
+The `History` card exposes a read-only audit trail for the current operational risk.
+--
 
 ==== Adding additional risk
 

@@ -6,3 +6,22 @@ image::MethodSteps.png[Method Steps,pdfwidth=99%]
 2. Click on the label, and call the contextual management sub-screen.
 
 NOTE: More information about method steps. Consult the link:/method-guide[*Method Guide*].
+
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+`Reassessment trigger criteria` can be opened from two method substeps: `Define reassessment strategy` in step 1, `Context Establishment`, and `Reassessment trigger criteria` in step 4, `Implementation and monitoring`.
+--
+
+image::ReassessmentTriggersMenu1.png[Define reassessment strategy,pdfwidth=40%,width=40%,align=center]
+
+image::ReassessmentTriggersMenu2.png[Reassessment trigger criteria,pdfwidth=55%,width=55%,align=center]
+
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+In the `Risk analysis context` sub-screen of step 1, MONARC now provides an additional tab named `Interested parties & requirements`.
+This tab is used to maintain stakeholders and their requirements alongside the existing free-text context description.
+--
+
+image::InterestedPartiesAndReq.png[Interested parties and requirements,pdfwidth=95%,width=95%,align=center]

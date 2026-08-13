@@ -13,7 +13,8 @@ All parameters are managed with the same view. The knowledge base has the follow
 5.	Information risks
 6.	Tags
 7.	Operational risks
-8.	Recommendation sets
+8.	Risk Sources
+9.	Recommendation sets
 
 In the User Guide, the tabs will be explained in the above order.
 The knowledge base opens with the ‘Asset types’ tab and contains the following main functionalities:
@@ -30,7 +31,8 @@ image:KnowledgeBase_2_800M.png[Knowledge Base screen]
 8.  `Export CSV`: You can export the knowledge base objects by clicking on the downward pointing orange arrow. You can export (and later import) the complete Knowledge Base objects ether with the analysis data or without. 
 This way the Knowledge Base of the analysis can be shared. 
 
-Generally, all parameters have a code, label, and description
+Most parameters have a code, label, and description.
+`Risk Sources` are the exception: they use a label only, because the selected label is displayed directly in the risk tables, risk sheets, and exports.
 
 *	The code is used to categorize the parameter.
 *	The label is displayed in all MONARC views.
@@ -87,6 +89,17 @@ image:VulnerabilitiesTable_1_800.png[Vulnerabilities Table]
 
 It is a repository used by default to assist in the implementation of controls for managing a specific risk.
 
+[[cyfun-referentials]]
+[sidebar]
+.New in MONARC v2.14.1: CyFun referentials
+--
+From MONARC v2.14.1, the 2025 `CyFun Basic`, `CyFun Important`, and `CyFun Essential` referentials are available by default in the referential list when creating a risk analysis. Select one or more of them as linked referentials, then manage their controls from this `Referentials` tab and use them in the Statement of Applicability.
+
+The CyFun referentials can also be imported from the https://objects.monarc.lu/schema/12?search_key=label&search_term=Cyfun[MONARC Objects Sharing Platform (MOSP)]. In the `Referentials` tab, select `Add`, then `Import from MOSP`, and search for `CyFun` to select the required referential.
+
+The CyFun referentials include mappings to ISO 27002 controls. When both referentials are linked to an analysis, use the existing referential matching and control-update functions to work with these mappings. See https://github.com/monarc-project/MonarcAppFO/issues/616[issue #616] for the associated release item.
+--
+
 image:ReferentialsTable_1_800.png[Referentials Table]
 
 1.	This area is dedicated to managing the selection of referential. On the right, there are the standard buttons to edit, add, and delete a referential.
@@ -142,6 +155,30 @@ image:OperationalRisksTable_1_800.png[Operational Risks]
 5.	Reset filters
 6.	Update controls
 7.	Export into a CSV file
+
+=== Risk Sources
+
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+The `Risk Sources` tab introduces a reusable catalog of actors, origins, or causes that can be assigned to information and operational risks.
+It is the central place for maintaining the labels later shown in risk tables, risk sheets, and reports.
+--
+
+The `Risk Sources` tab lets you:
+
+1.	Add a new risk source.
+2.	Search existing sources by label.
+3.	Filter the list by status (`Show all`, `Show inactive only`, `Show active only`).
+4.	Activate or deactivate a source through the `Status` column.
+5.	Edit an existing source label.
+6.	Delete a custom source when it is no longer needed.
+
+The table contains the columns `Status`, `Label`, and `Type`.
+The `Type` value distinguishes the default MONARC entries from custom sources created by the analyst.
+New sources created here become directly available in the information and operational risk sheets of the same analysis.
+
+image:RiskSource_KnowledgeBase.png[Risk Sources Knowledge Base]
 
 === Recommendations Sets
 

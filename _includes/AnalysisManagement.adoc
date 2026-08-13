@@ -21,6 +21,13 @@ When you click the three-dot context menu, the following options appear:
 
 image:AnalysisManagement_2_800.png[Analysis Management esit options]
 
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+The analysis actions menu now also gives direct access to `Reassessment trigger criteria` and `Supervisors`.
+These two dialogs are analysis-level management screens used to maintain review triggers, monitoring approaches, supervisor roles, linked users, and approval responsibilities.
+--
+
 [start=1]
 1. Edit risk analysis - use this option in case you want to modify your existing risk analysis. 
     This option allows you to modify the name, the description of the analysis, and add or remove linked referential. The Edit risk analysis pop-up appears:
@@ -56,9 +63,53 @@ image:DeleteRiskAnalysis_1_800.png[Export a Risk analysis]
 
 Please note that the operation is irreversible.
 
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+When exporting a risk analysis with assessments, the export options now also include switches for `Interested parties & requirements` and `Reassessment trigger criteria`.
+Supervisor data is exported with the analysis structure so risk-owner and approval assignments can be preserved on import.
+--
+
 === Method steps call
 
 include::./MethodSteps.adoc[]
+
+=== Risks management
+
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+If the current user is linked to an active supervisor in the analysis and has assigned risks, the tools menu exposes a dedicated `Risks management` view.
+The analysis header also displays a `My assignments` panel with owned and approval counts plus a direct `Manage my risks` action.
+--
+
+The `Risks management` view only lists the risks in which the linked supervisor is involved.
+It supports role-based batch updates for review metadata and residual-acceptance decision fields.
+
+image::RisksManagement.png[Risks management view and batch update,pdfwidth=95%,width=95%,align=center]
+
+Select one or more information or operational risks, enter only the values that should change, then select `Update`.
+The table keeps the following fields visible so the user can assess the selected register before acting: `Risk owner`, `Risk source`, `Last review date`, `Next reassessment date`, `Related reassessment trigger criteria`, `Review frequency`, `Residual risk approver`, and residual-acceptance details.
+
+The available batch fields depend on the linked supervisor role:
+
+* A `Risk owner` can update `Last review date`, `Next reassessment date`, related trigger criteria, and `Review frequency` for risks they own.
+* A `Residual risk approver` can update the residual-risk decision, decision date, and justification for risks they are allowed to approve.
+* A supervisor with both roles receives both groups of fields.
+
+Risk owner, risk source, and residual-risk approver are display-only in this view. Open the risk sheet to change their assignments.
+After an update, MONARC displays the number of updated and skipped risks. Any skipped row is listed with its reason.
+
+The download button exports the currently displayed risks-management list as a CSV file. The export includes the table fields above, including risk source, owner, reassessment schedule, linked trigger criteria, review frequency, approver, and residual-risk decision data.
+
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+Risks with an overdue next reassessment date display the same orange warning icon in this view as in the ordinary information- and operational-risk tables.
+A green check-circle next to a treatment shows an `Accepted` residual-risk decision; an orange warning icon shows `Not accepted`. Hover an icon to see its explanation.
+--
+
+image::AnalysisDeadlinesAndApproval.png[Analysis and risk deadlines and residual-risk acceptance indicators,pdfwidth=95%,width=95%,align=center]
 
 === Library
 

@@ -16,6 +16,15 @@ This chapter is divided into three parts accordingly.
 
 === Information risks
 
+[sidebar]
+.ISO 27005:2022 adaptation
+--
+In the current interface, the impact-scale area is labelled `Impact evaluation (severity of consequences)`.
+This wording clarifies that impact represents the severity of consequences while keeping the same MONARC impact model and calculations.
+--
+
+image::SeverityOfConsequence.png[Impact evaluation severity of consequences,pdfwidth=95%,width=95%,align=center]
+
 The `Evaluation scales` window opens which has the following parts (from top to bottom):
 
 1.	Impacts and consequences scale
