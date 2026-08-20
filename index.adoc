@@ -40,7 +40,7 @@ v{docdate}
 [sidebar]
 .New in MONARC v2.14.1
 --
-* *ISO 27005:2022 adaptations:* risk sources, reassessment triggers and schedules, review governance, residual-risk approval, risk history, and role-based risks management. See the separate companion document link:iso27005_2022_adaptations.html[ISO 27005:2022 Adaptations].
+* *ISO 27005:2022 adaptations:* risk sources, reassessment triggers and schedules, review governance, residual-risk approval, risk history, and role-based risks management. See the separate companion document: https://www.monarc.lu/documentation/iso27005_2022_adaptations/[HTML] or https://www.monarc.lu/assets/files/guides/iso27005_2022_adaptations.pdf[PDF].
 * *PDF report generation:* select PDF when generating a deliverable. See <<generate-a-pdf-report>> and https://github.com/monarc-project/MonarcAppFO/issues/615[issue #615].
 * *Blank Analysis:* create a completely empty analysis without Knowledge Base or Assets library data. See <<creating-a-risk-analysis,Creating a Risk Analysis>> and https://github.com/monarc-project/MonarcAppFO/issues/324[issue #324].
 * *CyFun referentials:* use the CyFun Basic, Important, and Essential 2025 referentials with ISO 27002 mappings. See <<cyfun-referentials>> and https://github.com/monarc-project/MonarcAppFO/issues/616[issue #616].
